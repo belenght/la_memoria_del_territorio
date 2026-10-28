@@ -1,0 +1,2017 @@
+provincia,anio,mes,mm,habitual_mm,n_anios_ref,ratio,sin_datos
+Buenos Aires,2019,1,159.11,90.272,6,1.763,False
+Buenos Aires,2019,2,54.517,99.227,6,0.549,False
+Buenos Aires,2019,3,90.317,148.309,6,0.609,False
+Buenos Aires,2019,4,43.256,95.901,6,0.451,False
+Buenos Aires,2019,5,54.665,45.215,6,1.209,False
+Buenos Aires,2019,6,100.863,17.231,6,5.854,False
+Buenos Aires,2019,7,17.95,42.634,6,0.421,False
+Buenos Aires,2019,8,10.267,41.066,6,0.25,False
+Buenos Aires,2019,9,28.54,42.662,5,0.669,False
+Buenos Aires,2019,10,106.312,58.71,5,1.811,False
+Buenos Aires,2019,11,66.107,95.668,5,0.691,False
+Buenos Aires,2019,12,97.786,70.742,5,1.382,False
+Buenos Aires,2020,1,92.396,112.596,6,0.821,False
+Buenos Aires,2020,2,88.031,85.2,6,1.033,False
+Buenos Aires,2020,3,174.467,122.082,6,1.429,False
+Buenos Aires,2020,4,112.395,79.219,6,1.419,False
+Buenos Aires,2020,5,18.934,63.081,6,0.3,False
+Buenos Aires,2020,6,56.844,17.231,6,3.299,False
+Buenos Aires,2020,7,32.1,37.989,6,0.845,False
+Buenos Aires,2020,8,20.515,41.066,6,0.5,False
+Buenos Aires,2020,9,74.556,32.503,5,2.294,False
+Buenos Aires,2020,10,104.223,58.71,5,1.775,False
+Buenos Aires,2020,11,63.574,95.668,5,0.665,False
+Buenos Aires,2020,12,60.136,76.726,5,0.784,False
+Buenos Aires,2021,1,142.82,90.272,6,1.582,False
+Buenos Aires,2021,2,59.978,99.227,6,0.604,False
+Buenos Aires,2021,3,116.097,148.309,6,0.783,False
+Buenos Aires,2021,4,105.37,79.219,6,1.33,False
+Buenos Aires,2021,5,71.496,36.799,6,1.943,False
+Buenos Aires,2021,6,14.978,21.86,6,0.685,False
+Buenos Aires,2021,7,22.811,42.634,6,0.535,False
+Buenos Aires,2021,8,49.077,27.673,6,1.773,False
+Buenos Aires,2021,9,102.351,32.503,5,3.149,False
+Buenos Aires,2021,10,45.424,65.118,5,0.698,False
+Buenos Aires,2021,11,95.668,89.093,5,1.074,False
+Buenos Aires,2021,12,76.726,70.742,5,1.085,False
+Buenos Aires,2022,1,137.043,90.272,6,1.518,False
+Buenos Aires,2022,2,110.422,74.005,6,1.492,False
+Buenos Aires,2022,3,128.068,142.323,6,0.9,False
+Buenos Aires,2022,4,86.432,88.687,6,0.975,False
+Buenos Aires,2022,5,17.498,63.081,6,0.277,False
+Buenos Aires,2022,6,3.469,21.86,6,0.159,False
+Buenos Aires,2022,7,54.613,27.456,6,1.989,False
+Buenos Aires,2022,8,22.292,41.066,6,0.543,False
+Buenos Aires,2022,9,23.934,42.662,5,0.561,False
+Buenos Aires,2022,10,65.118,58.71,5,1.109,False
+Buenos Aires,2022,11,89.093,95.668,5,0.931,False
+Buenos Aires,2022,12,56.577,76.726,5,0.737,False
+Buenos Aires,2023,1,88.148,114.72,6,0.768,False
+Buenos Aires,2023,2,54.115,99.227,6,0.545,False
+Buenos Aires,2023,3,96.458,148.309,6,0.65,False
+Buenos Aires,2023,4,31.573,95.901,6,0.329,False
+Buenos Aires,2023,5,93.682,36.799,6,2.546,False
+Buenos Aires,2023,6,17.314,21.776,6,0.795,False
+Buenos Aires,2023,7,53.167,27.456,6,1.936,False
+Buenos Aires,2023,8,33.054,35.685,6,0.926,False
+Buenos Aires,2023,9,42.662,32.503,5,1.313,False
+Buenos Aires,2023,10,58.71,65.118,5,0.902,False
+Buenos Aires,2023,11,111.227,89.093,5,1.248,False
+Buenos Aires,2023,12,172.13,70.742,5,2.433,False
+Buenos Aires,2024,1,51.629,114.72,6,0.45,False
+Buenos Aires,2024,2,120.353,74.005,6,1.626,False
+Buenos Aires,2024,3,168.55,122.082,6,1.381,False
+Buenos Aires,2024,4,143.626,79.219,6,1.813,False
+Buenos Aires,2024,5,7.687,63.081,6,0.122,False
+Buenos Aires,2024,6,26.405,17.231,6,1.532,False
+Buenos Aires,2024,7,3.641,42.634,6,0.085,False
+Buenos Aires,2024,8,66.276,27.673,6,2.395,False
+Buenos Aires,2024,9,32.503,42.662,5,0.762,False
+Buenos Aires,2024,10,55.776,65.118,5,0.857,False
+Buenos Aires,2024,11,180.909,89.093,5,2.031,False
+Buenos Aires,2024,12,70.742,76.726,5,0.922,False
+Buenos Aires,2025,1,36.828,114.72,6,0.321,False
+Buenos Aires,2025,2,176.435,74.005,6,2.384,False
+Buenos Aires,2025,3,224.197,122.082,6,1.836,False
+Buenos Aires,2025,4,72.005,95.901,6,0.751,False
+Buenos Aires,2025,5,114.021,36.799,6,3.098,False
+Buenos Aires,2025,6,17.147,21.86,6,0.784,False
+Buenos Aires,2025,7,66.139,27.456,6,2.409,False
+Buenos Aires,2025,8,110.045,27.673,6,3.977,False
+Buenos Aires,2025,9,,37.583,6,,True
+Buenos Aires,2025,10,,61.914,6,,True
+Buenos Aires,2025,11,,92.381,6,,True
+Buenos Aires,2025,12,,73.734,6,,True
+Catamarca,2019,1,112.063,52.679,6,2.127,False
+Catamarca,2019,2,31.729,49.233,6,0.644,False
+Catamarca,2019,3,61.525,44.037,6,1.397,False
+Catamarca,2019,4,48.487,19.107,6,2.538,False
+Catamarca,2019,5,8.798,3.808,6,2.31,False
+Catamarca,2019,6,3.17,2.802,6,1.131,False
+Catamarca,2019,7,2.185,2.978,6,0.734,False
+Catamarca,2019,8,0.512,1.028,6,0.498,False
+Catamarca,2019,9,4.524,1.768,5,2.559,False
+Catamarca,2019,10,8.157,8.311,5,0.981,False
+Catamarca,2019,11,34.026,20.54,5,1.657,False
+Catamarca,2019,12,25.841,39.653,5,0.652,False
+Catamarca,2020,1,87.639,52.679,6,1.664,False
+Catamarca,2020,2,47.924,48.794,6,0.982,False
+Catamarca,2020,3,23.5,48.352,6,0.486,False
+Catamarca,2020,4,16.012,23.799,6,0.673,False
+Catamarca,2020,5,1.501,5.95,6,0.252,False
+Catamarca,2020,6,2.824,2.975,6,0.949,False
+Catamarca,2020,7,1.937,3.103,6,0.624,False
+Catamarca,2020,8,0.593,1.028,6,0.577,False
+Catamarca,2020,9,0.294,1.796,5,0.164,False
+Catamarca,2020,10,8.981,8.157,5,1.101,False
+Catamarca,2020,11,24.694,20.54,5,1.202,False
+Catamarca,2020,12,22.536,39.653,5,0.568,False
+Catamarca,2021,1,45.669,62.191,6,0.734,False
+Catamarca,2021,2,47.045,49.233,6,0.956,False
+Catamarca,2021,3,61.454,44.037,6,1.396,False
+Catamarca,2021,4,14.1,23.799,6,0.592,False
+Catamarca,2021,5,4.634,5.124,6,0.904,False
+Catamarca,2021,6,4.173,2.802,6,1.489,False
+Catamarca,2021,7,0.482,3.103,6,0.155,False
+Catamarca,2021,8,1.11,0.853,6,1.3,False
+Catamarca,2021,9,1.796,1.768,5,1.016,False
+Catamarca,2021,10,7.213,8.311,5,0.868,False
+Catamarca,2021,11,20.54,23.378,5,0.879,False
+Catamarca,2021,12,39.653,25.841,5,1.535,False
+Catamarca,2022,1,70.653,52.679,6,1.341,False
+Catamarca,2022,2,30.154,49.233,6,0.612,False
+Catamarca,2022,3,37.916,48.352,6,0.784,False
+Catamarca,2022,4,22.203,20.704,6,1.072,False
+Catamarca,2022,5,1.816,5.95,6,0.305,False
+Catamarca,2022,6,0.838,2.997,6,0.28,False
+Catamarca,2022,7,4.02,2.061,6,1.951,False
+Catamarca,2022,8,0.761,1.028,6,0.74,False
+Catamarca,2022,9,11.993,1.768,5,6.784,False
+Catamarca,2022,10,2.571,8.311,5,0.309,False
+Catamarca,2022,11,19.436,23.378,5,0.831,False
+Catamarca,2022,12,48.233,25.841,5,1.867,False
+Catamarca,2023,1,53.73,61.141,6,0.879,False
+Catamarca,2023,2,50.543,47.484,6,1.064,False
+Catamarca,2023,3,48.303,44.086,6,1.096,False
+Catamarca,2023,4,34.985,19.107,6,1.831,False
+Catamarca,2023,5,7.266,3.808,6,1.908,False
+Catamarca,2023,6,2.78,2.997,6,0.927,False
+Catamarca,2023,7,5.235,2.061,6,2.54,False
+Catamarca,2023,8,0.946,0.935,6,1.012,False
+Catamarca,2023,9,1.525,1.796,5,0.849,False
+Catamarca,2023,10,8.311,8.157,5,1.019,False
+Catamarca,2023,11,12.112,23.378,5,0.518,False
+Catamarca,2023,12,53.259,25.841,5,2.061,False
+Catamarca,2024,1,22.606,62.191,6,0.363,False
+Catamarca,2024,2,56.245,47.484,6,1.184,False
+Catamarca,2024,3,39.771,48.352,6,0.823,False
+Catamarca,2024,4,25.395,19.107,6,1.329,False
+Catamarca,2024,5,2.982,5.95,6,0.501,False
+Catamarca,2024,6,3.512,2.802,6,1.253,False
+Catamarca,2024,7,1.917,3.103,6,0.618,False
+Catamarca,2024,8,2.327,0.853,6,2.727,False
+Catamarca,2024,9,1.768,1.796,5,0.985,False
+Catamarca,2024,10,33.14,8.157,5,4.063,False
+Catamarca,2024,11,23.378,20.54,5,1.138,False
+Catamarca,2024,12,20.093,39.653,5,0.507,False
+Catamarca,2025,1,51.628,62.191,6,0.83,False
+Catamarca,2025,2,65.021,47.484,6,1.369,False
+Catamarca,2025,3,48.401,44.037,6,1.099,False
+Catamarca,2025,4,12.652,23.799,6,0.532,False
+Catamarca,2025,5,9.071,3.808,6,2.382,False
+Catamarca,2025,6,1.431,2.997,6,0.477,False
+Catamarca,2025,7,7.36,2.061,6,3.571,False
+Catamarca,2025,8,6.461,0.853,6,7.572,False
+Catamarca,2025,9,,1.782,6,,True
+Catamarca,2025,10,,8.234,6,,True
+Catamarca,2025,11,,21.959,6,,True
+Catamarca,2025,12,,32.747,6,,True
+Chaco,2019,1,276.388,95.85,6,2.884,False
+Chaco,2019,2,155.619,78.428,6,1.984,False
+Chaco,2019,3,212.529,136.033,6,1.562,False
+Chaco,2019,4,228.844,111.665,6,2.049,False
+Chaco,2019,5,155.773,31.137,6,5.003,False
+Chaco,2019,6,13.31,25.334,6,0.525,False
+Chaco,2019,7,62.12,6.778,6,9.165,False
+Chaco,2019,8,18.39,12.609,6,1.458,False
+Chaco,2019,9,8.968,36.382,5,0.246,False
+Chaco,2019,10,76.357,56.848,5,1.343,False
+Chaco,2019,11,149.169,143.102,5,1.042,False
+Chaco,2019,12,70.767,121.382,5,0.583,False
+Chaco,2020,1,133.886,95.85,6,1.397,False
+Chaco,2020,2,124.986,78.428,6,1.594,False
+Chaco,2020,3,84.63,155.899,6,0.543,False
+Chaco,2020,4,66.044,124.03,6,0.532,False
+Chaco,2020,5,20.161,47.263,6,0.427,False
+Chaco,2020,6,19.837,23.564,6,0.842,False
+Chaco,2020,7,9.711,6.778,6,1.433,False
+Chaco,2020,8,1.899,16.897,6,0.112,False
+Chaco,2020,9,12.497,36.382,5,0.344,False
+Chaco,2020,10,53.85,76.357,5,0.705,False
+Chaco,2020,11,128.94,149.169,5,0.864,False
+Chaco,2020,12,121.382,70.767,5,1.715,False
+Chaco,2021,1,127.97,95.85,6,1.335,False
+Chaco,2021,2,57.429,103.243,6,0.556,False
+Chaco,2021,3,145.712,146.219,6,0.997,False
+Chaco,2021,4,130.007,111.665,6,1.164,False
+Chaco,2021,5,14.088,47.263,6,0.298,False
+Chaco,2021,6,30.83,18.068,6,1.706,False
+Chaco,2021,7,3.124,9.405,6,0.332,False
+Chaco,2021,8,0.96,16.897,6,0.057,False
+Chaco,2021,9,64.718,21.83,5,2.965,False
+Chaco,2021,10,56.848,76.357,5,0.745,False
+Chaco,2021,11,207.422,143.102,5,1.449,False
+Chaco,2021,12,51.429,121.382,5,0.424,False
+Chaco,2022,1,64.255,119.436,6,0.538,False
+Chaco,2022,2,75.355,103.243,6,0.73,False
+Chaco,2022,3,198.177,136.033,6,1.457,False
+Chaco,2022,4,118.054,117.642,6,1.004,False
+Chaco,2022,5,40.063,38.337,6,1.045,False
+Chaco,2022,6,38.3,18.068,6,2.12,False
+Chaco,2022,7,4.429,9.405,6,0.471,False
+Chaco,2022,8,9.816,16.897,6,0.581,False
+Chaco,2022,9,21.83,36.382,5,0.6,False
+Chaco,2022,10,77.787,56.848,5,1.368,False
+Chaco,2022,11,94.961,149.169,5,0.637,False
+Chaco,2022,12,58.216,121.382,5,0.48,False
+Chaco,2023,1,110.903,104.384,6,1.062,False
+Chaco,2023,2,81.5,100.171,6,0.814,False
+Chaco,2023,3,126.353,155.899,6,0.81,False
+Chaco,2023,4,105.276,124.03,6,0.849,False
+Chaco,2023,5,54.463,31.137,6,1.749,False
+Chaco,2023,6,16.299,25.334,6,0.643,False
+Chaco,2023,7,9.099,7.084,6,1.284,False
+Chaco,2023,8,15.403,14.103,6,1.092,False
+Chaco,2023,9,61.718,21.83,5,2.827,False
+Chaco,2023,10,41.585,76.357,5,0.545,False
+Chaco,2023,11,143.102,149.169,5,0.959,False
+Chaco,2023,12,190.878,70.767,5,2.697,False
+Chaco,2024,1,80.798,119.436,6,0.676,False
+Chaco,2024,2,130.292,78.428,6,1.661,False
+Chaco,2024,3,102.821,155.899,6,0.66,False
+Chaco,2024,4,210.439,111.665,6,1.885,False
+Chaco,2024,5,22.212,47.263,6,0.47,False
+Chaco,2024,6,3.681,25.334,6,0.145,False
+Chaco,2024,7,4.457,9.405,6,0.474,False
+Chaco,2024,8,61.317,12.609,6,4.863,False
+Chaco,2024,9,36.382,21.83,5,1.667,False
+Chaco,2024,10,117.547,56.848,5,2.068,False
+Chaco,2024,11,183.553,143.102,5,1.283,False
+Chaco,2024,12,166.65,70.767,5,2.355,False
+Chaco,2025,1,53.963,119.436,6,0.452,False
+Chaco,2025,2,44.108,103.243,6,0.427,False
+Chaco,2025,3,166.086,136.033,6,1.221,False
+Chaco,2025,4,53.825,124.03,6,0.434,False
+Chaco,2025,5,152.025,31.137,6,4.882,False
+Chaco,2025,6,46.9,18.068,6,2.596,False
+Chaco,2025,7,22.214,6.778,6,3.277,False
+Chaco,2025,8,30.83,12.609,6,2.445,False
+Chaco,2025,9,,29.106,6,,True
+Chaco,2025,10,,66.603,6,,True
+Chaco,2025,11,,146.136,6,,True
+Chaco,2025,12,,96.075,6,,True
+Chubut,2019,1,13.977,18.946,6,0.738,False
+Chubut,2019,2,7.705,16.461,6,0.468,False
+Chubut,2019,3,38.551,23.629,6,1.632,False
+Chubut,2019,4,22.975,40.928,6,0.561,False
+Chubut,2019,5,38.883,33.359,6,1.166,False
+Chubut,2019,6,81.217,51.236,6,1.585,False
+Chubut,2019,7,48.676,55.38,6,0.879,False
+Chubut,2019,8,24.897,36.024,6,0.691,False
+Chubut,2019,9,17.032,39.182,5,0.435,False
+Chubut,2019,10,13.949,15.527,5,0.898,False
+Chubut,2019,11,18.859,21.864,5,0.863,False
+Chubut,2019,12,23.487,19.013,5,1.235,False
+Chubut,2020,1,17.928,16.971,6,1.056,False
+Chubut,2020,2,20.932,10.081,6,2.076,False
+Chubut,2020,3,10.193,26.079,6,0.391,False
+Chubut,2020,4,26.754,40.928,6,0.654,False
+Chubut,2020,5,66.835,33.359,6,2.004,False
+Chubut,2020,6,58.518,53.872,6,1.086,False
+Chubut,2020,7,79.509,41.993,6,1.893,False
+Chubut,2020,8,27.215,36.024,6,0.755,False
+Chubut,2020,9,20.484,39.182,5,0.523,False
+Chubut,2020,10,15.527,15.486,5,1.003,False
+Chubut,2020,11,13.619,21.864,5,0.623,False
+Chubut,2020,12,14.417,20.307,5,0.71,False
+Chubut,2021,1,19.964,15.953,6,1.251,False
+Chubut,2021,2,8.034,16.461,6,0.488,False
+Chubut,2021,3,25.893,23.815,6,1.087,False
+Chubut,2021,4,40.285,34.162,6,1.179,False
+Chubut,2021,5,40.337,33.359,6,1.209,False
+Chubut,2021,6,36.635,61.154,6,0.599,False
+Chubut,2021,7,15.666,62.063,6,0.252,False
+Chubut,2021,8,47.003,30.24,6,1.554,False
+Chubut,2021,9,13.777,39.182,5,0.352,False
+Chubut,2021,10,15.486,15.527,5,0.997,False
+Chubut,2021,11,21.864,18.859,5,1.159,False
+Chubut,2021,12,20.307,19.013,5,1.068,False
+Chubut,2022,1,42.834,15.953,6,2.685,False
+Chubut,2022,2,43.261,10.081,6,4.291,False
+Chubut,2022,3,21.364,26.079,6,0.819,False
+Chubut,2022,4,56.822,33.519,6,1.695,False
+Chubut,2022,5,33.542,36.029,6,0.931,False
+Chubut,2022,6,43.954,61.154,6,0.719,False
+Chubut,2022,7,104.151,41.993,6,2.48,False
+Chubut,2022,8,33.264,32.999,6,1.008,False
+Chubut,2022,9,67.069,20.484,5,3.274,False
+Chubut,2022,10,20.694,15.486,5,1.336,False
+Chubut,2022,11,29.174,18.859,5,1.547,False
+Chubut,2022,12,19.013,20.307,5,0.936,False
+Chubut,2023,1,36.612,15.953,6,2.295,False
+Chubut,2023,2,7.787,16.461,6,0.473,False
+Chubut,2023,3,20.141,26.079,6,0.772,False
+Chubut,2023,4,25.1,40.928,6,0.613,False
+Chubut,2023,5,32.706,36.212,6,0.903,False
+Chubut,2023,6,63.791,51.236,6,1.245,False
+Chubut,2023,7,75.45,41.993,6,1.797,False
+Chubut,2023,8,59.495,30.24,6,1.967,False
+Chubut,2023,9,44.38,20.484,5,2.167,False
+Chubut,2023,10,27.988,15.486,5,1.807,False
+Chubut,2023,11,17.582,21.864,5,0.804,False
+Chubut,2023,12,13.932,20.307,5,0.686,False
+Chubut,2024,1,8.636,18.946,6,0.456,False
+Chubut,2024,2,20.795,10.081,6,2.063,False
+Chubut,2024,3,28.667,23.629,6,1.213,False
+Chubut,2024,4,51.082,33.519,6,1.524,False
+Chubut,2024,5,33.176,36.212,6,0.916,False
+Chubut,2024,6,76.796,51.236,6,1.499,False
+Chubut,2024,7,24.776,62.063,6,0.399,False
+Chubut,2024,8,38.784,30.24,6,1.283,False
+Chubut,2024,9,39.182,20.484,5,1.913,False
+Chubut,2024,10,10.797,15.527,5,0.695,False
+Chubut,2024,11,37.332,18.859,5,1.98,False
+Chubut,2024,12,40.907,19.013,5,2.151,False
+Chubut,2025,1,9.467,18.946,6,0.5,False
+Chubut,2025,2,12.127,14.415,6,0.841,False
+Chubut,2025,3,26.265,23.629,6,1.112,False
+Chubut,2025,4,41.57,33.519,6,1.24,False
+Chubut,2025,5,30.92,36.212,6,0.854,False
+Chubut,2025,6,23.336,61.154,6,0.382,False
+Chubut,2025,7,35.31,62.063,6,0.569,False
+Chubut,2025,8,25.776,36.024,6,0.716,False
+Chubut,2025,9,,29.833,6,,True
+Chubut,2025,10,,15.507,6,,True
+Chubut,2025,11,,20.361,6,,True
+Chubut,2025,12,,19.66,6,,True
+Ciudad Autónoma de Buenos Aires,2019,1,183.397,77.376,6,2.37,False
+Ciudad Autónoma de Buenos Aires,2019,2,77.952,117.096,6,0.666,False
+Ciudad Autónoma de Buenos Aires,2019,3,124.99,135.407,6,0.923,False
+Ciudad Autónoma de Buenos Aires,2019,4,31.679,78.84,6,0.402,False
+Ciudad Autónoma de Buenos Aires,2019,5,91.508,67.889,6,1.348,False
+Ciudad Autónoma de Buenos Aires,2019,6,172.441,26.099,6,6.607,False
+Ciudad Autónoma de Buenos Aires,2019,7,93.371,50.591,6,1.846,False
+Ciudad Autónoma de Buenos Aires,2019,8,37.572,90.581,6,0.415,False
+Ciudad Autónoma de Buenos Aires,2019,9,57.24,52.199,5,1.097,False
+Ciudad Autónoma de Buenos Aires,2019,10,218.363,56.545,5,3.862,False
+Ciudad Autónoma de Buenos Aires,2019,11,71.28,112.32,5,0.635,False
+Ciudad Autónoma de Buenos Aires,2019,12,129.456,51.336,5,2.522,False
+Ciudad Autónoma de Buenos Aires,2020,1,84.444,108.997,6,0.775,False
+Ciudad Autónoma de Buenos Aires,2020,2,83.171,117.096,6,0.71,False
+Ciudad Autónoma de Buenos Aires,2020,3,157.727,119.039,6,1.325,False
+Ciudad Autónoma de Buenos Aires,2020,4,112.68,72.181,6,1.561,False
+Ciudad Autónoma de Buenos Aires,2020,5,14.507,90.952,6,0.16,False
+Ciudad Autónoma de Buenos Aires,2020,6,89.638,26.099,6,3.435,False
+Ciudad Autónoma de Buenos Aires,2020,7,26.037,56.543,6,0.46,False
+Ciudad Autónoma de Buenos Aires,2020,8,31.248,90.581,6,0.345,False
+Ciudad Autónoma de Buenos Aires,2020,9,103.32,52.199,5,1.979,False
+Ciudad Autónoma de Buenos Aires,2020,10,113.83,56.545,5,2.013,False
+Ciudad Autónoma de Buenos Aires,2020,11,55.801,112.32,5,0.497,False
+Ciudad Autónoma de Buenos Aires,2020,12,51.336,61.007,5,0.841,False
+Ciudad Autónoma de Buenos Aires,2021,1,147.685,77.376,6,1.909,False
+Ciudad Autónoma de Buenos Aires,2021,2,110.882,103.241,6,1.074,False
+Ciudad Autónoma de Buenos Aires,2021,3,113.088,141.359,6,0.8,False
+Ciudad Autónoma de Buenos Aires,2021,4,73.082,77.94,6,0.938,False
+Ciudad Autónoma de Buenos Aires,2021,5,90.396,68.445,6,1.321,False
+Ciudad Autónoma de Buenos Aires,2021,6,24.479,39.419,6,0.621,False
+Ciudad Autónoma de Buenos Aires,2021,7,58.031,50.591,6,1.147,False
+Ciudad Autónoma de Buenos Aires,2021,8,54.311,82.212,6,0.661,False
+Ciudad Autónoma de Buenos Aires,2021,9,136.441,52.199,5,2.614,False
+Ciudad Autónoma de Buenos Aires,2021,10,34.968,76.261,5,0.459,False
+Ciudad Autónoma de Buenos Aires,2021,11,112.32,71.28,5,1.576,False
+Ciudad Autónoma de Buenos Aires,2021,12,26.04,61.007,5,0.427,False
+Ciudad Autónoma de Buenos Aires,2022,1,153.264,77.376,6,1.981,False
+Ciudad Autónoma de Buenos Aires,2022,2,123.311,97.026,6,1.271,False
+Ciudad Autónoma de Buenos Aires,2022,3,108.253,141.359,6,0.766,False
+Ciudad Autónoma de Buenos Aires,2022,4,71.28,78.84,6,0.904,False
+Ciudad Autónoma de Buenos Aires,2022,5,45.381,90.952,6,0.499,False
+Ciudad Autónoma de Buenos Aires,2022,6,4.678,39.419,6,0.119,False
+Ciudad Autónoma de Buenos Aires,2022,7,55.055,52.079,6,1.057,False
+Ciudad Autónoma de Buenos Aires,2022,8,18.971,90.581,6,0.209,False
+Ciudad Autónoma de Buenos Aires,2022,9,24.12,57.24,5,0.421,False
+Ciudad Autónoma de Buenos Aires,2022,10,29.387,76.261,5,0.385,False
+Ciudad Autónoma de Buenos Aires,2022,11,64.439,112.32,5,0.574,False
+Ciudad Autónoma de Buenos Aires,2022,12,61.007,51.336,5,1.188,False
+Ciudad Autónoma de Buenos Aires,2023,1,65.1,116.064,6,0.561,False
+Ciudad Autónoma de Buenos Aires,2023,2,31.919,117.096,6,0.273,False
+Ciudad Autónoma de Buenos Aires,2023,3,44.267,141.359,6,0.313,False
+Ciudad Autónoma de Buenos Aires,2023,4,62.28,78.84,6,0.79,False
+Ciudad Autónoma de Buenos Aires,2023,5,172.978,67.889,6,2.548,False
+Ciudad Autónoma de Buenos Aires,2023,6,5.039,39.419,6,0.128,False
+Ciudad Autónoma de Buenos Aires,2023,7,77.376,50.591,6,1.529,False
+Ciudad Autónoma de Buenos Aires,2023,8,126.851,45.941,6,2.761,False
+Ciudad Autónoma de Buenos Aires,2023,9,52.199,57.24,5,0.912,False
+Ciudad Autónoma de Buenos Aires,2023,10,56.545,76.261,5,0.741,False
+Ciudad Autónoma de Buenos Aires,2023,11,134.638,71.28,5,1.889,False
+Ciudad Autónoma de Buenos Aires,2023,12,133.175,51.336,5,2.594,False
+Ciudad Autónoma de Buenos Aires,2024,1,70.309,116.064,6,0.606,False
+Ciudad Autónoma de Buenos Aires,2024,2,129.805,97.026,6,1.338,False
+Ciudad Autónoma de Buenos Aires,2024,3,352.658,119.039,6,2.963,False
+Ciudad Autónoma de Buenos Aires,2024,4,171.717,72.181,6,2.379,False
+Ciudad Autónoma de Buenos Aires,2024,5,14.135,90.952,6,0.155,False
+Ciudad Autónoma de Buenos Aires,2024,6,51.12,26.099,6,1.959,False
+Ciudad Autónoma de Buenos Aires,2024,7,6.695,56.543,6,0.118,False
+Ciudad Autónoma de Buenos Aires,2024,8,132.06,45.941,6,2.875,False
+Ciudad Autónoma de Buenos Aires,2024,9,33.84,57.24,5,0.591,False
+Ciudad Autónoma de Buenos Aires,2024,10,76.261,56.545,5,1.349,False
+Ciudad Autónoma de Buenos Aires,2024,11,113.4,71.28,5,1.591,False
+Ciudad Autónoma de Buenos Aires,2024,12,49.475,61.007,5,0.811,False
+Ciudad Autónoma de Buenos Aires,2025,1,58.404,116.064,6,0.503,False
+Ciudad Autónoma de Buenos Aires,2025,2,182.112,97.026,6,1.877,False
+Ciudad Autónoma de Buenos Aires,2025,3,185.629,119.039,6,1.559,False
+Ciudad Autónoma de Buenos Aires,2025,4,84.599,72.181,6,1.172,False
+Ciudad Autónoma de Buenos Aires,2025,5,334.799,67.889,6,4.932,False
+Ciudad Autónoma de Buenos Aires,2025,6,27.718,37.799,6,0.733,False
+Ciudad Autónoma de Buenos Aires,2025,7,46.127,56.543,6,0.816,False
+Ciudad Autónoma de Buenos Aires,2025,8,150.66,45.941,6,3.279,False
+Ciudad Autónoma de Buenos Aires,2025,9,,54.72,6,,True
+Ciudad Autónoma de Buenos Aires,2025,10,,66.403,6,,True
+Ciudad Autónoma de Buenos Aires,2025,11,,91.8,6,,True
+Ciudad Autónoma de Buenos Aires,2025,12,,56.171,6,,True
+Corrientes,2019,1,449.424,117.689,6,3.819,False
+Corrientes,2019,2,120.018,78.931,6,1.521,False
+Corrientes,2019,3,161.259,152.422,6,1.058,False
+Corrientes,2019,4,189.217,82.05,6,2.306,False
+Corrientes,2019,5,245.957,104.577,6,2.352,False
+Corrientes,2019,6,19.356,66.135,6,0.293,False
+Corrientes,2019,7,97.312,46.075,6,2.112,False
+Corrientes,2019,8,63.67,65.803,6,0.968,False
+Corrientes,2019,9,33.851,74.06,5,0.457,False
+Corrientes,2019,10,170.965,111.205,5,1.537,False
+Corrientes,2019,11,223.513,176.471,5,1.267,False
+Corrientes,2019,12,106.523,141.373,5,0.753,False
+Corrientes,2020,1,154.323,133.932,6,1.152,False
+Corrientes,2020,2,158.15,78.931,6,2.004,False
+Corrientes,2020,3,60.576,157.965,6,0.383,False
+Corrientes,2020,4,77.439,137.939,6,0.561,False
+Corrientes,2020,5,105.457,117.658,6,0.896,False
+Corrientes,2020,6,84.421,44.593,6,1.893,False
+Corrientes,2020,7,42.389,51.754,6,0.819,False
+Corrientes,2020,8,25.568,68.075,6,0.376,False
+Corrientes,2020,9,52.214,74.06,5,0.705,False
+Corrientes,2020,10,60.535,129.905,5,0.466,False
+Corrientes,2020,11,129.496,223.513,5,0.579,False
+Corrientes,2020,12,152.045,106.523,5,1.427,False
+Corrientes,2021,1,186.811,117.689,6,1.587,False
+Corrientes,2021,2,73.932,99.808,6,0.741,False
+Corrientes,2021,3,154.67,155.716,6,0.993,False
+Corrientes,2021,4,86.661,133.328,6,0.65,False
+Corrientes,2021,5,103.697,118.538,6,0.875,False
+Corrientes,2021,6,111.805,44.593,6,2.507,False
+Corrientes,2021,7,16.225,51.754,6,0.314,False
+Corrientes,2021,8,22.793,68.075,6,0.335,False
+Corrientes,2021,9,110.773,52.214,5,2.122,False
+Corrientes,2021,10,95.425,129.905,5,0.735,False
+Corrientes,2021,11,176.471,223.513,5,0.79,False
+Corrientes,2021,12,25.244,141.373,5,0.179,False
+Corrientes,2022,1,31.736,170.567,6,0.186,False
+Corrientes,2022,2,78.264,99.808,6,0.784,False
+Corrientes,2022,3,220.416,152.422,6,1.446,False
+Corrientes,2022,4,203.986,82.05,6,2.486,False
+Corrientes,2022,5,77.821,118.538,6,0.657,False
+Corrientes,2022,6,47.85,62.878,6,0.761,False
+Corrientes,2022,7,53.747,46.075,6,1.167,False
+Corrientes,2022,8,73.047,61.398,6,1.19,False
+Corrientes,2022,9,49.753,74.06,5,0.672,False
+Corrientes,2022,10,129.905,111.205,5,1.168,False
+Corrientes,2022,11,53.61,223.513,5,0.24,False
+Corrientes,2022,12,48.187,141.373,5,0.341,False
+Corrientes,2023,1,81.054,170.567,6,0.475,False
+Corrientes,2023,2,35.614,99.808,6,0.357,False
+Corrientes,2023,3,150.173,157.965,6,0.951,False
+Corrientes,2023,4,62.783,137.939,6,0.455,False
+Corrientes,2023,5,131.619,104.577,6,1.259,False
+Corrientes,2023,6,41.336,66.135,6,0.625,False
+Corrientes,2023,7,49.76,48.068,6,1.035,False
+Corrientes,2023,8,59.125,68.075,6,0.869,False
+Corrientes,2023,9,218.965,52.214,5,4.194,False
+Corrientes,2023,10,205.09,111.205,5,1.844,False
+Corrientes,2023,11,254.236,176.471,5,1.441,False
+Corrientes,2023,12,288.398,106.523,5,2.707,False
+Corrientes,2024,1,197.927,117.689,6,1.682,False
+Corrientes,2024,2,123.032,78.931,6,1.559,False
+Corrientes,2024,3,220.523,152.422,6,1.447,False
+Corrientes,2024,4,293.499,82.05,6,3.577,False
+Corrientes,2024,5,95.111,118.538,6,0.802,False
+Corrientes,2024,6,39.143,66.135,6,0.592,False
+Corrientes,2024,7,13.872,51.754,6,0.268,False
+Corrientes,2024,8,98.026,61.398,6,1.597,False
+Corrientes,2024,9,74.06,52.214,5,1.418,False
+Corrientes,2024,10,111.205,129.905,5,0.856,False
+Corrientes,2024,11,239.094,176.471,5,1.355,False
+Corrientes,2024,12,141.373,106.523,5,1.327,False
+Corrientes,2025,1,53.673,170.567,6,0.315,False
+Corrientes,2025,2,79.597,99.141,6,0.803,False
+Corrientes,2025,3,102.815,157.965,6,0.651,False
+Corrientes,2025,4,62.207,137.939,6,0.451,False
+Corrientes,2025,5,297.563,104.577,6,2.845,False
+Corrientes,2025,6,149.245,44.593,6,3.347,False
+Corrientes,2025,7,66.052,46.075,6,1.434,False
+Corrientes,2025,8,72.481,61.398,6,1.181,False
+Corrientes,2025,9,,63.137,6,,True
+Corrientes,2025,10,,120.555,6,,True
+Corrientes,2025,11,,199.992,6,,True
+Corrientes,2025,12,,123.948,6,,True
+Córdoba,2019,1,197.236,135.812,6,1.452,False
+Córdoba,2019,2,47.002,112.758,6,0.417,False
+Córdoba,2019,3,148.69,120.333,6,1.236,False
+Córdoba,2019,4,75.171,36.658,6,2.051,False
+Córdoba,2019,5,26.403,14.763,6,1.788,False
+Córdoba,2019,6,9.883,5.241,6,1.886,False
+Córdoba,2019,7,13.844,4.932,6,2.807,False
+Córdoba,2019,8,1.366,7.136,6,0.191,False
+Córdoba,2019,9,12.704,17.617,5,0.721,False
+Córdoba,2019,10,50.497,52.407,5,0.964,False
+Córdoba,2019,11,103.425,93.193,5,1.11,False
+Córdoba,2019,12,138.867,102.946,5,1.349,False
+Córdoba,2020,1,112.755,139.384,6,0.809,False
+Córdoba,2020,2,158.428,83.29,6,1.902,False
+Córdoba,2020,3,122.322,121.487,6,1.007,False
+Córdoba,2020,4,40.007,54.24,6,0.738,False
+Córdoba,2020,5,3.095,22.701,6,0.136,False
+Córdoba,2020,6,5.406,5.57,6,0.971,False
+Córdoba,2020,7,3.439,9.69,6,0.355,False
+Córdoba,2020,8,1.719,7.136,6,0.241,False
+Córdoba,2020,9,17.617,12.704,5,1.387,False
+Córdoba,2020,10,50.215,52.407,5,0.958,False
+Córdoba,2020,11,78.126,103.425,5,0.755,False
+Córdoba,2020,12,102.946,104.463,5,0.985,False
+Córdoba,2021,1,206.336,135.812,6,1.519,False
+Córdoba,2021,2,71.884,112.758,6,0.638,False
+Córdoba,2021,3,124.631,120.333,6,1.036,False
+Córdoba,2021,4,81.077,36.658,6,2.212,False
+Córdoba,2021,5,30.036,14.763,6,2.034,False
+Córdoba,2021,6,9.082,5.241,6,1.733,False
+Córdoba,2021,7,5.537,9.086,6,0.609,False
+Córdoba,2021,8,3.126,6.585,6,0.475,False
+Córdoba,2021,9,36.784,12.704,5,2.895,False
+Córdoba,2021,10,70.044,50.497,5,1.387,False
+Córdoba,2021,11,130.82,93.193,5,1.404,False
+Córdoba,2021,12,77.652,104.463,5,0.743,False
+Córdoba,2022,1,133.945,139.384,6,0.961,False
+Córdoba,2022,2,94.696,101.352,6,0.934,False
+Córdoba,2022,3,90.474,123.476,6,0.733,False
+Córdoba,2022,4,29.87,57.589,6,0.519,False
+Córdoba,2022,5,5.104,22.701,6,0.225,False
+Córdoba,2022,6,3.187,5.734,6,0.556,False
+Córdoba,2022,7,4.328,9.69,6,0.447,False
+Córdoba,2022,8,18.111,2.575,6,7.032,False
+Córdoba,2022,9,24.868,12.704,5,1.957,False
+Córdoba,2022,10,48.868,52.407,5,0.932,False
+Córdoba,2022,11,67.849,103.425,5,0.656,False
+Córdoba,2022,12,79.073,104.463,5,0.757,False
+Córdoba,2023,1,137.679,137.517,6,1.001,False
+Córdoba,2023,2,63.824,112.758,6,0.566,False
+Córdoba,2023,3,118.344,123.476,6,0.958,False
+Córdoba,2023,4,28.431,57.589,6,0.494,False
+Córdoba,2023,5,37.014,14.763,6,2.507,False
+Córdoba,2023,6,6.063,5.241,6,1.157,False
+Córdoba,2023,7,15.67,4.932,6,3.177,False
+Córdoba,2023,8,2.024,7.136,6,0.284,False
+Córdoba,2023,9,12.357,17.617,5,0.701,False
+Córdoba,2023,10,52.407,50.497,5,1.038,False
+Córdoba,2023,11,93.193,103.425,5,0.901,False
+Córdoba,2023,12,137.081,102.946,5,1.332,False
+Córdoba,2024,1,141.089,135.812,6,1.039,False
+Córdoba,2024,2,168.764,83.29,6,2.026,False
+Córdoba,2024,3,69.235,123.476,6,0.561,False
+Córdoba,2024,4,109.793,36.658,6,2.995,False
+Córdoba,2024,5,10.527,22.701,6,0.464,False
+Córdoba,2024,6,1.993,5.734,6,0.348,False
+Córdoba,2024,7,2.669,9.69,6,0.275,False
+Córdoba,2024,8,11.146,2.575,6,4.328,False
+Córdoba,2024,9,1.797,17.617,5,0.102,False
+Córdoba,2024,10,132.117,50.497,5,2.616,False
+Córdoba,2024,11,117.863,93.193,5,1.265,False
+Córdoba,2024,12,104.463,102.946,5,1.015,False
+Córdoba,2025,1,101.599,139.384,6,0.729,False
+Córdoba,2025,2,130.819,83.29,6,1.571,False
+Córdoba,2025,3,189.628,120.333,6,1.576,False
+Córdoba,2025,4,33.309,57.589,6,0.578,False
+Córdoba,2025,5,19.0,18.465,6,1.029,False
+Córdoba,2025,6,5.076,5.734,6,0.885,False
+Córdoba,2025,7,35.499,4.932,6,7.197,False
+Córdoba,2025,8,111.354,2.575,6,43.236,False
+Córdoba,2025,9,,15.161,6,,True
+Córdoba,2025,10,,51.452,6,,True
+Córdoba,2025,11,,98.309,6,,True
+Córdoba,2025,12,,103.704,6,,True
+Entre Ríos,2019,1,383.181,113.508,6,3.376,False
+Entre Ríos,2019,2,121.031,108.947,6,1.111,False
+Entre Ríos,2019,3,106.005,142.943,6,0.742,False
+Entre Ríos,2019,4,95.25,112.665,6,0.845,False
+Entre Ríos,2019,5,99.702,83.589,6,1.193,False
+Entre Ríos,2019,6,113.008,21.02,6,5.376,False
+Entre Ríos,2019,7,47.724,37.198,6,1.283,False
+Entre Ríos,2019,8,61.497,33.678,6,1.826,False
+Entre Ríos,2019,9,73.711,62.044,5,1.188,False
+Entre Ríos,2019,10,148.2,75.318,5,1.968,False
+Entre Ríos,2019,11,115.354,105.905,5,1.089,False
+Entre Ríos,2019,12,192.795,73.48,5,2.624,False
+Entre Ríos,2020,1,118.369,130.801,6,0.905,False
+Entre Ríos,2020,2,99.963,119.481,6,0.837,False
+Entre Ríos,2020,3,88.591,142.943,6,0.62,False
+Entre Ríos,2020,4,111.114,104.733,6,1.061,False
+Entre Ríos,2020,5,50.721,101.259,6,0.501,False
+Entre Ríos,2020,6,73.05,21.02,6,3.475,False
+Entre Ríos,2020,7,9.584,43.368,6,0.221,False
+Entre Ríos,2020,8,26.826,51.014,6,0.526,False
+Entre Ríos,2020,9,62.044,68.211,5,0.91,False
+Entre Ríos,2020,10,57.677,94.303,5,0.612,False
+Entre Ríos,2020,11,71.539,115.354,5,0.62,False
+Entre Ríos,2020,12,101.009,73.48,5,1.375,False
+Entre Ríos,2021,1,160.262,113.508,6,1.412,False
+Entre Ríos,2021,2,67.28,119.481,6,0.563,False
+Entre Ríos,2021,3,131.475,141.494,6,0.929,False
+Entre Ríos,2021,4,145.603,103.182,6,1.411,False
+Entre Ríos,2021,5,102.817,82.031,6,1.253,False
+Entre Ríos,2021,6,69.323,21.02,6,3.298,False
+Entre Ríos,2021,7,39.012,41.554,6,0.939,False
+Entre Ríos,2021,8,19.347,51.014,6,0.379,False
+Entre Ríos,2021,9,94.71,62.044,5,1.526,False
+Entre Ríos,2021,10,52.834,94.303,5,0.56,False
+Entre Ríos,2021,11,105.905,115.354,5,0.918,False
+Entre Ríos,2021,12,20.499,101.009,5,0.203,False
+Entre Ríos,2022,1,152.955,113.508,6,1.348,False
+Entre Ríos,2022,2,128.923,108.947,6,1.183,False
+Entre Ríos,2022,3,194.406,130.027,6,1.495,False
+Entre Ríos,2022,4,114.216,103.182,6,1.107,False
+Entre Ríos,2022,5,39.665,101.259,6,0.392,False
+Entre Ríos,2022,6,8.179,49.675,6,0.165,False
+Entre Ríos,2022,7,35.385,43.368,6,0.816,False
+Entre Ríos,2022,8,61.698,33.678,6,1.832,False
+Entre Ríos,2022,9,42.629,68.211,5,0.625,False
+Entre Ríos,2022,10,75.318,94.303,5,0.799,False
+Entre Ríos,2022,11,33.9,115.354,5,0.294,False
+Entre Ríos,2022,12,44.819,101.009,5,0.444,False
+Entre Ríos,2023,1,72.507,135.662,6,0.534,False
+Entre Ríos,2023,2,43.767,119.481,6,0.366,False
+Entre Ríos,2023,3,154.411,130.027,6,1.188,False
+Entre Ríos,2023,4,42.464,112.665,6,0.377,False
+Entre Ríos,2023,5,150.354,82.031,6,1.833,False
+Entre Ríos,2023,6,12.011,49.675,6,0.242,False
+Entre Ríos,2023,7,62.696,37.198,6,1.685,False
+Entre Ríos,2023,8,19.1,51.014,6,0.374,False
+Entre Ríos,2023,9,68.211,62.044,5,1.099,False
+Entre Ríos,2023,10,94.303,75.318,5,1.252,False
+Entre Ríos,2023,11,165.48,105.905,5,1.563,False
+Entre Ríos,2023,12,238.264,73.48,5,3.243,False
+Entre Ríos,2024,1,108.648,135.662,6,0.801,False
+Entre Ríos,2024,2,117.931,110.497,6,1.067,False
+Entre Ríos,2024,3,284.078,130.027,6,2.185,False
+Entre Ríos,2024,4,159.796,103.182,6,1.549,False
+Entre Ríos,2024,5,64.361,101.259,6,0.636,False
+Entre Ríos,2024,6,7.892,49.675,6,0.159,False
+Entre Ríos,2024,7,5.506,43.368,6,0.127,False
+Entre Ríos,2024,8,40.53,44.162,6,0.918,False
+Entre Ríos,2024,9,36.306,68.211,5,0.532,False
+Entre Ríos,2024,10,109.025,75.318,5,1.448,False
+Entre Ríos,2024,11,162.266,105.905,5,1.532,False
+Entre Ríos,2024,12,73.48,101.009,5,0.727,False
+Entre Ríos,2025,1,48.674,135.662,6,0.359,False
+Entre Ríos,2025,2,205.779,108.947,6,1.889,False
+Entre Ríos,2025,3,128.578,142.943,6,0.9,False
+Entre Ríos,2025,4,79.197,112.665,6,0.703,False
+Entre Ríos,2025,5,140.446,82.031,6,1.712,False
+Entre Ríos,2025,6,30.028,40.667,6,0.738,False
+Entre Ríos,2025,7,70.591,37.198,6,1.898,False
+Entre Ríos,2025,8,132.752,33.678,6,3.942,False
+Entre Ríos,2025,9,,65.128,6,,True
+Entre Ríos,2025,10,,84.81,6,,True
+Entre Ríos,2025,11,,110.63,6,,True
+Entre Ríos,2025,12,,87.245,6,,True
+Formosa,2019,1,136.45,76.993,6,1.772,False
+Formosa,2019,2,137.46,80.016,6,1.718,False
+Formosa,2019,3,179.094,125.178,6,1.431,False
+Formosa,2019,4,249.74,104.434,6,2.391,False
+Formosa,2019,5,150.433,56.236,6,2.675,False
+Formosa,2019,6,7.361,23.82,6,0.309,False
+Formosa,2019,7,77.108,12.122,6,6.361,False
+Formosa,2019,8,26.553,10.894,6,2.437,False
+Formosa,2019,9,4.781,28.278,5,0.169,False
+Formosa,2019,10,51.276,109.562,5,0.468,False
+Formosa,2019,11,147.84,150.9,5,0.98,False
+Formosa,2019,12,103.429,181.368,5,0.57,False
+Formosa,2020,1,120.947,76.993,6,1.571,False
+Formosa,2020,2,68.045,82.383,6,0.826,False
+Formosa,2020,3,80.679,158.121,6,0.51,False
+Formosa,2020,4,50.999,109.477,6,0.466,False
+Formosa,2020,5,22.929,84.541,6,0.271,False
+Formosa,2020,6,22.608,23.82,6,0.949,False
+Formosa,2020,7,13.313,14.333,6,0.929,False
+Formosa,2020,8,6.127,20.524,6,0.299,False
+Formosa,2020,9,20.789,28.278,5,0.735,False
+Formosa,2020,10,70.338,109.562,5,0.642,False
+Formosa,2020,11,164.835,147.84,5,1.115,False
+Formosa,2020,12,223.191,103.429,5,2.158,False
+Formosa,2021,1,164.731,76.993,6,2.14,False
+Formosa,2021,2,80.13,82.269,6,0.974,False
+Formosa,2021,3,178.274,125.178,6,1.424,False
+Formosa,2021,4,113.755,104.434,6,1.089,False
+Formosa,2021,5,25.508,84.541,6,0.302,False
+Formosa,2021,6,24.085,23.082,6,1.043,False
+Formosa,2021,7,17.734,12.122,6,1.463,False
+Formosa,2021,8,2.574,20.524,6,0.125,False
+Formosa,2021,9,56.611,20.789,5,2.723,False
+Formosa,2021,10,109.562,70.338,5,1.558,False
+Formosa,2021,11,158.666,147.84,5,1.073,False
+Formosa,2021,12,32.531,181.368,5,0.179,False
+Formosa,2022,1,44.662,109.038,6,0.41,False
+Formosa,2022,2,79.902,82.383,6,0.97,False
+Formosa,2022,3,137.967,145.331,6,0.949,False
+Formosa,2022,4,103.668,109.477,6,0.947,False
+Formosa,2022,5,66.094,74.684,6,0.885,False
+Formosa,2022,6,29.488,23.082,6,1.278,False
+Formosa,2022,7,3.846,15.524,6,0.248,False
+Formosa,2022,8,7.292,20.524,6,0.355,False
+Formosa,2022,9,28.278,20.789,5,1.36,False
+Formosa,2022,10,157.505,70.338,5,2.239,False
+Formosa,2022,11,105.573,150.9,5,0.7,False
+Formosa,2022,12,63.198,181.368,5,0.348,False
+Formosa,2023,1,97.128,88.902,6,1.093,False
+Formosa,2023,2,107.03,80.016,6,1.338,False
+Formosa,2023,3,112.388,158.121,6,0.711,False
+Formosa,2023,4,103.261,109.477,6,0.943,False
+Formosa,2023,5,102.989,56.236,6,1.831,False
+Formosa,2023,6,13.734,23.82,6,0.577,False
+Formosa,2023,7,10.931,15.524,6,0.704,False
+Formosa,2023,8,14.496,16.923,6,0.857,False
+Formosa,2023,9,50.556,20.789,5,2.432,False
+Formosa,2023,10,49.891,109.562,5,0.455,False
+Formosa,2023,11,150.9,147.84,5,1.021,False
+Formosa,2023,12,219.503,103.429,5,2.122,False
+Formosa,2024,1,56.857,109.038,6,0.521,False
+Formosa,2024,2,78.18,82.383,6,0.949,False
+Formosa,2024,3,54.421,158.121,6,0.344,False
+Formosa,2024,4,221.081,104.434,6,2.117,False
+Formosa,2024,5,46.378,84.541,6,0.549,False
+Formosa,2024,6,23.555,23.347,6,1.009,False
+Formosa,2024,7,8.395,15.524,6,0.541,False
+Formosa,2024,8,40.987,10.894,6,3.762,False
+Formosa,2024,9,18.441,28.278,5,0.652,False
+Formosa,2024,10,110.67,70.338,5,1.573,False
+Formosa,2024,11,127.163,150.9,5,0.843,False
+Formosa,2024,12,181.368,103.429,5,1.754,False
+Formosa,2025,1,53.732,109.038,6,0.493,False
+Formosa,2025,2,84.635,80.016,6,1.058,False
+Formosa,2025,3,204.611,125.178,6,1.635,False
+Formosa,2025,4,105.2,108.711,6,0.968,False
+Formosa,2025,5,135.477,56.236,6,2.409,False
+Formosa,2025,6,52.802,23.082,6,2.288,False
+Formosa,2025,7,23.938,12.122,6,1.975,False
+Formosa,2025,8,28.037,10.894,6,2.574,False
+Formosa,2025,9,,24.533,6,,True
+Formosa,2025,10,,89.95,6,,True
+Formosa,2025,11,,149.37,6,,True
+Formosa,2025,12,,142.399,6,,True
+Jujuy,2019,1,102.778,121.373,6,0.847,False
+Jujuy,2019,2,60.506,91.634,6,0.66,False
+Jujuy,2019,3,76.758,76.347,6,1.005,False
+Jujuy,2019,4,52.432,30.373,6,1.726,False
+Jujuy,2019,5,11.566,3.726,6,3.104,False
+Jujuy,2019,6,3.808,2.954,6,1.289,False
+Jujuy,2019,7,1.583,1.989,6,0.796,False
+Jujuy,2019,8,0.758,1.928,6,0.393,False
+Jujuy,2019,9,1.166,3.993,5,0.292,False
+Jujuy,2019,10,11.291,14.498,5,0.779,False
+Jujuy,2019,11,59.533,26.501,5,2.246,False
+Jujuy,2019,12,48.787,63.072,5,0.774,False
+Jujuy,2020,1,124.127,110.698,6,1.121,False
+Jujuy,2020,2,152.574,78.654,6,1.94,False
+Jujuy,2020,3,44.255,77.972,6,0.568,False
+Jujuy,2020,4,42.31,30.373,6,1.393,False
+Jujuy,2020,5,3.087,6.581,6,0.469,False
+Jujuy,2020,6,3.314,3.061,6,1.083,False
+Jujuy,2020,7,2.566,1.692,6,1.517,False
+Jujuy,2020,8,2.889,1.518,6,1.903,False
+Jujuy,2020,9,3.993,2.804,5,1.424,False
+Jujuy,2020,10,14.498,11.291,5,1.284,False
+Jujuy,2020,11,25.932,35.027,5,0.74,False
+Jujuy,2020,12,50.79,63.072,5,0.805,False
+Jujuy,2021,1,127.799,110.698,6,1.154,False
+Jujuy,2021,2,100.782,78.654,6,1.281,False
+Jujuy,2021,3,131.486,75.132,6,1.75,False
+Jujuy,2021,4,23.365,39.845,6,0.586,False
+Jujuy,2021,5,8.796,3.726,6,2.36,False
+Jujuy,2021,6,3.55,2.954,6,1.202,False
+Jujuy,2021,7,0.858,1.989,6,0.431,False
+Jujuy,2021,8,1.422,1.928,6,0.738,False
+Jujuy,2021,9,7.026,2.804,5,2.506,False
+Jujuy,2021,10,3.743,14.498,5,0.258,False
+Jujuy,2021,11,26.501,35.027,5,0.757,False
+Jujuy,2021,12,81.154,50.79,5,1.598,False
+Jujuy,2022,1,152.716,110.698,6,1.38,False
+Jujuy,2022,2,74.824,91.634,6,0.817,False
+Jujuy,2022,3,73.507,77.972,6,0.943,False
+Jujuy,2022,4,20.033,39.845,6,0.503,False
+Jujuy,2022,5,2.624,6.581,6,0.399,False
+Jujuy,2022,6,0.89,3.421,6,0.26,False
+Jujuy,2022,7,1.801,1.88,6,0.958,False
+Jujuy,2022,8,1.615,1.831,6,0.882,False
+Jujuy,2022,9,6.583,2.804,5,2.348,False
+Jujuy,2022,10,1.631,14.498,5,0.113,False
+Jujuy,2022,11,9.829,35.027,5,0.281,False
+Jujuy,2022,12,63.072,50.79,5,1.242,False
+Jujuy,2023,1,84.683,121.373,6,0.698,False
+Jujuy,2023,2,65.907,91.634,6,0.719,False
+Jujuy,2023,3,66.77,77.972,6,0.856,False
+Jujuy,2023,4,46.62,30.373,6,1.535,False
+Jujuy,2023,5,2.996,6.581,6,0.455,False
+Jujuy,2023,6,1.507,3.421,6,0.441,False
+Jujuy,2023,7,2.177,1.692,6,1.287,False
+Jujuy,2023,8,0.869,1.928,6,0.451,False
+Jujuy,2023,9,2.804,3.993,5,0.702,False
+Jujuy,2023,10,19.869,11.291,5,1.76,False
+Jujuy,2023,11,35.027,26.501,5,1.322,False
+Jujuy,2023,12,127.157,50.79,5,2.504,False
+Jujuy,2024,1,84.147,121.373,6,0.693,False
+Jujuy,2024,2,142.977,78.654,6,1.818,False
+Jujuy,2024,3,79.186,75.132,6,1.054,False
+Jujuy,2024,4,37.381,32.838,6,1.138,False
+Jujuy,2024,5,4.366,5.941,6,0.735,False
+Jujuy,2024,6,2.593,3.421,6,0.758,False
+Jujuy,2024,7,0.37,1.989,6,0.186,False
+Jujuy,2024,8,2.241,1.518,6,1.476,False
+Jujuy,2024,9,2.011,3.993,5,0.504,False
+Jujuy,2024,10,50.33,11.291,5,4.458,False
+Jujuy,2024,11,119.338,26.501,5,4.503,False
+Jujuy,2024,12,27.001,63.072,5,0.428,False
+Jujuy,2025,1,118.619,113.453,6,1.046,False
+Jujuy,2025,2,82.485,87.803,6,0.939,False
+Jujuy,2025,3,109.891,75.132,6,1.463,False
+Jujuy,2025,4,22.519,39.845,6,0.565,False
+Jujuy,2025,5,19.418,3.726,6,5.211,False
+Jujuy,2025,6,3.528,2.954,6,1.194,False
+Jujuy,2025,7,2.659,1.692,6,1.572,False
+Jujuy,2025,8,4.539,1.518,6,2.989,False
+Jujuy,2025,9,,3.399,6,,True
+Jujuy,2025,10,,12.894,6,,True
+Jujuy,2025,11,,30.764,6,,True
+Jujuy,2025,12,,56.931,6,,True
+La Pampa,2019,1,74.562,67.836,6,1.099,False
+La Pampa,2019,2,17.893,69.237,6,0.258,False
+La Pampa,2019,3,44.578,68.015,6,0.655,False
+La Pampa,2019,4,15.069,53.762,6,0.28,False
+La Pampa,2019,5,55.291,12.778,6,4.327,False
+La Pampa,2019,6,25.446,14.024,6,1.815,False
+La Pampa,2019,7,3.3,13.776,6,0.24,False
+La Pampa,2019,8,4.746,19.943,6,0.238,False
+La Pampa,2019,9,13.706,30.184,5,0.454,False
+La Pampa,2019,10,23.731,50.631,5,0.469,False
+La Pampa,2019,11,59.328,80.042,5,0.741,False
+La Pampa,2019,12,46.755,45.829,5,1.02,False
+La Pampa,2020,1,72.21,69.012,6,1.046,False
+La Pampa,2020,2,55.904,56.436,6,0.991,False
+La Pampa,2020,3,79.693,64.053,6,1.244,False
+La Pampa,2020,4,52.11,49.57,6,1.051,False
+La Pampa,2020,5,14.09,13.383,6,1.053,False
+La Pampa,2020,6,26.099,14.024,6,1.861,False
+La Pampa,2020,7,41.703,5.516,6,7.561,False
+La Pampa,2020,8,6.654,19.943,6,0.334,False
+La Pampa,2020,9,59.096,19.879,5,2.973,False
+La Pampa,2020,10,23.008,50.631,5,0.454,False
+La Pampa,2020,11,55.509,80.042,5,0.694,False
+La Pampa,2020,12,45.194,46.755,5,0.967,False
+La Pampa,2021,1,108.95,67.836,6,1.606,False
+La Pampa,2021,2,30.3,69.237,6,0.438,False
+La Pampa,2021,3,70.953,64.053,6,1.108,False
+La Pampa,2021,4,172.085,47.918,6,3.591,False
+La Pampa,2021,5,40.328,12.778,6,3.156,False
+La Pampa,2021,6,14.753,19.37,6,0.762,False
+La Pampa,2021,7,1.846,13.776,6,0.134,False
+La Pampa,2021,8,18.837,19.363,6,0.973,False
+La Pampa,2021,9,61.551,19.879,5,3.096,False
+La Pampa,2021,10,36.063,50.631,5,0.712,False
+La Pampa,2021,11,80.042,59.887,5,1.337,False
+La Pampa,2021,12,127.6,45.829,5,2.784,False
+La Pampa,2022,1,63.462,73.386,6,0.865,False
+La Pampa,2022,2,90.857,43.102,6,2.108,False
+La Pampa,2022,3,52.542,68.015,6,0.773,False
+La Pampa,2022,4,55.414,47.918,6,1.156,False
+La Pampa,2022,5,7.349,14.695,6,0.5,False
+La Pampa,2022,6,3.481,20.1,6,0.173,False
+La Pampa,2022,7,31.907,5.516,6,5.785,False
+La Pampa,2022,8,21.05,18.257,6,1.153,False
+La Pampa,2022,9,30.184,19.879,5,1.518,False
+La Pampa,2022,10,54.718,36.063,5,1.517,False
+La Pampa,2022,11,98.607,59.887,5,1.647,False
+La Pampa,2022,12,45.829,46.755,5,0.98,False
+La Pampa,2023,1,85.148,67.836,6,1.255,False
+La Pampa,2023,2,8.507,69.237,6,0.123,False
+La Pampa,2023,3,63.028,68.015,6,0.927,False
+La Pampa,2023,4,28.292,53.762,6,0.526,False
+La Pampa,2023,5,15.3,12.778,6,1.197,False
+La Pampa,2023,6,34.283,14.024,6,2.445,False
+La Pampa,2023,7,19.821,5.516,6,3.594,False
+La Pampa,2023,8,36.048,18.257,6,1.975,False
+La Pampa,2023,9,19.879,30.184,5,0.659,False
+La Pampa,2023,10,50.631,36.063,5,1.404,False
+La Pampa,2023,11,59.887,80.042,5,0.748,False
+La Pampa,2023,12,116.041,45.829,5,2.532,False
+La Pampa,2024,1,41.755,73.386,6,0.569,False
+La Pampa,2024,2,82.571,43.102,6,1.916,False
+La Pampa,2024,3,65.077,66.991,6,0.971,False
+La Pampa,2024,4,78.953,47.918,6,1.648,False
+La Pampa,2024,5,9.537,14.695,6,0.649,False
+La Pampa,2024,6,13.294,20.1,6,0.661,False
+La Pampa,2024,7,0.83,13.776,6,0.06,False
+La Pampa,2024,8,17.676,19.943,6,0.886,False
+La Pampa,2024,9,17.378,30.184,5,0.576,False
+La Pampa,2024,10,61.399,36.063,5,1.703,False
+La Pampa,2024,11,85.934,59.887,5,1.435,False
+La Pampa,2024,12,32.677,46.755,5,0.699,False
+La Pampa,2025,1,61.174,73.386,6,0.834,False
+La Pampa,2025,2,87.455,43.102,6,2.029,False
+La Pampa,2025,3,171.345,64.053,6,2.675,False
+La Pampa,2025,4,43.727,53.762,6,0.813,False
+La Pampa,2025,5,11.465,14.695,6,0.78,False
+La Pampa,2025,6,3.179,20.1,6,0.158,False
+La Pampa,2025,7,7.731,11.561,6,0.669,False
+La Pampa,2025,8,37.435,18.257,6,2.05,False
+La Pampa,2025,9,,25.032,6,,True
+La Pampa,2025,10,,43.347,6,,True
+La Pampa,2025,11,,69.964,6,,True
+La Pampa,2025,12,,46.292,6,,True
+La Rioja,2019,1,119.191,69.345,6,1.719,False
+La Rioja,2019,2,24.876,60.119,6,0.414,False
+La Rioja,2019,3,81.496,39.301,6,2.074,False
+La Rioja,2019,4,32.785,13.027,6,2.517,False
+La Rioja,2019,5,9.343,4.083,6,2.288,False
+La Rioja,2019,6,2.026,1.75,6,1.158,False
+La Rioja,2019,7,1.54,4.354,6,0.354,False
+La Rioja,2019,8,1.044,2.297,6,0.454,False
+La Rioja,2019,9,13.451,0.917,5,14.668,False
+La Rioja,2019,10,23.687,6.308,5,3.755,False
+La Rioja,2019,11,31.117,21.645,5,1.438,False
+La Rioja,2019,12,49.694,45.739,5,1.086,False
+La Rioja,2020,1,49.734,76.81,6,0.647,False
+La Rioja,2020,2,57.29,59.715,6,0.959,False
+La Rioja,2020,3,25.779,57.847,6,0.446,False
+La Rioja,2020,4,8.46,18.265,6,0.463,False
+La Rioja,2020,5,1.934,5.539,6,0.349,False
+La Rioja,2020,6,3.724,1.589,6,2.344,False
+La Rioja,2020,7,3.218,3.857,6,0.834,False
+La Rioja,2020,8,1.181,2.297,6,0.514,False
+La Rioja,2020,9,0.374,4.42,5,0.085,False
+La Rioja,2020,10,6.308,18.387,5,0.343,False
+La Rioja,2020,11,34.647,21.645,5,1.601,False
+La Rioja,2020,12,40.903,48.571,5,0.842,False
+La Rioja,2021,1,74.923,71.232,6,1.052,False
+La Rioja,2021,2,64.514,56.886,6,1.134,False
+La Rioja,2021,3,75.575,39.301,6,1.923,False
+La Rioja,2021,4,14.891,16.402,6,0.908,False
+La Rioja,2021,5,6.835,4.083,6,1.674,False
+La Rioja,2021,6,7.907,1.589,6,4.976,False
+La Rioja,2021,7,0.938,4.354,6,0.215,False
+La Rioja,2021,8,0.855,2.297,6,0.372,False
+La Rioja,2021,9,4.42,0.917,5,4.82,False
+La Rioja,2021,10,18.387,6.308,5,2.915,False
+La Rioja,2021,11,21.645,23.903,5,0.906,False
+La Rioja,2021,12,48.571,45.739,5,1.062,False
+La Rioja,2022,1,100.708,69.345,6,1.452,False
+La Rioja,2022,2,62.947,56.886,6,1.107,False
+La Rioja,2022,3,32.467,57.847,6,0.561,False
+La Rioja,2022,4,11.164,18.265,6,0.611,False
+La Rioja,2022,5,2.995,5.539,6,0.541,False
+La Rioja,2022,6,1.105,2.187,6,0.505,False
+La Rioja,2022,7,5.49,2.721,6,2.018,False
+La Rioja,2022,8,2.693,1.542,6,1.747,False
+La Rioja,2022,9,22.402,0.917,5,24.428,False
+La Rioja,2022,10,3.665,18.387,5,0.199,False
+La Rioja,2022,11,23.903,21.645,5,1.104,False
+La Rioja,2022,12,78.059,45.739,5,1.707,False
+La Rioja,2023,1,63.766,76.81,6,0.83,False
+La Rioja,2023,2,50.488,60.119,6,0.84,False
+La Rioja,2023,3,46.136,51.012,6,0.904,False
+La Rioja,2023,4,25.982,13.027,6,1.994,False
+La Rioja,2023,5,5.908,4.083,6,1.447,False
+La Rioja,2023,6,1.152,2.187,6,0.527,False
+La Rioja,2023,7,6.522,2.721,6,2.397,False
+La Rioja,2023,8,1.902,1.937,6,0.982,False
+La Rioja,2023,9,0.917,4.42,5,0.207,False
+La Rioja,2023,10,5.48,18.387,5,0.298,False
+La Rioja,2023,11,16.161,23.903,5,0.676,False
+La Rioja,2023,12,45.739,48.571,5,0.942,False
+La Rioja,2024,1,26.704,76.81,6,0.348,False
+La Rioja,2024,2,56.482,60.119,6,0.94,False
+La Rioja,2024,3,25.321,57.847,6,0.438,False
+La Rioja,2024,4,21.64,13.027,6,1.661,False
+La Rioja,2024,5,2.396,5.539,6,0.433,False
+La Rioja,2024,6,2.347,1.589,6,1.477,False
+La Rioja,2024,7,2.224,4.354,6,0.511,False
+La Rioja,2024,8,4.772,1.542,6,3.096,False
+La Rioja,2024,9,0.25,4.42,5,0.057,False
+La Rioja,2024,10,71.646,6.308,5,11.357,False
+La Rioja,2024,11,20.509,23.903,5,0.858,False
+La Rioja,2024,12,34.607,48.571,5,0.713,False
+La Rioja,2025,1,78.698,69.345,6,1.135,False
+La Rioja,2025,2,65.546,56.886,6,1.152,False
+La Rioja,2025,3,69.558,39.301,6,1.77,False
+La Rioja,2025,4,5.752,18.265,6,0.315,False
+La Rioja,2025,5,5.171,4.451,6,1.162,False
+La Rioja,2025,6,0.782,2.187,6,0.357,False
+La Rioja,2025,7,7.096,2.721,6,2.608,False
+La Rioja,2025,8,17.5,1.542,6,11.351,False
+La Rioja,2025,9,,2.669,6,,True
+La Rioja,2025,10,,12.348,6,,True
+La Rioja,2025,11,,22.774,6,,True
+La Rioja,2025,12,,47.155,6,,True
+Mendoza,2019,1,34.062,44.61,6,0.764,False
+Mendoza,2019,2,15.236,37.838,6,0.403,False
+Mendoza,2019,3,28.394,28.854,6,0.984,False
+Mendoza,2019,4,14.565,15.286,6,0.953,False
+Mendoza,2019,5,31.081,15.801,6,1.967,False
+Mendoza,2019,6,19.509,21.184,6,0.921,False
+Mendoza,2019,7,8.762,15.674,6,0.559,False
+Mendoza,2019,8,7.708,19.638,6,0.392,False
+Mendoza,2019,9,9.0,11.598,5,0.776,False
+Mendoza,2019,10,10.946,22.442,5,0.488,False
+Mendoza,2019,11,34.944,26.14,5,1.337,False
+Mendoza,2019,12,15.472,33.492,5,0.462,False
+Mendoza,2020,1,30.358,44.61,6,0.681,False
+Mendoza,2020,2,31.498,34.756,6,0.906,False
+Mendoza,2020,3,20.283,32.909,6,0.616,False
+Mendoza,2020,4,12.999,15.331,6,0.848,False
+Mendoza,2020,5,17.325,19.913,6,0.87,False
+Mendoza,2020,6,30.532,18.28,6,1.67,False
+Mendoza,2020,7,39.797,12.874,6,3.091,False
+Mendoza,2020,8,12.085,19.638,6,0.615,False
+Mendoza,2020,9,8.682,11.598,5,0.749,False
+Mendoza,2020,10,10.468,22.442,5,0.466,False
+Mendoza,2020,11,46.506,26.14,5,1.779,False
+Mendoza,2020,12,33.492,27.388,5,1.223,False
+Mendoza,2021,1,90.052,39.877,6,2.258,False
+Mendoza,2021,2,62.039,28.416,6,2.183,False
+Mendoza,2021,3,54.552,24.338,6,2.241,False
+Mendoza,2021,4,46.653,14.52,6,3.213,False
+Mendoza,2021,5,25.549,15.801,6,1.617,False
+Mendoza,2021,6,17.052,22.412,6,0.761,False
+Mendoza,2021,7,11.148,15.674,6,0.711,False
+Mendoza,2021,8,15.668,19.638,6,0.798,False
+Mendoza,2021,9,21.297,9.0,5,2.366,False
+Mendoza,2021,10,9.004,22.442,5,0.401,False
+Mendoza,2021,11,26.14,34.944,5,0.748,False
+Mendoza,2021,12,60.345,27.388,5,2.203,False
+Mendoza,2022,1,45.908,39.877,6,1.151,False
+Mendoza,2022,2,49.95,28.416,6,1.758,False
+Mendoza,2022,3,8.547,32.909,6,0.26,False
+Mendoza,2022,4,16.096,14.52,6,1.109,False
+Mendoza,2022,5,7.325,21.437,6,0.342,False
+Mendoza,2022,6,10.554,22.412,6,0.471,False
+Mendoza,2022,7,21.613,12.874,6,1.679,False
+Mendoza,2022,8,15.903,19.52,6,0.815,False
+Mendoza,2022,9,11.598,9.0,5,1.289,False
+Mendoza,2022,10,26.58,10.946,5,2.428,False
+Mendoza,2022,11,39.043,26.14,5,1.494,False
+Mendoza,2022,12,34.252,27.388,5,1.251,False
+Mendoza,2023,1,43.312,41.175,6,1.052,False
+Mendoza,2023,2,9.123,37.838,6,0.241,False
+Mendoza,2023,3,44.981,24.338,6,1.848,False
+Mendoza,2023,4,14.475,15.331,6,0.944,False
+Mendoza,2023,5,14.278,21.437,6,0.666,False
+Mendoza,2023,6,25.315,18.28,6,1.385,False
+Mendoza,2023,7,16.746,12.874,6,1.301,False
+Mendoza,2023,8,47.414,15.786,6,3.004,False
+Mendoza,2023,9,18.564,9.0,5,2.063,False
+Mendoza,2023,10,22.442,10.946,5,2.05,False
+Mendoza,2023,11,24.136,34.944,5,0.691,False
+Mendoza,2023,12,27.388,33.492,5,0.818,False
+Mendoza,2024,1,36.442,44.61,6,0.817,False
+Mendoza,2024,2,44.179,28.416,6,1.555,False
+Mendoza,2024,3,15.577,32.909,6,0.473,False
+Mendoza,2024,4,32.564,14.52,6,2.243,False
+Mendoza,2024,5,25.635,15.801,6,1.622,False
+Mendoza,2024,6,26.375,18.28,6,1.443,False
+Mendoza,2024,7,9.055,15.674,6,0.578,False
+Mendoza,2024,8,23.373,15.786,6,1.481,False
+Mendoza,2024,9,5.253,11.598,5,0.453,False
+Mendoza,2024,10,68.247,10.946,5,6.235,False
+Mendoza,2024,11,13.158,34.944,5,0.377,False
+Mendoza,2024,12,19.728,33.492,5,0.589,False
+Mendoza,2025,1,57.549,39.877,6,1.443,False
+Mendoza,2025,2,25.333,37.838,6,0.67,False
+Mendoza,2025,3,37.424,24.338,6,1.538,False
+Mendoza,2025,4,8.707,15.331,6,0.568,False
+Mendoza,2025,5,13.852,21.437,6,0.646,False
+Mendoza,2025,6,12.754,22.412,6,0.569,False
+Mendoza,2025,7,14.601,13.947,6,1.047,False
+Mendoza,2025,8,66.79,15.786,6,4.231,False
+Mendoza,2025,9,,10.299,6,,True
+Mendoza,2025,10,,16.694,6,,True
+Mendoza,2025,11,,30.542,6,,True
+Mendoza,2025,12,,30.44,6,,True
+Misiones,2019,1,140.93,119.854,6,1.176,False
+Misiones,2019,2,190.773,111.317,6,1.714,False
+Misiones,2019,3,224.677,138.92,6,1.617,False
+Misiones,2019,4,285.159,102.878,6,2.772,False
+Misiones,2019,5,323.116,176.972,6,1.826,False
+Misiones,2019,6,47.263,152.034,6,0.311,False
+Misiones,2019,7,110.916,105.984,6,1.047,False
+Misiones,2019,8,73.912,110.532,6,0.669,False
+Misiones,2019,9,45.663,128.43,5,0.356,False
+Misiones,2019,10,187.802,243.786,5,0.77,False
+Misiones,2019,11,234.106,118.673,5,1.973,False
+Misiones,2019,12,153.224,179.589,5,0.853,False
+Misiones,2020,1,275.427,119.854,6,2.298,False
+Misiones,2020,2,168.943,111.317,6,1.518,False
+Misiones,2020,3,67.33,141.875,6,0.475,False
+Misiones,2020,4,84.081,203.417,6,0.413,False
+Misiones,2020,5,160.763,219.263,6,0.733,False
+Misiones,2020,6,157.701,118.661,6,1.329,False
+Misiones,2020,7,130.335,105.984,6,1.23,False
+Misiones,2020,8,98.631,110.532,6,0.892,False
+Misiones,2020,9,25.883,128.43,5,0.202,False
+Misiones,2020,10,51.038,243.786,5,0.209,False
+Misiones,2020,11,89.828,182.885,5,0.491,False
+Misiones,2020,12,179.589,153.224,5,1.172,False
+Misiones,2021,1,371.595,119.854,6,3.1,False
+Misiones,2021,2,40.319,142.164,6,0.284,False
+Misiones,2021,3,140.006,140.788,6,0.994,False
+Misiones,2021,4,51.381,203.417,6,0.253,False
+Misiones,2021,5,80.771,219.263,6,0.368,False
+Misiones,2021,6,158.287,118.661,6,1.334,False
+Misiones,2021,7,59.768,109.927,6,0.544,False
+Misiones,2021,8,61.407,110.532,6,0.556,False
+Misiones,2021,9,144.085,111.629,5,1.291,False
+Misiones,2021,10,243.786,187.802,5,1.298,False
+Misiones,2021,11,118.673,182.885,5,0.649,False
+Misiones,2021,12,22.704,179.589,5,0.126,False
+Misiones,2022,1,91.564,138.649,6,0.66,False
+Misiones,2022,2,107.226,142.164,6,0.754,False
+Misiones,2022,3,340.468,138.92,6,2.451,False
+Misiones,2022,4,349.043,102.878,6,3.393,False
+Misiones,2022,5,246.612,176.972,6,1.394,False
+Misiones,2022,6,90.955,152.034,6,0.598,False
+Misiones,2022,7,79.309,109.927,6,0.721,False
+Misiones,2022,8,163.26,103.705,6,1.574,False
+Misiones,2022,9,128.43,111.629,5,1.151,False
+Misiones,2022,10,303.024,187.802,5,1.614,False
+Misiones,2022,11,114.76,182.885,5,0.627,False
+Misiones,2022,12,60.139,179.589,5,0.335,False
+Misiones,2023,1,136.367,122.135,6,1.117,False
+Misiones,2023,2,107.251,142.164,6,0.754,False
+Misiones,2023,3,137.833,141.875,6,0.972,False
+Misiones,2023,4,121.675,184.62,6,0.659,False
+Misiones,2023,5,162.029,219.263,6,0.739,False
+Misiones,2023,6,84.348,152.034,6,0.555,False
+Misiones,2023,7,112.067,105.984,6,1.057,False
+Misiones,2023,8,141.114,103.705,6,1.361,False
+Misiones,2023,9,315.808,111.629,5,2.829,False
+Misiones,2023,10,500.071,187.802,5,2.663,False
+Misiones,2023,11,439.438,118.673,5,3.703,False
+Misiones,2023,12,257.695,153.224,5,1.682,False
+Misiones,2024,1,103.34,138.649,6,0.745,False
+Misiones,2024,2,188.241,111.317,6,1.691,False
+Misiones,2024,3,143.743,138.92,6,1.035,False
+Misiones,2024,4,299.3,102.878,6,2.909,False
+Misiones,2024,5,305.684,176.972,6,1.727,False
+Misiones,2024,6,146.367,124.328,6,1.177,False
+Misiones,2024,7,108.937,106.973,6,1.018,False
+Misiones,2024,8,112.285,103.705,6,1.083,False
+Misiones,2024,9,111.629,128.43,5,0.869,False
+Misiones,2024,10,148.65,243.786,5,0.61,False
+Misiones,2024,11,182.885,118.673,5,1.541,False
+Misiones,2024,12,242.576,153.224,5,1.583,False
+Misiones,2025,1,102.194,138.649,6,0.737,False
+Misiones,2025,2,115.384,138.097,6,0.836,False
+Misiones,2025,3,95.803,141.875,6,0.675,False
+Misiones,2025,4,76.956,203.417,6,0.378,False
+Misiones,2025,5,191.915,204.32,6,0.939,False
+Misiones,2025,6,281.889,118.661,6,2.376,False
+Misiones,2025,7,103.03,109.927,6,0.937,False
+Misiones,2025,8,108.779,105.458,6,1.031,False
+Misiones,2025,9,,120.029,6,,True
+Misiones,2025,10,,215.794,6,,True
+Misiones,2025,11,,150.779,6,,True
+Misiones,2025,12,,166.406,6,,True
+Neuquén,2019,1,17.164,16.229,6,1.058,False
+Neuquén,2019,2,7.279,12.277,6,0.593,False
+Neuquén,2019,3,10.0,13.469,6,0.742,False
+Neuquén,2019,4,16.79,26.495,6,0.634,False
+Neuquén,2019,5,64.718,40.046,6,1.616,False
+Neuquén,2019,6,80.448,71.744,6,1.121,False
+Neuquén,2019,7,70.752,60.292,6,1.173,False
+Neuquén,2019,8,38.738,41.638,6,0.93,False
+Neuquén,2019,9,22.715,24.522,5,0.926,False
+Neuquén,2019,10,21.156,18.459,5,1.146,False
+Neuquén,2019,11,12.465,13.789,5,0.904,False
+Neuquén,2019,12,4.904,12.785,5,0.384,False
+Neuquén,2020,1,23.39,14.639,6,1.598,False
+Neuquén,2020,2,12.361,9.736,6,1.27,False
+Neuquén,2020,3,8.741,13.469,6,0.649,False
+Neuquén,2020,4,17.2,26.495,6,0.649,False
+Neuquén,2020,5,51.41,40.046,6,1.284,False
+Neuquén,2020,6,86.88,68.528,6,1.268,False
+Neuquén,2020,7,117.832,55.678,6,2.116,False
+Neuquén,2020,8,34.617,41.638,6,0.831,False
+Neuquén,2020,9,24.522,22.715,5,1.08,False
+Neuquén,2020,10,13.713,21.156,5,0.648,False
+Neuquén,2020,11,13.41,13.789,5,0.972,False
+Neuquén,2020,12,13.919,7.762,5,1.793,False
+Neuquén,2021,1,45.718,14.639,6,3.123,False
+Neuquén,2021,2,12.192,9.82,6,1.242,False
+Neuquén,2021,3,15.055,11.154,6,1.35,False
+Neuquén,2021,4,27.515,25.399,6,1.083,False
+Neuquén,2021,5,48.437,41.532,6,1.166,False
+Neuquén,2021,6,37.868,83.664,6,0.453,False
+Neuquén,2021,7,30.506,75.366,6,0.405,False
+Neuquén,2021,8,41.339,40.337,6,1.025,False
+Neuquén,2021,9,20.345,24.522,5,0.83,False
+Neuquén,2021,10,6.365,21.156,5,0.301,False
+Neuquén,2021,11,5.2,13.789,5,0.377,False
+Neuquén,2021,12,14.461,7.762,5,1.863,False
+Neuquén,2022,1,20.344,14.639,6,1.39,False
+Neuquén,2022,2,39.108,9.736,6,4.017,False
+Neuquén,2022,3,9.606,13.469,6,0.713,False
+Neuquén,2022,4,51.935,25.399,6,2.045,False
+Neuquén,2022,5,31.655,49.924,6,0.634,False
+Neuquén,2022,6,56.608,83.664,6,0.677,False
+Neuquén,2022,7,97.283,55.678,6,1.747,False
+Neuquén,2022,8,49.161,40.038,6,1.228,False
+Neuquén,2022,9,18.373,24.522,5,0.749,False
+Neuquén,2022,10,26.991,18.459,5,1.462,False
+Neuquén,2022,11,22.16,13.41,5,1.652,False
+Neuquén,2022,12,7.762,12.785,5,0.607,False
+Neuquén,2023,1,12.114,18.754,6,0.646,False
+Neuquén,2023,2,2.293,12.277,6,0.187,False
+Neuquén,2023,3,14.631,11.154,6,1.312,False
+Neuquén,2023,4,25.474,26.42,6,0.964,False
+Neuquén,2023,5,29.985,49.924,6,0.601,False
+Neuquén,2023,6,190.941,68.528,6,2.786,False
+Neuquén,2023,7,79.98,55.678,6,1.436,False
+Neuquén,2023,8,92.715,40.038,6,2.316,False
+Neuquén,2023,9,74.06,22.715,5,3.26,False
+Neuquén,2023,10,26.022,18.459,5,1.41,False
+Neuquén,2023,11,21.244,13.41,5,1.584,False
+Neuquén,2023,12,7.41,12.785,5,0.58,False
+Neuquén,2024,1,4.378,18.754,6,0.233,False
+Neuquén,2024,2,18.654,9.736,6,1.916,False
+Neuquén,2024,3,19.704,11.154,6,1.767,False
+Neuquén,2024,4,42.084,25.399,6,1.657,False
+Neuquén,2024,5,51.829,40.046,6,1.294,False
+Neuquén,2024,6,110.506,68.528,6,1.613,False
+Neuquén,2024,7,28.703,75.366,6,0.381,False
+Neuquén,2024,8,33.37,41.638,6,0.801,False
+Neuquén,2024,9,35.622,22.715,5,1.568,False
+Neuquén,2024,10,18.459,21.156,5,0.873,False
+Neuquén,2024,11,13.789,13.41,5,1.028,False
+Neuquén,2024,12,12.785,7.762,5,1.647,False
+Neuquén,2025,1,9.584,18.754,6,0.511,False
+Neuquén,2025,2,3.298,12.277,6,0.269,False
+Neuquén,2025,3,12.308,12.315,6,0.999,False
+Neuquén,2025,4,25.325,26.495,6,0.956,False
+Neuquén,2025,5,31.005,49.924,6,0.621,False
+Neuquén,2025,6,27.672,83.664,6,0.331,False
+Neuquén,2025,7,40.603,75.366,6,0.539,False
+Neuquén,2025,8,41.937,40.038,6,1.047,False
+Neuquén,2025,9,,23.618,6,,True
+Neuquén,2025,10,,19.808,6,,True
+Neuquén,2025,11,,13.6,6,,True
+Neuquén,2025,12,,10.273,6,,True
+Río Negro,2019,1,17.507,25.112,6,0.697,False
+Río Negro,2019,2,8.902,14.593,6,0.61,False
+Río Negro,2019,3,19.091,17.571,6,1.086,False
+Río Negro,2019,4,11.507,41.237,6,0.279,False
+Río Negro,2019,5,33.38,20.721,6,1.611,False
+Río Negro,2019,6,74.856,32.457,6,2.306,False
+Río Negro,2019,7,28.725,32.614,6,0.881,False
+Río Negro,2019,8,22.361,21.853,6,1.023,False
+Río Negro,2019,9,13.667,23.57,5,0.58,False
+Río Negro,2019,10,16.734,16.195,5,1.033,False
+Río Negro,2019,11,17.244,23.295,5,0.74,False
+Río Negro,2019,12,9.846,29.212,5,0.337,False
+Río Negro,2020,1,22.309,23.703,6,0.941,False
+Río Negro,2020,2,12.115,12.987,6,0.933,False
+Río Negro,2020,3,14.551,18.887,6,0.77,False
+Río Negro,2020,4,18.309,41.237,6,0.444,False
+Río Negro,2020,5,58.104,20.721,6,2.804,False
+Río Negro,2020,6,37.02,34.649,6,1.068,False
+Río Negro,2020,7,78.262,27.589,6,2.837,False
+Río Negro,2020,8,14.093,22.757,6,0.619,False
+Río Negro,2020,9,11.618,23.57,5,0.493,False
+Río Negro,2020,10,13.268,16.734,5,0.793,False
+Río Negro,2020,11,23.295,18.779,5,1.24,False
+Río Negro,2020,12,23.511,29.212,5,0.805,False
+Río Negro,2021,1,27.915,20.9,6,1.336,False
+Río Negro,2021,2,7.98,14.593,6,0.547,False
+Río Negro,2021,3,18.683,17.775,6,1.051,False
+Río Negro,2021,4,74.128,29.572,6,2.507,False
+Río Negro,2021,5,35.893,20.721,6,1.732,False
+Río Negro,2021,6,16.133,39.213,6,0.411,False
+Río Negro,2021,7,12.307,33.75,6,0.365,False
+Río Negro,2021,8,24.029,21.458,6,1.12,False
+Río Negro,2021,9,13.561,23.57,5,0.575,False
+Río Negro,2021,10,8.414,16.734,5,0.503,False
+Río Negro,2021,11,38.056,18.779,5,2.027,False
+Río Negro,2021,12,42.748,23.511,5,1.818,False
+Río Negro,2022,1,40.541,20.9,6,1.94,False
+Río Negro,2022,2,62.161,10.509,6,5.915,False
+Río Negro,2022,3,15.997,18.887,6,0.847,False
+Río Negro,2022,4,40.834,29.975,6,1.362,False
+Río Negro,2022,5,14.452,28.715,6,0.503,False
+Río Negro,2022,6,27.893,39.213,6,0.711,False
+Río Negro,2022,7,82.078,27.589,6,2.975,False
+Río Negro,2022,8,20.554,22.757,6,0.903,False
+Río Negro,2022,9,34.157,13.667,5,2.499,False
+Río Negro,2022,10,16.195,16.734,5,0.968,False
+Río Negro,2022,11,41.804,18.779,5,2.226,False
+Río Negro,2022,12,14.391,29.212,5,0.493,False
+Río Negro,2023,1,35.889,20.9,6,1.717,False
+Río Negro,2023,2,8.384,14.593,6,0.574,False
+Río Negro,2023,3,16.459,18.887,6,0.871,False
+Río Negro,2023,4,12.824,41.237,6,0.311,False
+Río Negro,2023,5,13.847,28.715,6,0.482,False
+Río Negro,2023,6,68.804,32.457,6,2.12,False
+Río Negro,2023,7,38.775,27.589,6,1.405,False
+Río Negro,2023,8,40.894,21.458,6,1.906,False
+Río Negro,2023,9,33.528,13.667,5,2.453,False
+Río Negro,2023,10,24.226,16.195,5,1.496,False
+Río Negro,2023,11,16.696,23.295,5,0.717,False
+Río Negro,2023,12,29.212,23.511,5,1.243,False
+Río Negro,2024,1,19.491,25.112,6,0.776,False
+Río Negro,2024,2,28.071,10.509,6,2.671,False
+Río Negro,2024,3,23.564,17.571,6,1.341,False
+Río Negro,2024,4,46.041,29.572,6,1.557,False
+Río Negro,2024,5,24.05,25.386,6,0.947,False
+Río Negro,2024,6,41.405,32.457,6,1.276,False
+Río Negro,2024,7,13.82,33.75,6,0.409,False
+Río Negro,2024,8,23.152,21.458,6,1.079,False
+Río Negro,2024,9,23.57,13.667,5,1.725,False
+Río Negro,2024,10,18.272,16.195,5,1.128,False
+Río Negro,2024,11,18.779,23.295,5,0.806,False
+Río Negro,2024,12,30.568,23.511,5,1.3,False
+Río Negro,2025,1,12.134,25.112,6,0.483,False
+Río Negro,2025,2,17.071,10.509,6,1.624,False
+Río Negro,2025,3,39.419,17.571,6,2.243,False
+Río Negro,2025,4,41.64,29.572,6,1.408,False
+Río Negro,2025,5,17.392,28.715,6,0.606,False
+Río Negro,2025,6,10.196,39.213,6,0.26,False
+Río Negro,2025,7,26.453,33.75,6,0.784,False
+Río Negro,2025,8,17.91,22.757,6,0.787,False
+Río Negro,2025,9,,18.619,6,,True
+Río Negro,2025,10,,16.464,6,,True
+Río Negro,2025,11,,21.037,6,,True
+Río Negro,2025,12,,26.362,6,,True
+Salta,2019,1,101.724,134.232,6,0.758,False
+Salta,2019,2,108.122,104.784,6,1.032,False
+Salta,2019,3,85.893,98.379,6,0.873,False
+Salta,2019,4,84.496,45.578,6,1.854,False
+Salta,2019,5,20.429,8.207,6,2.489,False
+Salta,2019,6,10.226,3.217,6,3.179,False
+Salta,2019,7,9.686,2.546,6,3.805,False
+Salta,2019,8,0.367,1.93,6,0.19,False
+Salta,2019,9,1.236,6.056,5,0.204,False
+Salta,2019,10,22.488,13.998,5,1.606,False
+Salta,2019,11,84.345,58.881,5,1.432,False
+Salta,2019,12,58.965,72.299,5,0.816,False
+Salta,2020,1,146.474,113.874,6,1.286,False
+Salta,2020,2,180.082,104.784,6,1.719,False
+Salta,2020,3,48.001,100.794,6,0.476,False
+Salta,2020,4,56.271,54.542,6,1.032,False
+Salta,2020,5,3.793,9.867,6,0.384,False
+Salta,2020,6,2.931,3.897,6,0.752,False
+Salta,2020,7,2.797,2.751,6,1.017,False
+Salta,2020,8,1.791,1.439,6,1.245,False
+Salta,2020,9,4.714,6.056,5,0.778,False
+Salta,2020,10,19.89,13.998,5,1.421,False
+Salta,2020,11,58.881,65.882,5,0.894,False
+Salta,2020,12,74.69,67.921,5,1.1,False
+Salta,2021,1,155.174,113.874,6,1.363,False
+Salta,2021,2,104.402,106.644,6,0.979,False
+Salta,2021,3,139.564,83.478,6,1.672,False
+Salta,2021,4,26.8,65.234,6,0.411,False
+Salta,2021,5,10.791,8.207,6,1.315,False
+Salta,2021,6,5.247,3.217,6,1.631,False
+Salta,2021,7,1.111,3.002,6,0.37,False
+Salta,2021,8,0.808,1.93,6,0.419,False
+Salta,2021,9,8.975,4.714,5,1.904,False
+Salta,2021,10,13.998,19.89,5,0.704,False
+Salta,2021,11,65.882,58.881,5,1.119,False
+Salta,2021,12,72.299,67.921,5,1.064,False
+Salta,2022,1,147.183,113.874,6,1.293,False
+Salta,2022,2,91.054,106.644,6,0.854,False
+Salta,2022,3,69.006,100.794,6,0.685,False
+Salta,2022,4,34.611,65.234,6,0.531,False
+Salta,2022,5,5.348,9.867,6,0.542,False
+Salta,2022,6,1.936,3.897,6,0.497,False
+Salta,2022,7,2.295,3.002,6,0.765,False
+Salta,2022,8,2.069,1.299,6,1.592,False
+Salta,2022,9,22.941,4.714,5,4.867,False
+Salta,2022,10,8.778,19.89,5,0.441,False
+Salta,2022,11,29.482,65.882,5,0.447,False
+Salta,2022,12,67.921,72.299,5,0.939,False
+Salta,2023,1,105.758,134.232,6,0.788,False
+Salta,2023,2,87.432,106.644,6,0.82,False
+Salta,2023,3,115.695,83.478,6,1.386,False
+Salta,2023,4,74.197,45.578,6,1.628,False
+Salta,2023,5,7.471,9.867,6,0.757,False
+Salta,2023,6,2.702,3.897,6,0.693,False
+Salta,2023,7,3.206,2.546,6,1.259,False
+Salta,2023,8,0.466,1.93,6,0.242,False
+Salta,2023,9,4.588,6.056,5,0.758,False
+Salta,2023,10,13.518,19.89,5,0.68,False
+Salta,2023,11,46.664,65.882,5,0.708,False
+Salta,2023,12,159.701,67.921,5,2.351,False
+Salta,2024,1,86.179,134.232,6,0.642,False
+Salta,2024,2,137.193,104.784,6,1.309,False
+Salta,2024,3,81.063,100.794,6,0.804,False
+Salta,2024,4,78.542,45.578,6,1.723,False
+Salta,2024,5,8.942,9.131,6,0.979,False
+Salta,2024,6,3.502,3.611,6,0.97,False
+Salta,2024,7,0.939,3.002,6,0.313,False
+Salta,2024,8,7.319,1.299,6,5.632,False
+Salta,2024,9,6.056,4.714,5,1.285,False
+Salta,2024,10,89.804,13.998,5,6.415,False
+Salta,2024,11,157.645,58.881,5,2.677,False
+Salta,2024,12,52.133,72.299,5,0.721,False
+Salta,2025,1,121.99,126.116,6,0.967,False
+Salta,2025,2,105.167,106.262,6,0.99,False
+Salta,2025,3,134.225,83.478,6,1.608,False
+Salta,2025,4,34.886,65.234,6,0.535,False
+Salta,2025,5,27.505,8.207,6,3.351,False
+Salta,2025,6,4.291,3.217,6,1.334,False
+Salta,2025,7,5.734,2.546,6,2.252,False
+Salta,2025,8,5.57,1.299,6,4.286,False
+Salta,2025,9,,5.385,6,,True
+Salta,2025,10,,16.944,6,,True
+Salta,2025,11,,62.382,6,,True
+Salta,2025,12,,70.11,6,,True
+San Juan,2019,1,36.468,36.19,6,1.008,False
+San Juan,2019,2,16.382,25.336,6,0.647,False
+San Juan,2019,3,25.246,21.488,6,1.175,False
+San Juan,2019,4,6.974,3.501,6,1.992,False
+San Juan,2019,5,7.846,4.212,6,1.863,False
+San Juan,2019,6,6.814,4.478,6,1.522,False
+San Juan,2019,7,6.207,10.399,6,0.597,False
+San Juan,2019,8,3.84,8.086,6,0.475,False
+San Juan,2019,9,3.978,2.608,5,1.525,False
+San Juan,2019,10,4.232,5.458,5,0.775,False
+San Juan,2019,11,9.435,6.556,5,1.439,False
+San Juan,2019,12,16.92,15.219,5,1.112,False
+San Juan,2020,1,38.003,35.422,6,1.073,False
+San Juan,2020,2,22.289,22.518,6,0.99,False
+San Juan,2020,3,17.049,25.586,6,0.666,False
+San Juan,2020,4,3.473,5.251,6,0.661,False
+San Juan,2020,5,5.319,4.212,6,1.263,False
+San Juan,2020,6,8.894,4.478,6,1.986,False
+San Juan,2020,7,10.746,8.697,6,1.236,False
+San Juan,2020,8,5.817,7.345,6,0.792,False
+San Juan,2020,9,1.255,3.402,5,0.369,False
+San Juan,2020,10,3.097,5.458,5,0.567,False
+San Juan,2020,11,17.111,6.556,5,2.61,False
+San Juan,2020,12,11.09,16.92,5,0.655,False
+San Juan,2021,1,24.052,37.236,6,0.646,False
+San Juan,2021,2,30.16,19.472,6,1.549,False
+San Juan,2021,3,33.392,21.147,6,1.579,False
+San Juan,2021,4,3.529,5.223,6,0.676,False
+San Juan,2021,5,3.23,4.809,6,0.672,False
+San Juan,2021,6,4.674,5.548,6,0.842,False
+San Juan,2021,7,3.428,10.399,6,0.33,False
+San Juan,2021,8,3.054,8.086,6,0.378,False
+San Juan,2021,9,3.402,2.608,5,1.304,False
+San Juan,2021,10,5.458,4.232,5,1.29,False
+San Juan,2021,11,11.79,6.556,5,1.798,False
+San Juan,2021,12,20.266,15.219,5,1.332,False
+San Juan,2022,1,51.6,35.422,6,1.457,False
+San Juan,2022,2,28.383,19.472,6,1.458,False
+San Juan,2022,3,9.272,25.586,6,0.362,False
+San Juan,2022,4,2.522,5.251,6,0.48,False
+San Juan,2022,5,2.109,4.809,6,0.438,False
+San Juan,2022,6,2.65,5.744,6,0.461,False
+San Juan,2022,7,20.691,8.697,6,2.379,False
+San Juan,2022,8,4.335,8.086,6,0.536,False
+San Juan,2022,9,15.129,2.608,5,5.801,False
+San Juan,2022,10,8.973,4.232,5,2.12,False
+San Juan,2022,11,6.556,9.435,5,0.695,False
+San Juan,2022,12,20.623,15.219,5,1.355,False
+San Juan,2023,1,34.376,37.236,6,0.923,False
+San Juan,2023,2,16.654,25.336,6,0.657,False
+San Juan,2023,3,25.927,21.147,6,1.226,False
+San Juan,2023,4,12.175,3.501,6,3.478,False
+San Juan,2023,5,4.3,4.722,6,0.911,False
+San Juan,2023,6,3.814,5.744,6,0.664,False
+San Juan,2023,7,10.052,9.044,6,1.111,False
+San Juan,2023,8,10.356,5.076,6,2.04,False
+San Juan,2023,9,2.608,3.402,5,0.767,False
+San Juan,2023,10,1.523,5.458,5,0.279,False
+San Juan,2023,11,5.065,9.435,5,0.537,False
+San Juan,2023,12,9.626,16.92,5,0.569,False
+San Juan,2024,1,16.643,37.236,6,0.447,False
+San Juan,2024,2,29.167,19.472,6,1.498,False
+San Juan,2024,3,6.48,25.586,6,0.253,False
+San Juan,2024,4,13.94,3.501,6,3.982,False
+San Juan,2024,5,8.56,4.212,6,2.032,False
+San Juan,2024,6,8.83,4.478,6,1.972,False
+San Juan,2024,7,7.342,10.399,6,0.706,False
+San Juan,2024,8,14.558,5.076,6,2.868,False
+San Juan,2024,9,0.612,3.402,5,0.18,False
+San Juan,2024,10,34.182,4.232,5,8.077,False
+San Juan,2024,11,3.156,9.435,5,0.334,False
+San Juan,2024,12,15.219,16.92,5,0.899,False
+San Juan,2025,1,41.686,35.422,6,1.177,False
+San Juan,2025,2,15.959,25.336,6,0.63,False
+San Juan,2025,3,27.289,21.147,6,1.29,False
+San Juan,2025,4,1.983,5.251,6,0.378,False
+San Juan,2025,5,4.125,4.809,6,0.858,False
+San Juan,2025,6,4.282,5.744,6,0.746,False
+San Juan,2025,7,12.258,8.697,6,1.409,False
+San Juan,2025,8,27.9,5.076,6,5.496,False
+San Juan,2025,9,,3.005,6,,True
+San Juan,2025,10,,4.845,6,,True
+San Juan,2025,11,,7.995,6,,True
+San Juan,2025,12,,16.069,6,,True
+San Luis,2019,1,105.491,102.827,6,1.026,False
+San Luis,2019,2,28.81,82.39,6,0.35,False
+San Luis,2019,3,100.994,86.32,6,1.17,False
+San Luis,2019,4,39.971,31.562,6,1.266,False
+San Luis,2019,5,28.659,10.639,6,2.694,False
+San Luis,2019,6,13.894,4.727,6,2.939,False
+San Luis,2019,7,0.232,8.377,6,0.028,False
+San Luis,2019,8,0.87,12.154,6,0.072,False
+San Luis,2019,9,11.281,13.996,5,0.806,False
+San Luis,2019,10,16.001,46.959,5,0.341,False
+San Luis,2019,11,91.117,79.269,5,1.149,False
+San Luis,2019,12,59.678,89.956,5,0.663,False
+San Luis,2020,1,89.833,104.44,6,0.86,False
+San Luis,2020,2,72.974,82.39,6,0.886,False
+San Luis,2020,3,79.725,96.954,6,0.822,False
+San Luis,2020,4,30.327,36.384,6,0.834,False
+San Luis,2020,5,2.59,13.939,6,0.186,False
+San Luis,2020,6,6.877,4.727,6,1.455,False
+San Luis,2020,7,13.859,3.551,6,3.902,False
+San Luis,2020,8,1.23,12.154,6,0.101,False
+San Luis,2020,9,13.996,11.281,5,1.241,False
+San Luis,2020,10,23.346,46.959,5,0.497,False
+San Luis,2020,11,105.356,79.269,5,1.329,False
+San Luis,2020,12,80.816,89.956,5,0.898,False
+San Luis,2021,1,170.784,102.827,6,1.661,False
+San Luis,2021,2,77.398,80.177,6,0.965,False
+San Luis,2021,3,92.914,90.36,6,1.028,False
+San Luis,2021,4,45.591,31.562,6,1.444,False
+San Luis,2021,5,20.98,10.639,6,1.972,False
+San Luis,2021,6,14.259,4.727,6,3.016,False
+San Luis,2021,7,1.416,8.377,6,0.169,False
+San Luis,2021,8,3.279,12.154,6,0.27,False
+San Luis,2021,9,55.606,11.281,5,4.929,False
+San Luis,2021,10,52.046,31.815,5,1.636,False
+San Luis,2021,11,79.269,80.689,5,0.982,False
+San Luis,2021,12,110.262,80.816,5,1.364,False
+San Luis,2022,1,90.589,104.44,6,0.867,False
+San Luis,2022,2,87.381,75.186,6,1.162,False
+San Luis,2022,3,41.955,96.954,6,0.433,False
+San Luis,2022,4,15.833,36.384,6,0.435,False
+San Luis,2022,5,2.859,13.939,6,0.205,False
+San Luis,2022,6,1.818,6.01,6,0.302,False
+San Luis,2022,7,5.686,6.242,6,0.911,False
+San Luis,2022,8,15.581,6.003,6,2.596,False
+San Luis,2022,9,20.087,11.281,5,1.781,False
+San Luis,2022,10,31.815,46.959,5,0.678,False
+San Luis,2022,11,80.689,79.269,5,1.018,False
+San Luis,2022,12,89.956,80.816,5,1.113,False
+San Luis,2023,1,103.389,103.878,6,0.995,False
+San Luis,2023,2,51.477,82.39,6,0.625,False
+San Luis,2023,3,107.973,86.32,6,1.251,False
+San Luis,2023,4,32.798,35.149,6,0.933,False
+San Luis,2023,5,10.764,13.814,6,0.779,False
+San Luis,2023,6,3.054,6.01,6,0.508,False
+San Luis,2023,7,11.068,3.551,6,3.116,False
+San Luis,2023,8,8.726,9.43,6,0.925,False
+San Luis,2023,9,2.926,13.996,5,0.209,False
+San Luis,2023,10,46.959,31.815,5,1.476,False
+San Luis,2023,11,63.771,80.689,5,0.79,False
+San Luis,2023,12,96.524,80.816,5,1.194,False
+San Luis,2024,1,131.779,102.827,6,1.282,False
+San Luis,2024,2,107.54,75.186,6,1.43,False
+San Luis,2024,3,37.316,96.954,6,0.385,False
+San Luis,2024,4,42.705,31.562,6,1.353,False
+San Luis,2024,5,17.114,10.639,6,1.609,False
+San Luis,2024,6,4.311,6.01,6,0.717,False
+San Luis,2024,7,1.208,8.377,6,0.144,False
+San Luis,2024,8,16.001,6.003,6,2.666,False
+San Luis,2024,9,1.17,13.996,5,0.084,False
+San Luis,2024,10,110.305,31.815,5,3.467,False
+San Luis,2024,11,73.034,80.689,5,0.905,False
+San Luis,2024,12,68.335,89.956,5,0.76,False
+San Luis,2025,1,102.266,104.44,6,0.979,False
+San Luis,2025,2,92.394,75.186,6,1.229,False
+San Luis,2025,3,120.321,86.32,6,1.394,False
+San Luis,2025,4,30.064,36.384,6,0.826,False
+San Luis,2025,5,10.515,13.939,6,0.754,False
+San Luis,2025,6,5.144,5.594,6,0.919,False
+San Luis,2025,7,15.205,3.551,6,4.282,False
+San Luis,2025,8,59.56,6.003,6,9.922,False
+San Luis,2025,9,,12.638,6,,True
+San Luis,2025,10,,39.387,6,,True
+San Luis,2025,11,,79.979,6,,True
+San Luis,2025,12,,85.386,6,,True
+Santa Cruz,2019,1,20.942,20.823,6,1.006,False
+Santa Cruz,2019,2,23.196,19.89,6,1.166,False
+Santa Cruz,2019,3,24.003,19.899,6,1.206,False
+Santa Cruz,2019,4,36.215,23.855,6,1.518,False
+Santa Cruz,2019,5,21.842,24.785,6,0.881,False
+Santa Cruz,2019,6,23.542,25.903,6,0.909,False
+Santa Cruz,2019,7,27.401,28.428,6,0.964,False
+Santa Cruz,2019,8,12.582,18.991,6,0.663,False
+Santa Cruz,2019,9,13.564,11.964,5,1.134,False
+Santa Cruz,2019,10,6.559,11.773,5,0.557,False
+Santa Cruz,2019,11,24.7,12.452,5,1.984,False
+Santa Cruz,2019,12,25.561,19.514,5,1.31,False
+Santa Cruz,2020,1,28.206,20.575,6,1.371,False
+Santa Cruz,2020,2,19.995,20.047,6,0.997,False
+Santa Cruz,2020,3,13.068,22.129,6,0.591,False
+Santa Cruz,2020,4,10.883,29.299,6,0.371,False
+Santa Cruz,2020,5,27.93,21.741,6,1.285,False
+Santa Cruz,2020,6,28.237,23.555,6,1.199,False
+Santa Cruz,2020,7,49.139,27.781,6,1.769,False
+Santa Cruz,2020,8,15.212,18.991,6,0.801,False
+Santa Cruz,2020,9,7.909,13.564,5,0.583,False
+Santa Cruz,2020,10,9.557,11.773,5,0.812,False
+Santa Cruz,2020,11,17.308,12.452,5,1.39,False
+Santa Cruz,2020,12,18.047,22.019,5,0.82,False
+Santa Cruz,2021,1,16.521,21.19,6,0.78,False
+Santa Cruz,2021,2,13.619,20.152,6,0.676,False
+Santa Cruz,2021,3,20.254,21.774,6,0.93,False
+Santa Cruz,2021,4,23.375,29.299,6,0.798,False
+Santa Cruz,2021,5,21.64,24.886,6,0.87,False
+Santa Cruz,2021,6,16.773,25.903,6,0.648,False
+Santa Cruz,2021,7,21.883,28.428,6,0.77,False
+Santa Cruz,2021,8,20.254,16.469,6,1.23,False
+Santa Cruz,2021,9,10.44,13.564,5,0.77,False
+Santa Cruz,2021,10,16.448,9.557,5,1.721,False
+Santa Cruz,2021,11,10.508,17.308,5,0.607,False
+Santa Cruz,2021,12,22.019,19.514,5,1.128,False
+Santa Cruz,2022,1,21.438,20.575,6,1.042,False
+Santa Cruz,2022,2,20.309,19.89,6,1.021,False
+Santa Cruz,2022,3,19.544,22.129,6,0.883,False
+Santa Cruz,2022,4,42.897,23.855,6,1.798,False
+Santa Cruz,2022,5,18.494,24.886,6,0.743,False
+Santa Cruz,2022,6,10.113,25.903,6,0.39,False
+Santa Cruz,2022,7,21.324,28.428,6,0.75,False
+Santa Cruz,2022,8,12.721,18.991,6,0.67,False
+Santa Cruz,2022,9,24.262,11.964,5,2.028,False
+Santa Cruz,2022,10,13.042,9.557,5,1.365,False
+Santa Cruz,2022,11,7.785,17.308,5,0.45,False
+Santa Cruz,2022,12,19.102,22.019,5,0.868,False
+Santa Cruz,2023,1,22.693,20.575,6,1.103,False
+Santa Cruz,2023,2,8.613,20.152,6,0.427,False
+Santa Cruz,2023,3,13.76,22.129,6,0.622,False
+Santa Cruz,2023,4,18.971,29.299,6,0.647,False
+Santa Cruz,2023,5,16.592,24.886,6,0.667,False
+Santa Cruz,2023,6,36.933,23.555,6,1.568,False
+Santa Cruz,2023,7,28.16,28.049,6,1.004,False
+Santa Cruz,2023,8,27.007,16.469,6,1.64,False
+Santa Cruz,2023,9,24.671,11.964,5,2.062,False
+Santa Cruz,2023,10,11.773,9.557,5,1.232,False
+Santa Cruz,2023,11,12.452,17.308,5,0.719,False
+Santa Cruz,2023,12,19.514,22.019,5,0.886,False
+Santa Cruz,2024,1,9.201,21.19,6,0.434,False
+Santa Cruz,2024,2,19.785,20.152,6,0.982,False
+Santa Cruz,2024,3,29.831,19.899,6,1.499,False
+Santa Cruz,2024,4,24.335,28.82,6,0.844,False
+Santa Cruz,2024,5,36.015,21.741,6,1.657,False
+Santa Cruz,2024,6,85.759,23.555,6,3.641,False
+Santa Cruz,2024,7,28.696,27.781,6,1.033,False
+Santa Cruz,2024,8,31.547,16.469,6,1.916,False
+Santa Cruz,2024,9,11.964,13.564,5,0.882,False
+Santa Cruz,2024,10,6.516,11.773,5,0.553,False
+Santa Cruz,2024,11,22.554,12.452,5,1.811,False
+Santa Cruz,2024,12,30.646,19.514,5,1.571,False
+Santa Cruz,2025,1,20.207,21.19,6,0.954,False
+Santa Cruz,2025,2,23.248,19.89,6,1.169,False
+Santa Cruz,2025,3,32.217,19.899,6,1.619,False
+Santa Cruz,2025,4,34.264,23.855,6,1.436,False
+Santa Cruz,2025,5,32.212,21.741,6,1.482,False
+Santa Cruz,2025,6,23.569,25.889,6,0.91,False
+Santa Cruz,2025,7,33.988,27.781,6,1.223,False
+Santa Cruz,2025,8,17.727,17.733,6,1.0,False
+Santa Cruz,2025,9,,12.764,6,,True
+Santa Cruz,2025,10,,10.665,6,,True
+Santa Cruz,2025,11,,14.88,6,,True
+Santa Cruz,2025,12,,20.767,6,,True
+Santa Fe,2019,1,320.719,114.486,6,2.801,False
+Santa Fe,2019,2,105.791,105.173,6,1.006,False
+Santa Fe,2019,3,169.932,139.634,6,1.217,False
+Santa Fe,2019,4,151.1,78.15,6,1.933,False
+Santa Fe,2019,5,90.47,46.77,6,1.934,False
+Santa Fe,2019,6,33.758,20.644,6,1.635,False
+Santa Fe,2019,7,40.451,14.293,6,2.83,False
+Santa Fe,2019,8,14.891,18.419,6,0.808,False
+Santa Fe,2019,9,35.45,45.787,5,0.774,False
+Santa Fe,2019,10,83.038,66.169,5,1.255,False
+Santa Fe,2019,11,138.489,148.392,5,0.933,False
+Santa Fe,2019,12,174.331,96.589,5,1.805,False
+Santa Fe,2020,1,119.246,136.452,6,0.874,False
+Santa Fe,2020,2,127.782,94.177,6,1.357,False
+Santa Fe,2020,3,105.917,153.247,6,0.691,False
+Santa Fe,2020,4,89.994,108.703,6,0.828,False
+Santa Fe,2020,5,28.981,76.442,6,0.379,False
+Santa Fe,2020,6,33.29,20.644,6,1.613,False
+Santa Fe,2020,7,5.458,17.835,6,0.306,False
+Santa Fe,2020,8,10.839,18.747,6,0.578,False
+Santa Fe,2020,9,45.787,35.45,5,1.292,False
+Santa Fe,2020,10,55.622,83.038,5,0.67,False
+Santa Fe,2020,11,91.465,148.392,5,0.616,False
+Santa Fe,2020,12,109.819,96.589,5,1.137,False
+Santa Fe,2021,1,204.254,114.486,6,1.784,False
+Santa Fe,2021,2,73.102,116.786,6,0.626,False
+Santa Fe,2021,3,136.717,153.247,6,0.892,False
+Santa Fe,2021,4,152.89,78.15,6,1.956,False
+Santa Fe,2021,5,64.56,58.653,6,1.101,False
+Santa Fe,2021,6,34.36,20.644,6,1.664,False
+Santa Fe,2021,7,12.754,17.835,6,0.715,False
+Santa Fe,2021,8,7.639,18.747,6,0.407,False
+Santa Fe,2021,9,49.869,35.45,5,1.407,False
+Santa Fe,2021,10,51.182,83.038,5,0.616,False
+Santa Fe,2021,11,172.186,138.489,5,1.243,False
+Santa Fe,2021,12,30.621,109.819,5,0.279,False
+Santa Fe,2022,1,109.727,141.211,6,0.777,False
+Santa Fe,2022,2,82.563,116.786,6,0.707,False
+Santa Fe,2022,3,203.854,139.634,6,1.46,False
+Santa Fe,2022,4,66.306,120.547,6,0.55,False
+Santa Fe,2022,5,9.807,76.442,6,0.128,False
+Santa Fe,2022,6,7.276,28.871,6,0.252,False
+Santa Fe,2022,7,15.831,16.296,6,0.971,False
+Santa Fe,2022,8,38.117,14.562,6,2.617,False
+Santa Fe,2022,9,28.633,45.787,5,0.625,False
+Santa Fe,2022,10,66.169,83.038,5,0.797,False
+Santa Fe,2022,11,42.614,148.392,5,0.287,False
+Santa Fe,2022,12,58.31,109.819,5,0.531,False
+Santa Fe,2023,1,100.485,141.211,6,0.712,False
+Santa Fe,2023,2,50.53,116.786,6,0.433,False
+Santa Fe,2023,3,102.495,153.247,6,0.669,False
+Santa Fe,2023,4,48.135,120.547,6,0.399,False
+Santa Fe,2023,5,88.325,46.77,6,1.888,False
+Santa Fe,2023,6,16.835,28.871,6,0.583,False
+Santa Fe,2023,7,19.838,14.293,6,1.388,False
+Santa Fe,2023,8,14.234,18.747,6,0.759,False
+Santa Fe,2023,9,54.593,35.45,5,1.54,False
+Santa Fe,2023,10,84.555,66.169,5,1.278,False
+Santa Fe,2023,11,148.392,138.489,5,1.072,False
+Santa Fe,2023,12,247.942,96.589,5,2.567,False
+Santa Fe,2024,1,163.177,114.486,6,1.425,False
+Santa Fe,2024,2,140.959,94.177,6,1.497,False
+Santa Fe,2024,3,163.944,139.634,6,1.174,False
+Santa Fe,2024,4,185.017,78.15,6,2.367,False
+Santa Fe,2024,5,19.646,76.442,6,0.257,False
+Santa Fe,2024,6,7.488,28.871,6,0.259,False
+Santa Fe,2024,7,2.874,17.835,6,0.161,False
+Santa Fe,2024,8,22.604,14.562,6,1.552,False
+Santa Fe,2024,9,13.17,45.787,5,0.288,False
+Santa Fe,2024,10,112.281,66.169,5,1.697,False
+Santa Fe,2024,11,158.106,138.489,5,1.142,False
+Santa Fe,2024,12,96.589,109.819,5,0.88,False
+Santa Fe,2025,1,55.276,141.211,6,0.391,False
+Santa Fe,2025,2,133.252,94.177,6,1.415,False
+Santa Fe,2025,3,142.551,150.331,6,0.948,False
+Santa Fe,2025,4,48.44,120.547,6,0.402,False
+Santa Fe,2025,5,92.989,46.77,6,1.988,False
+Santa Fe,2025,6,24.452,25.063,6,0.976,False
+Santa Fe,2025,7,45.566,14.293,6,3.188,False
+Santa Fe,2025,8,122.891,14.562,6,8.439,False
+Santa Fe,2025,9,,40.618,6,,True
+Santa Fe,2025,10,,74.604,6,,True
+Santa Fe,2025,11,,143.44,6,,True
+Santa Fe,2025,12,,103.204,6,,True
+Santiago del Estero,2019,1,258.785,124.808,6,2.073,False
+Santiago del Estero,2019,2,83.076,95.684,6,0.868,False
+Santiago del Estero,2019,3,143.327,127.83,6,1.121,False
+Santiago del Estero,2019,4,116.79,68.673,6,1.701,False
+Santiago del Estero,2019,5,28.652,11.005,6,2.604,False
+Santiago del Estero,2019,6,6.204,6.969,6,0.89,False
+Santiago del Estero,2019,7,15.732,2.841,6,5.537,False
+Santiago del Estero,2019,8,1.116,4.268,6,0.262,False
+Santiago del Estero,2019,9,14.26,13.72,5,1.039,False
+Santiago del Estero,2019,10,29.379,32.199,5,0.912,False
+Santiago del Estero,2019,11,127.706,100.732,5,1.268,False
+Santiago del Estero,2019,12,65.609,75.252,5,0.872,False
+Santiago del Estero,2020,1,129.881,124.808,6,1.041,False
+Santiago del Estero,2020,2,166.675,85.51,6,1.949,False
+Santiago del Estero,2020,3,96.707,134.303,6,0.72,False
+Santiago del Estero,2020,4,55.765,85.29,6,0.654,False
+Santiago del Estero,2020,5,7.265,21.08,6,0.345,False
+Santiago del Estero,2020,6,8.908,6.357,6,1.401,False
+Santiago del Estero,2020,7,3.031,4.527,6,0.67,False
+Santiago del Estero,2020,8,2.087,4.0,6,0.522,False
+Santiago del Estero,2020,9,8.326,14.26,5,0.584,False
+Santiago del Estero,2020,10,32.199,30.448,5,1.058,False
+Santiago del Estero,2020,11,100.732,127.706,5,0.789,False
+Santiago del Estero,2020,12,88.366,72.796,5,1.214,False
+Santiago del Estero,2021,1,156.084,124.808,6,1.251,False
+Santiago del Estero,2021,2,103.424,85.51,6,1.21,False
+Santiago del Estero,2021,3,138.85,127.83,6,1.086,False
+Santiago del Estero,2021,4,81.58,72.382,6,1.127,False
+Santiago del Estero,2021,5,14.746,17.34,6,0.85,False
+Santiago del Estero,2021,6,4.805,6.969,6,0.689,False
+Santiago del Estero,2021,7,1.506,4.716,6,0.319,False
+Santiago del Estero,2021,8,0.62,4.268,6,0.145,False
+Santiago del Estero,2021,9,13.72,14.26,5,0.962,False
+Santiago del Estero,2021,10,25.754,32.199,5,0.8,False
+Santiago del Estero,2021,11,154.55,100.732,5,1.534,False
+Santiago del Estero,2021,12,69.803,75.252,5,0.928,False
+Santiago del Estero,2022,1,119.374,128.617,6,0.928,False
+Santiago del Estero,2022,2,80.776,95.684,6,0.844,False
+Santiago del Estero,2022,3,129.756,132.377,6,0.98,False
+Santiago del Estero,2022,4,34.248,85.29,6,0.402,False
+Santiago del Estero,2022,5,5.004,21.08,6,0.237,False
+Santiago del Estero,2022,6,6.511,6.816,6,0.955,False
+Santiago del Estero,2022,7,2.349,4.716,6,0.498,False
+Santiago del Estero,2022,8,9.368,1.819,6,5.151,False
+Santiago del Estero,2022,9,29.847,13.72,5,2.175,False
+Santiago del Estero,2022,10,30.448,32.199,5,0.946,False
+Santiago del Estero,2022,11,72.11,127.706,5,0.565,False
+Santiago del Estero,2022,12,75.252,72.796,5,1.034,False
+Santiago del Estero,2023,1,122.263,128.617,6,0.951,False
+Santiago del Estero,2023,2,87.944,93.25,6,0.943,False
+Santiago del Estero,2023,3,125.905,134.303,6,0.937,False
+Santiago del Estero,2023,4,111.872,68.673,6,1.629,False
+Santiago del Estero,2023,5,27.414,11.005,6,2.491,False
+Santiago del Estero,2023,6,7.428,6.357,6,1.168,False
+Santiago del Estero,2023,7,6.402,2.841,6,2.253,False
+Santiago del Estero,2023,8,1.551,4.268,6,0.363,False
+Santiago del Estero,2023,9,18.529,13.72,5,1.35,False
+Santiago del Estero,2023,10,32.852,30.448,5,1.079,False
+Santiago del Estero,2023,11,95.478,127.706,5,0.748,False
+Santiago del Estero,2023,12,163.143,72.796,5,2.241,False
+Santiago del Estero,2024,1,81.984,128.617,6,0.637,False
+Santiago del Estero,2024,2,134.455,85.51,6,1.572,False
+Santiago del Estero,2024,3,100.532,134.303,6,0.749,False
+Santiago del Estero,2024,4,89.0,68.673,6,1.296,False
+Santiago del Estero,2024,5,6.935,21.08,6,0.329,False
+Santiago del Estero,2024,6,2.347,6.969,6,0.337,False
+Santiago del Estero,2024,7,2.651,4.716,6,0.562,False
+Santiago del Estero,2024,8,6.449,1.819,6,3.546,False
+Santiago del Estero,2024,9,10.196,14.26,5,0.715,False
+Santiago del Estero,2024,10,100.767,30.448,5,3.31,False
+Santiago del Estero,2024,11,149.573,100.732,5,1.485,False
+Santiago del Estero,2024,12,72.796,75.252,5,0.967,False
+Santiago del Estero,2025,1,127.353,126.072,6,1.01,False
+Santiago del Estero,2025,2,62.376,95.684,6,0.652,False
+Santiago del Estero,2025,3,152.613,127.83,6,1.194,False
+Santiago del Estero,2025,4,17.769,85.29,6,0.208,False
+Santiago del Estero,2025,5,33.956,11.005,6,3.085,False
+Santiago del Estero,2025,6,10.083,6.357,6,1.586,False
+Santiago del Estero,2025,7,16.738,2.841,6,5.891,False
+Santiago del Estero,2025,8,35.508,1.819,6,19.524,False
+Santiago del Estero,2025,9,,13.99,6,,True
+Santiago del Estero,2025,10,,31.323,6,,True
+Santiago del Estero,2025,11,,114.219,6,,True
+Santiago del Estero,2025,12,,74.024,6,,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,1,86.785,58.722,6,1.478,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,2,65.836,48.355,6,1.362,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,3,59.408,61.452,6,0.967,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,4,86.863,40.146,6,2.164,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,5,60.113,54.372,6,1.106,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,6,46.743,39.676,6,1.178,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,7,59.335,47.957,6,1.237,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,8,64.818,43.118,6,1.503,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,9,43.451,35.791,5,1.214,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,10,51.497,37.032,5,1.391,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,11,60.686,32.55,5,1.864,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,12,56.226,48.613,5,1.157,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,1,94.481,58.722,6,1.609,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,2,41.25,60.24,6,0.685,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,3,36.666,63.017,6,0.582,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,4,36.548,43.901,6,0.833,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,5,83.215,54.372,6,1.53,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,6,38.858,40.728,6,0.954,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,7,38.103,56.292,6,0.677,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,8,49.58,43.118,6,1.15,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,9,35.791,36.373,5,0.984,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,10,37.032,37.322,5,0.992,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,11,28.196,40.002,5,0.705,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,12,54.615,48.613,5,1.123,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,1,77.688,58.722,6,1.323,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,2,36.54,60.24,6,0.607,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,3,35.32,63.017,6,0.56,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,4,46.706,40.146,6,1.163,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,5,59.114,54.872,6,1.077,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,6,40.494,39.911,6,1.015,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,7,67.602,47.957,6,1.41,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,8,43.356,46.23,6,0.938,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,9,36.373,35.791,5,1.016,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,10,37.322,37.032,5,1.008,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,11,32.55,40.002,5,0.814,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,12,28.458,54.615,5,0.521,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,1,60.116,67.508,6,0.891,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,2,29.29,60.24,6,0.486,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,3,66.627,57.842,6,1.152,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,4,41.096,42.95,6,0.957,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,5,49.63,59.613,6,0.833,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,6,38.127,40.728,6,0.936,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,7,38.573,56.292,6,0.685,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,8,50.275,43.118,6,1.166,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,9,26.537,36.373,5,0.73,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,10,34.515,37.322,5,0.925,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,11,15.044,40.002,5,0.376,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,12,48.613,54.615,5,0.89,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,1,26.711,68.902,6,0.388,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,2,55.46,53.135,6,1.044,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,3,56.277,63.017,6,0.893,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,4,39.195,43.901,6,0.893,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,5,34.93,59.613,6,0.586,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,6,46.9,39.676,6,1.182,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,7,42.666,56.292,6,0.758,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,8,35.83,46.468,6,0.771,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,9,26.614,36.373,5,0.732,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,10,27.756,37.322,5,0.744,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,11,40.002,32.55,5,1.229,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,12,42.524,54.615,5,0.779,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,1,57.327,68.902,6,0.832,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,2,65.021,48.355,6,1.345,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,3,74.836,57.842,6,1.294,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,4,93.181,40.146,6,2.321,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,5,78.144,54.372,6,1.437,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,6,35.058,40.728,6,0.861,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,7,53.248,51.0,6,1.044,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,8,42.879,46.468,6,0.923,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,9,44.312,35.791,5,1.238,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,10,40.059,37.032,5,1.082,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,11,44.631,32.55,5,1.371,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,12,64.094,48.613,5,1.318,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,1,54.057,68.902,6,0.785,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,2,78.125,48.355,6,1.616,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,3,67.359,57.842,6,1.165,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,4,37.517,43.901,6,0.855,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,5,49.186,59.613,6,0.825,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,6,40.963,39.676,6,1.032,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,7,72.948,47.957,6,1.521,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,8,25.905,46.468,6,0.557,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,9,,36.082,6,,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,10,,37.177,6,,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,11,,36.276,6,,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,12,,51.614,6,,True
+Tucumán,2019,1,175.679,129.758,6,1.354,False
+Tucumán,2019,2,88.455,113.969,6,0.776,False
+Tucumán,2019,3,105.648,126.119,6,0.838,False
+Tucumán,2019,4,105.084,50.542,6,2.079,False
+Tucumán,2019,5,26.801,16.294,6,1.645,False
+Tucumán,2019,6,9.919,6.785,6,1.462,False
+Tucumán,2019,7,3.004,5.828,6,0.515,False
+Tucumán,2019,8,2.794,2.432,6,1.149,False
+Tucumán,2019,9,7.093,4.845,5,1.464,False
+Tucumán,2019,10,19.213,23.115,5,0.831,False
+Tucumán,2019,11,124.315,76.457,5,1.626,False
+Tucumán,2019,12,48.64,104.561,5,0.465,False
+Tucumán,2020,1,213.131,129.758,6,1.643,False
+Tucumán,2020,2,165.627,97.654,6,1.696,False
+Tucumán,2020,3,77.311,126.119,6,0.613,False
+Tucumán,2020,4,34.433,62.195,6,0.554,False
+Tucumán,2020,5,7.378,17.186,6,0.429,False
+Tucumán,2020,6,6.66,8.414,6,0.792,False
+Tucumán,2020,7,4.741,5.55,6,0.854,False
+Tucumán,2020,8,2.427,2.616,6,0.928,False
+Tucumán,2020,9,1.817,7.093,5,0.256,False
+Tucumán,2020,10,18.906,23.115,5,0.818,False
+Tucumán,2020,11,100.836,76.457,5,1.319,False
+Tucumán,2020,12,114.98,92.947,5,1.237,False
+Tucumán,2021,1,106.799,137.267,6,0.778,False
+Tucumán,2021,2,154.249,97.654,6,1.58,False
+Tucumán,2021,3,130.832,115.626,6,1.132,False
+Tucumán,2021,4,36.539,62.195,6,0.587,False
+Tucumán,2021,5,15.815,17.186,6,0.92,False
+Tucumán,2021,6,10.749,6.785,6,1.584,False
+Tucumán,2021,7,2.475,5.828,6,0.425,False
+Tucumán,2021,8,1.149,2.616,6,0.439,False
+Tucumán,2021,9,4.305,7.093,5,0.607,False
+Tucumán,2021,10,23.115,19.213,5,1.203,False
+Tucumán,2021,11,76.457,94.613,5,0.808,False
+Tucumán,2021,12,92.947,104.561,5,0.889,False
+Tucumán,2022,1,134.196,132.829,6,1.01,False
+Tucumán,2022,2,89.998,113.969,6,0.79,False
+Tucumán,2022,3,144.319,115.626,6,1.248,False
+Tucumán,2022,4,71.413,50.542,6,1.413,False
+Tucumán,2022,5,5.651,17.186,6,0.329,False
+Tucumán,2022,6,4.695,8.414,6,0.558,False
+Tucumán,2022,7,6.916,4.462,6,1.55,False
+Tucumán,2022,8,2.438,2.61,6,0.934,False
+Tucumán,2022,9,28.134,4.845,5,5.806,False
+Tucumán,2022,10,10.4,23.115,5,0.45,False
+Tucumán,2022,11,67.313,94.613,5,0.711,False
+Tucumán,2022,12,104.561,92.947,5,1.125,False
+Tucumán,2023,1,140.337,129.758,6,1.082,False
+Tucumán,2023,2,104.984,106.638,6,0.984,False
+Tucumán,2023,3,109.847,126.119,6,0.871,False
+Tucumán,2023,4,119.783,50.542,6,2.37,False
+Tucumán,2023,5,17.599,16.294,6,1.08,False
+Tucumán,2023,6,6.91,8.29,6,0.834,False
+Tucumán,2023,7,10.428,4.462,6,2.337,False
+Tucumán,2023,8,2.379,2.616,6,0.91,False
+Tucumán,2023,9,4.845,7.093,5,0.683,False
+Tucumán,2023,10,32.912,19.213,5,1.713,False
+Tucumán,2023,11,71.11,94.613,5,0.752,False
+Tucumán,2023,12,167.365,92.947,5,1.801,False
+Tucumán,2024,1,92.706,137.267,6,0.675,False
+Tucumán,2024,2,122.953,97.654,6,1.259,False
+Tucumán,2024,3,121.406,120.339,6,1.009,False
+Tucumán,2024,4,48.107,62.195,6,0.773,False
+Tucumán,2024,5,16.773,16.707,6,1.004,False
+Tucumán,2024,6,12.138,6.785,6,1.789,False
+Tucumán,2024,7,4.184,5.828,6,0.718,False
+Tucumán,2024,8,6.655,2.432,6,2.736,False
+Tucumán,2024,9,9.04,4.845,5,1.866,False
+Tucumán,2024,10,91.077,19.213,5,4.74,False
+Tucumán,2024,11,94.613,76.457,5,1.237,False
+Tucumán,2024,12,49.707,104.561,5,0.475,False
+Tucumán,2025,1,125.32,137.267,6,0.913,False
+Tucumán,2025,2,90.323,113.969,6,0.793,False
+Tucumán,2025,3,137.089,115.626,6,1.186,False
+Tucumán,2025,4,52.978,59.76,6,0.887,False
+Tucumán,2025,5,37.816,16.294,6,2.321,False
+Tucumán,2025,6,5.631,8.414,6,0.669,False
+Tucumán,2025,7,15.22,4.462,6,3.411,False
+Tucumán,2025,8,6.667,2.432,6,2.741,False
+Tucumán,2025,9,,5.969,6,,True
+Tucumán,2025,10,,21.164,6,,True
+Tucumán,2025,11,,85.535,6,,True
+Tucumán,2025,12,,98.754,6,,True

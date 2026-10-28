@@ -1,0 +1,94 @@
+Detecciones serie base: 1.390.126
+
+## HA. ¿El calendario del fuego es el negativo del de la lluvia?
+Spearman entre 12 meses: fuego habitual vs lluvia habitual (mismo mes y mes anterior).
+Negativo = más fuego en meses más secos. n=12, descriptivo.
+
+   region  rho_mismo_mes  rho_mes_anterior  mes_pico_fuego  mes_mas_seco meses_mas_secos  pico_en_3_mas_secos
+     Cuyo          -0.22             -0.62               9             9           5,8,9                 True
+      NEA          -0.29             -0.74               8             7           6,7,8                 True
+      NOA          -0.57             -0.85               8             8           6,7,8                 True
+ Pampeana          -0.13             -0.57               8             6           6,7,8                 True
+Patagonia          -0.68             -0.47              12            10         2,10,12                 True
+
+Provincias con rho < 0 (mismo mes): 21 de 24; rho <= -0,5: 8
+Provincias con pico de fuego en uno de sus 3 meses más secos: 12 de 24
+Ponderado por detecciones habituales: rho medio mismo mes = -0.40, mes anterior = -0.65
+
+Por provincia (ordenado por detecciones habituales):
+                                            provincia  rho_mismo_mes  rho_mes_anterior  mes_pico_fuego  mes_mas_seco meses_mas_secos  pico_en_3_mas_secos  det_habitual_anual
+                                             Santa Fe          -0.48             -0.62               8             8           6,7,8                 True               24145
+                                              Formosa          -0.13             -0.62               9             7           6,7,8                False               19034
+                                           Corrientes          -0.56             -0.71               8             6           6,7,9                False               16797
+                                                Chaco          -0.26             -0.76               8             7           6,7,8                 True               15309
+                                  Santiago del Estero          -0.68             -0.80               8             8           6,7,8                 True               14898
+                                                Salta          -0.34             -0.75              10             8           6,7,8                False                9578
+                                         Buenos Aires          -0.28             -0.62               8             6           6,7,8                 True                5630
+                                           Entre Ríos          -0.38             -0.55               8             6           6,7,8                 True                5585
+                                             Misiones          -0.38             -0.55               8             8           2,7,8                 True                4753
+                                              Tucumán          -0.76             -0.94               8             8           7,8,9                 True                4184
+                                              Córdoba          -0.45             -0.80               9             8           6,7,8                False                3968
+                                             La Pampa           0.31              0.15              12             7           5,6,7                False                2724
+                                            Río Negro          -0.61              0.11               1             2          2,9,10                False                2670
+                                              Neuquén          -0.66             -0.50              12            12          2,3,12                 True                2614
+                                             San Luis           0.16             -0.43              10             6           6,7,8                False                2454
+                                              Mendoza          -0.38             -0.50               9             9           4,7,9                 True                2314
+                                             San Juan          -0.38             -0.44               9             9           4,5,9                 True                1213
+                                            Catamarca          -0.62             -0.91              10             8           7,8,9                False                1131
+                                                Jujuy          -0.63             -0.85              10             8           6,7,8                False                1128
+                                             La Rioja          -0.45             -0.82              11             8           6,8,9                False                1043
+                                               Chubut          -0.98             -0.64               2             2          1,2,10                 True                 571
+                                           Santa Cruz          -0.09             -0.23               1            10         9,10,11                False                 228
+Tierra del Fuego, Antártida e Islas del Atlántico Sur          -0.18             -0.23               9             9         9,10,11                 True                  36
+                      Ciudad Autónoma de Buenos Aires           0.26             -0.13               2             6           6,8,9                False                   2
+
+## HB. ¿Llovió menos de lo habitual donde y cuando se excedió el fuego?
+Exceso = detecciones por encima de lo habitual (solo provincia-meses con exceso > 0).
+'Seco' = lluvia por debajo de su habitual (ratio < 1). Por construcción (mediana),
+alrededor de la mitad de los provincia-meses son 'secos': esa es la línea de base.
+
+anios                                     2020    2022  control 2019/21/23/24
+exceso_total                            262460  148117                 160503
+pct_exceso_en_seco_mismo_mes              84.4    81.5                   76.1
+pct_provmes_seco_base_mismo_mes           61.1    59.4                   47.3
+ratio_lluvia_ponderado_mismo_mes          0.58    0.65                    0.5
+pct_exceso_en_seco_3_meses_previos        84.0    71.3                   52.9
+pct_provmes_seco_base_3_meses_previos     61.5    55.6                   47.4
+ratio_lluvia_ponderado_3_meses_previos    0.72    0.79                   0.91
+
+(ratio_lluvia_ponderado = media geométrica de lluvia/habitual pesada por el exceso; 1 = lo habitual)
+
+Top 12 provincia-meses por exceso en 2020:
+ provincia  mes   det  det_habitual  exceso    mm  habitual_mm  ratio_lluvia_mes  ratio_3prev
+   Formosa    8 18954        4042.5 14911.5  6.13        20.52              0.30         0.52
+  Santa Fe    8 20927        6115.5 14811.5 10.84        18.75              0.58         0.57
+Entre Ríos    8 14416        1034.5 13381.5 26.83        51.01              0.53         0.61
+   Formosa   10 14221        2493.5 11727.5 70.34       109.56              0.64         0.53
+Corrientes    8 13348        3667.0  9681.0 25.57        68.08              0.38         1.02
+  Santa Fe    7 11613        2633.0  8980.0  5.46        17.84              0.31         0.81
+  Santa Fe    9 12615        4542.0  8073.0 45.79        35.45              1.29         0.86
+     Chaco    8 12067        4211.0  7856.0  1.90        16.90              0.11         0.61
+   Formosa    3  8682        1074.5  7607.5 80.68       158.12              0.51         0.91
+   Formosa    9 11728        5016.0  6712.0 20.79        28.28              0.74         0.72
+     Chaco    9  9851        3439.0  6412.0 12.50        36.38              0.34         0.52
+Entre Ríos    7  6728         571.0  6157.0  9.58        43.37              0.22         0.98
+  Esos 10 primeros concentran el 40% del exceso positivo de 2020.
+
+Top 12 provincia-meses por exceso en 2022:
+ provincia  mes   det  det_habitual  exceso     mm  habitual_mm  ratio_lluvia_mes  ratio_3prev
+Corrientes    2 21083        1137.0 19946.0  78.26        99.81              0.78         0.50
+     Salta   11 20881        1093.0 19788.0  29.48        65.88              0.45         1.40
+   Formosa    1 17091        1090.0 16001.0  44.66       109.04              0.41         0.72
+Corrientes    1 12444         459.0 11985.0  31.74       170.57              0.19         0.60
+Entre Ríos    8  7502        1034.5  6467.5  61.70        33.68              1.83         0.38
+  Santa Fe    1  5764         906.5  4857.5 109.73       141.21              0.78         0.69
+     Salta    9  5959        1841.5  4117.5  22.94         4.71              4.87         0.65
+     Salta   10  5940        2761.5  3178.5   8.78        19.89              0.44         2.51
+  Santa Fe    2  3470         957.0  2513.0  82.56       116.79              0.71         0.77
+  Santa Fe    9  6986        4542.0  2444.0  28.63        45.79              0.62         1.16
+Entre Ríos    9  3060         822.0  2238.0  42.63        68.21              0.62         0.89
+     Chaco    1  2503         433.5  2069.5  64.26       119.44              0.54         1.04
+  Esos 10 primeros concentran el 62% del exceso positivo de 2022.
+
+Relación general (todos los provincia-meses 2019–2024 con detecciones habituales >= 50):
+  n = 1218; Spearman(fuego/habitual, lluvia mismo mes/habitual) = -0.37; con lluvia 3 meses previos = -0.25

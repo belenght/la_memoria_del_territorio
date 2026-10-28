@@ -1,0 +1,25 @@
+provincia,detecciones,eventos,det_por_evento,rank_det,rank_ev
+Santa Fe,229750,39254,5.85,1,1
+Formosa,219419,24586,8.92,2,4
+Corrientes,175951,27927,6.3,3,2
+Chaco,141940,27300,5.2,4,3
+Santiago del Estero,118915,23500,5.06,5,5
+Salta,95025,10664,8.91,6,9
+Entre Ríos,90661,13308,6.81,7,7
+Buenos Aires,43771,15514,2.82,8,6
+Córdoba,37652,6013,6.26,9,10
+Misiones,37572,11435,3.29,10,8
+Tucumán,30673,5219,5.88,11,14
+San Luis,29019,2409,12.05,12,17
+Neuquén,23009,5547,4.15,13,12
+La Pampa,22714,3388,6.7,14,15
+Río Negro,21543,5278,4.08,15,13
+Mendoza,18112,5842,3.1,16,11
+Jujuy,13363,2337,5.72,17,19
+La Rioja,11475,2293,5.0,18,20
+San Juan,9009,3237,2.78,19,16
+Catamarca,8903,2370,3.76,20,18
+Chubut,7709,717,10.75,21,22
+Santa Cruz,2039,789,2.58,22,21
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",1871,222,8.43,23,23
+Ciudad Autónoma de Buenos Aires,31,22,1.41,24,24

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>El calendario del fuego</title>
+  <meta name="description" content="Cuándo arde cada región de Argentina y qué pasa cuando un año rompe ese calendario: detecciones satelitales de calor y lluvia, 2019–2025.">
+  <meta name="theme-color" content="#070b12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+</head>
+<body>
+  <div id="mapa" role="img" aria-label="Mapa 3D de Argentina con columnas que representan detecciones satelitales de calor por celda y mes"></div>
+  <div class="aviso" id="aviso"><span class="cargando" id="aviso-texto">Preparando los datos…</span></div>
+
+  <div class="capa">
+    <header class="cabecera">
+      <h1 class="titulo">El calendario <em id="titulo-em">del fuego</em></h1>
+      <p class="bajada" id="bajada">Argentina · detecciones satelitales de calor · 2019–2025</p>
+      <div class="segmento cambio" role="group" aria-label="Qué calendario mostrar">
+        <button class="chip" type="button" data-cal="fuego" aria-pressed="true">Fuego</button>
+        <button class="chip" type="button" data-cal="agua" aria-pressed="false">Agua</button>
+      </div>
+    </header>
+
+    <div class="hud" aria-live="polite">
+      <div class="periodo" id="hud-periodo"></div>
+      <div class="cifra" id="hud-cifra"></div>
+      <div class="razon" id="hud-razon"></div>
+      <span class="sat" id="hud-sat" hidden>Suomi NPP</span>
+      <div class="botones-sup">
+        <button class="boton" id="btn-cenital" type="button">Vista cenital</button>
+        <button class="boton" id="btn-info" type="button">Cómo leer esto</button>
+      </div>
+    </div>
+
+    <section class="relato" id="relato" aria-live="polite">
+      <div class="relato-cab">
+        <div class="paso" id="rel-paso"></div>
+        <button class="btn-ocultar" id="btn-ocultar-relato" type="button" aria-controls="relato" aria-expanded="true">Ocultar ▾</button>
+      </div>
+      <h2 id="rel-titulo"></h2>
+      <p id="rel-texto"></p>
+      <figure class="grafico-relato" id="grafico-relato" hidden>
+        <div class="graficos-relato" id="graficos-relato"></div>
+        <figcaption class="grafico-pie" id="grafico-pie"></figcaption>
+      </figure>
+      <p class="nota" id="rel-nota"></p>
+      <div class="nav-relato">
+        <button class="boton" id="btn-ant" type="button" aria-label="Capítulo anterior">←</button>
+        <div class="puntos" id="puntos"></div>
+        <button class="boton primario" id="btn-sig" type="button">Siguiente →</button>
+      </div>
+    </section>
+
+    <button class="boton pastilla" id="btn-mostrar-relato" type="button" aria-controls="relato" aria-expanded="false" hidden>Relato <b id="pastilla-paso"></b> ▴</button>
+
+    <aside class="leyenda" aria-label="Leyenda">
+      <div id="ley-fuego">
+        <div>Detecciones por celda (~11 km) en el mes</div>
+        <div class="rampa" style="margin-top:6px"></div>
+        <div class="marcas"><span>1</span><span>25</span><span>100</span><span>400+</span></div>
+        <div style="margin-top:6px">Altura y brillo crecen con la raíz cuadrada del valor.</div>
+      </div>
+      <div id="ley-fuego-habitual" hidden>
+        <div class="fila"><span class="muestra solida"></span>Columna llena: el año elegido</div>
+        <div class="fila" style="margin-top:6px"><span class="muestra"></span>Contorno: lo habitual (mediana de los otros 6 años)</div>
+        <div class="rampa anom" style="margin-top:8px"></div>
+        <div class="marcas"><span>menos</span><span>más que lo habitual</span></div>
+      </div>
+      <div id="ley-agua" hidden>
+        <div>Lluvia por celda (~11 km) en el mes, en mm</div>
+        <div class="rampa agua" style="margin-top:6px"></div>
+        <div class="marcas"><span>1</span><span>25</span><span>100</span><span>400+</span></div>
+        <div style="margin-top:6px">Altura y brillo crecen con la raíz cuadrada del valor. Estimación satelital GPM IMERG.</div>
+      </div>
+      <div id="ley-agua-habitual" hidden>
+        <div class="fila"><span class="muestra solida"></span>Columna llena: el año elegido</div>
+        <div class="fila" style="margin-top:6px"><span class="muestra"></span>Contorno: lo habitual (mediana de los otros años)</div>
+        <div class="rampa anom-agua" style="margin-top:8px"></div>
+        <div class="marcas"><span>más seco</span><span>más húmedo que lo habitual</span></div>
+      </div>
+      <div id="ley-punto" hidden>
+        <div>Cada punto: una detección (píxel de 375 m)</div>
+        <div class="rampa dias" style="margin-top:6px"></div>
+        <div class="marcas"><span>días anteriores</span><span>hoy</span></div>
+      </div>
+    </aside>
+
+    <nav class="tiempo" aria-label="Período y filtros">
+      <button class="boton" id="btn-play" type="button" aria-label="Reproducir los meses">▶</button>
+      <div class="meses" id="meses"></div>
+      <div class="anios" id="anios"></div>
+      <div class="segmento" id="seg-sat" role="group" aria-label="Satélite">
+        <span class="etq">Satélite</span>
+        <button class="chip" type="button" data-sensor="NOAA-20" aria-pressed="true">NOAA-20</button>
+        <button class="chip sat2" type="button" data-sensor="Suomi NPP" aria-pressed="false">Suomi NPP</button>
+      </div>
+      <div class="selector">
+        <label for="sel-prov" class="oculto">Filtrar por provincia</label>
+        <select id="sel-prov"><option value="">Todas las provincias</option></select>
+      </div>
+      <button class="boton" id="btn-limpiar-prov" type="button" aria-label="Quitar el filtro de provincia" hidden>×</button>
+      <label class="interruptor" id="lbl-comparar" aria-disabled="true">
+        <input type="checkbox" id="chk-comparar" disabled> comparar con lo habitual
+      </label>
+    </nav>
+  </div>
+
+  <div class="subtitulo-video" id="subtitulo-video" hidden></div>
+  <button class="boton salir-video" id="btn-salir-video" type="button" hidden>Salir del modo video (Esc)</button>
+
+  <dialog id="dlg-info" aria-labelledby="dlg-titulo">
+    <h2 id="dlg-titulo">Cómo leer este mapa</h2>
+    <p>Cada columna resume las detecciones de calor que un satélite registró en una celda de 0,1° (unos 11 km de lado) durante un mes. Cuanto más alta y más clara, más detecciones.</p>
+    <h3>Qué es y qué no es</h3>
+    <dl>
+      <dt>Detección</dt><dd>Un píxel de 375 m donde el sensor VIIRS midió calor anómalo en una pasada. Es la unidad de este mapa.</dd>
+      <dt>Incendio</dt><dd>Un fuego en el terreno. Un solo incendio puede dejar cientos de detecciones, en varios días y píxeles. Este mapa no cuenta incendios.</dd>
+      <dt>Superficie quemada</dt><dd>El área efectivamente quemada. Las detecciones no la miden.</dd>
+      <dt>Lo habitual</dt><dd>Para cada celda y mes, la mediana de los otros seis años de la serie, para no comparar un año consigo mismo.</dd>
+    </dl>
+    <h3>Límites</h3>
+    <ul>
+      <li>Cada satélite pasa una vez de día y una de noche: los fuegos breves, chicos o tapados por nubes, humo o árboles pueden no aparecer.</li>
+      <li>No distingue quemas agrícolas de incendios forestales.</li>
+      <li>Siete años no alcanzan para hablar de tendencias.</li>
+    </ul>
+    <h3>Datos y método</h3>
+    <ul>
+      <li>NASA FIRMS, VIIRS 375 m, procesamiento estándar, 2019–2025. Serie principal: NOAA-20. Filtro: presunto fuego de vegetación (tipo 0), confianza nominal o alta; se excluyen 90 celdas de 1 km con actividad casi permanente (probables fuentes industriales).</li>
+      <li>Control: Suomi NPP, con un sensor gemelo, da los mismos patrones (correlación de rangos por provincia y año: 0,997). Tiene algunos días sin datos, por ejemplo del 27 de julio al 10 de agosto de 2022.</li>
+      <li>Lluvia: GPM IMERG Final V07 (NASA GES DISC), mensual, celdas de 0,1°: una estimación satelital calibrada con pluviómetros. Hay datos de enero de 2019 a agosto de 2025. Lo habitual se calcula igual que para el fuego: la mediana de los otros años con dato. Que el fuego de más llegue después de lluvia de menos es una coincidencia en el tiempo, no la prueba de una causa.</li>
+      <li>Límites provinciales: Instituto Geográfico Nacional. El sector antártico no se muestra en este mapa.</li>
+    </ul>
+    <h3>Opciones</h3>
+    <div class="acciones-dlg">
+      <label class="interruptor"><input type="checkbox" id="chk-liviano"> modo liviano (para equipos lentos o celulares)</label>
+    </div>
+    <div class="acciones-dlg">
+      <button class="boton primario" id="btn-video" type="button">Ver modo video (1 minuto)</button>
+      <button class="boton" id="btn-cerrar" type="button">Cerrar</button>
+    </div>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

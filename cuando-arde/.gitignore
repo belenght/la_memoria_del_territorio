@@ -1,0 +1,18 @@
+# Datos pesados: se descargan de las fuentes oficiales (ver docs/fuentes.md)
+pipeline/data/
+*.pkl
+__pycache__/
+
+# App: dependencias y compilado (se regeneran con npm install / npm run build)
+app/node_modules/
+app/dist/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Contexto de trabajo con IA (uso declarado en docs/declaracion_ia.md); no se publica
+CLAUDE.md

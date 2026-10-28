@@ -1,0 +1,10 @@
+# Pipeline de datos (Python 3.11+)
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+xarray>=2024.1
+netCDF4>=1.6
+# Solo para descargar IMERG con el script de Harmony
+harmony-py
+earthaccess

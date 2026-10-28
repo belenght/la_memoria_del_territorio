@@ -1,0 +1,6 @@
+region,rho_mismo_mes,rho_mes_anterior,mes_pico_fuego,mes_mas_seco,meses_mas_secos,pico_en_3_mas_secos,det_habitual_anual
+Cuyo,-0.22,-0.62,9,9,"5,8,9",True,6450
+NEA,-0.29,-0.74,8,7,"6,7,8",True,54833
+NOA,-0.57,-0.85,8,8,"6,7,8",True,32480
+Pampeana,-0.13,-0.57,8,6,"6,7,8",True,47503
+Patagonia,-0.68,-0.47,12,10,"2,10,12",True,6897

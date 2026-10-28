@@ -1,0 +1,25 @@
+provincia,rho_mismo_mes,rho_mes_anterior,mes_pico_fuego,mes_mas_seco,meses_mas_secos,pico_en_3_mas_secos,det_habitual_anual
+Buenos Aires,-0.28,-0.62,8,6,"6,7,8",True,5630
+Catamarca,-0.62,-0.91,10,8,"7,8,9",False,1131
+Chaco,-0.26,-0.76,8,7,"6,7,8",True,15309
+Chubut,-0.98,-0.64,2,2,"1,2,10",True,571
+Ciudad Autónoma de Buenos Aires,0.26,-0.13,2,6,"6,8,9",False,2
+Corrientes,-0.56,-0.71,8,6,"6,7,9",False,16797
+Córdoba,-0.45,-0.8,9,8,"6,7,8",False,3968
+Entre Ríos,-0.38,-0.55,8,6,"6,7,8",True,5585
+Formosa,-0.13,-0.62,9,7,"6,7,8",False,19034
+Jujuy,-0.63,-0.85,10,8,"6,7,8",False,1128
+La Pampa,0.31,0.15,12,7,"5,6,7",False,2724
+La Rioja,-0.45,-0.82,11,8,"6,8,9",False,1043
+Mendoza,-0.38,-0.5,9,9,"4,7,9",True,2314
+Misiones,-0.38,-0.55,8,8,"2,7,8",True,4753
+Neuquén,-0.66,-0.5,12,12,"2,3,12",True,2614
+Río Negro,-0.61,0.11,1,2,"2,9,10",False,2670
+Salta,-0.34,-0.75,10,8,"6,7,8",False,9578
+San Juan,-0.38,-0.44,9,9,"4,5,9",True,1213
+San Luis,0.16,-0.43,10,6,"6,7,8",False,2454
+Santa Cruz,-0.09,-0.23,1,10,"9,10,11",False,228
+Santa Fe,-0.48,-0.62,8,8,"6,7,8",True,24145
+Santiago del Estero,-0.68,-0.8,8,8,"6,7,8",True,14898
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",-0.18,-0.23,9,9,"9,10,11",True,36
+Tucumán,-0.76,-0.94,8,8,"7,8,9",True,4184

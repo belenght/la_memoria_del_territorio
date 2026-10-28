@@ -1,0 +1,131 @@
+## E1. NOAA-20 vs Suomi NPP (filtro base, 2019-2025)
+sensor  NOAA-20  Suomi NPP  ratio_N20_SNPP
+anio                                      
+2019     141011     143367           0.984
+2020     390958     400953           0.975
+2021     171470     170504           1.006
+2022     268257     271393           0.988
+2023     139759     147160           0.950
+2024     138943     134624           1.032
+2025     148042     149091           0.993
+
+Provincia-año (n=168): Pearson en log = 0.9966; Spearman = 0.9972
+Provincia-año con >=500 detecciones en ambos (n=147): diferencia relativa mediana +0.002, P5 -0.133, P95 +0.101
+Mes-año nacional (n=84): Pearson en log = 0.9940
+Orden de años de mayor a menor (NOAA-20): [2020, 2022, 2021, 2025, 2019, 2023, 2024]
+Orden de años de mayor a menor (Suomi NPP): [2020, 2022, 2021, 2025, 2023, 2019, 2024]
+
+## E2. Efecto del filtro base (NOAA-20, 2019-2025)
+Total: 1,598,708
+  tipo != 0 (fuentes no vegetales/costa afuera): 50,846 (3.2%)
+  confianza baja (entre tipo 0): 149,422
+  quedan con filtro base: 1,398,440 (87.5%)
+Spearman ranking provincias (todas vs filtro base): 0.9913
+Provincias con más detecciones tipo 2/3 (no vegetación):
+provincia
+Buenos Aires    21714
+Neuquén         15888
+Santa Fe         6614
+Mendoza          1499
+Corrientes       1180
+Entre Ríos       1089
+
+## E3. Estacionalidad por región (NOAA-20, filtro base, promedio 2019-2025)
+mes          1     2    3    4    5    6     7     8     9     10    11    12
+region                                                                       
+Cuyo        8.0   3.6  5.0  1.9  2.3  2.9   7.8  12.9  23.7  14.2   9.6   8.3
+NEA         8.6  10.0  7.3  3.7  2.7  3.1   7.7  22.4  16.2  10.1   4.6   3.6
+NOA         2.3   1.3  1.3  1.0  1.8  2.9   8.4  20.4  21.2  19.9  16.2   3.5
+Pampeana    6.6   5.6  4.6  3.5  4.0  3.8  10.6  24.3  16.9   9.8   4.7   5.6
+Patagonia  17.0  17.8  7.6  6.0  3.6  2.8   3.9   7.1   7.3   6.2   5.3  15.2
+
+Mes pico por región: {'Cuyo': 9, 'NEA': 8, 'NOA': 9, 'Pampeana': 8, 'Patagonia': 2}
+Peso de cada región en el total: {'Cuyo': 0.04, 'NEA': 0.412, 'NOA': 0.199, 'Pampeana': 0.305, 'Patagonia': 0.044}
+
+Provincias (>=1000 det.): mes pico y cuántos meses concentran la mitad
+                                                       total_2019_2025  mes_pico  meses_para_50pct
+provincia                                                                                         
+Santa Fe                                                        229876         8                 3
+Formosa                                                         219419         8                 3
+Corrientes                                                      176500         8                 3
+Chaco                                                           141940         8                 3
+Santiago del Estero                                             118915         8                 3
+Salta                                                            95025        11                 2
+Entre Ríos                                                       91130         8                 3
+Buenos Aires                                                     44652         8                 4
+Córdoba                                                          37652         9                 2
+Misiones                                                         37642         8                 3
+Tucumán                                                          30673         8                 2
+San Luis                                                         29155         9                 3
+Neuquén                                                          28499         2                 5
+La Pampa                                                         22714        12                 3
+Río Negro                                                        21757         1                 4
+Mendoza                                                          18185         9                 4
+Jujuy                                                            13455        11                 2
+La Rioja                                                         11550        11                 3
+San Juan                                                          9009         9                 3
+Catamarca                                                         8903         8                 3
+Chubut                                                            7709         1                 2
+Santa Cruz                                                        2178         1                 4
+Tierra del Fuego, Antártida e Islas del Atlántico Sur             1871        12                 1
+
+Mes pico por región y año:
+anio       2019  2020  2021  2022  2023  2024  2025
+region                                             
+Cuyo          8     9    10     9     1     9     8
+NEA           8     8     8     1     8     8     8
+NOA           9     8    10    11     8     8    10
+Pampeana      9     8     8     8     8     9     8
+Patagonia     2     1    12    12     2     1     2
+
+## E4. Celdas persistentes (grilla 0,01°, NOAA-20, filtro base, 2019-2025)
+Celdas activas en >= 12 de 84 meses: 620 celdas, 28,223 detecciones (2.02% del total)
+Celdas activas en >= 24 de 84 meses: 90 celdas, 8,314 detecciones (0.59% del total)
+Celdas activas en >= 36 de 84 meses: 11 celdas, 1,043 detecciones (0.07% del total)
+   lat    lon    provincia  meses  det
+-24.49 -64.96        Jujuy     46   92
+-34.87 -57.92 Buenos Aires     45  119
+-30.67 -58.08   Entre Ríos     43   67
+-38.36 -68.71      Neuquén     41  214
+-28.27 -58.14   Corrientes     41   85
+-36.92 -60.16 Buenos Aires     41   81
+-34.75 -58.31 Buenos Aires     39   79
+-29.30 -66.73     La Rioja     39   75
+-40.76 -64.91    Río Negro     39   73
+-31.38 -58.08   Entre Ríos     39   70
+-33.37 -60.14 Buenos Aires     37   88
+-38.33 -69.05      Neuquén     35  214
+
+## E5. Días sin ninguna detección por sensor (2019-2025)
+NOAA-20: 7 días sin datos; de esos, 7 SÍ tienen detecciones en el otro sensor (probable falta de datos, no ausencia de fuego).
+   ejemplos: 2023-07-19, 2023-07-20, 2023-07-21, 2023-07-22, 2023-09-30, 2024-02-04, 2024-02-05
+Suomi NPP: 37 días sin datos; de esos, 37 SÍ tienen detecciones en el otro sensor (probable falta de datos, no ausencia de fuego).
+   ejemplos: 2022-07-27, 2022-07-28, 2022-07-29, 2022-07-30, 2022-07-31, 2022-08-01, 2022-08-02, 2022-08-03, 2022-08-04, 2022-08-05, 2022-08-06, 2022-08-07, 2022-08-08, 2022-08-09, 2022-08-10
+
+## E6. Provincias: total y densidad (NOAA-20, filtro base, promedio anual 2019-2025)
+                                                       det_por_anio  superficie_km2  det_por_1000km2_anio  cv_interanual
+provincia                                                                                                               
+Santa Fe                                                   32839.43          131228                250.25           0.65
+Formosa                                                    31345.57           75716                413.99           0.66
+Corrientes                                                 25214.29           88638                284.46           0.47
+Chaco                                                      20277.14          100267                202.23           0.56
+Santiago del Estero                                        16987.86          135778                125.11           0.39
+Salta                                                      13575.00          156098                 86.96           0.85
+Entre Ríos                                                 13018.57           79163                164.45           0.91
+Buenos Aires                                                6378.86          299963                 21.27           0.35
+Córdoba                                                     5378.86          165132                 32.57           0.77
+Misiones                                                    5377.43           30047                178.97           0.22
+Tucumán                                                     4381.86           22705                192.99           0.38
+San Luis                                                    4165.00           75865                 54.90           0.49
+Neuquén                                                     4071.29           94825                 42.93           0.33
+La Pampa                                                    3244.86          140838                 23.04           0.41
+Río Negro                                                   3108.14          203735                 15.26           0.28
+Mendoza                                                     2597.86          149135                 17.42           0.23
+Jujuy                                                       1922.14           53257                 36.09           0.68
+La Rioja                                                    1650.00           92318                 17.87           0.40
+San Juan                                                    1287.00           88511                 14.54           0.19
+Catamarca                                                   1271.86          101879                 12.48           0.46
+Chubut                                                      1101.29          223254                  4.93           0.69
+Santa Cruz                                                   311.14          242957                  1.28           0.25
+Tierra del Fuego, Antártida e Islas del Atlántico Sur        267.29           21571                 12.39           2.07
+Ciudad Autónoma de Buenos Aires                                4.43             206                 21.50           0.65

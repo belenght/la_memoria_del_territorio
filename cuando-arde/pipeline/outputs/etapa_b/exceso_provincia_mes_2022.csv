@@ -1,0 +1,289 @@
+provincia,mes,exceso,en_temporada
+Buenos Aires,1,1230.5,True
+Buenos Aires,2,314.0,True
+Buenos Aires,3,0.0,False
+Buenos Aires,4,9.0,False
+Buenos Aires,5,82.5,False
+Buenos Aires,6,424.0,False
+Buenos Aires,7,86.0,True
+Buenos Aires,8,463.0,True
+Buenos Aires,9,482.0,True
+Buenos Aires,10,530.5,True
+Buenos Aires,11,584.5,True
+Buenos Aires,12,449.5,True
+Catamarca,1,187.0,False
+Catamarca,2,1.5,False
+Catamarca,3,17.0,False
+Catamarca,4,15.0,False
+Catamarca,5,0.0,False
+Catamarca,6,10.5,False
+Catamarca,7,337.0,True
+Catamarca,8,48.0,True
+Catamarca,9,37.0,True
+Catamarca,10,0.0,True
+Catamarca,11,231.0,True
+Catamarca,12,0.0,False
+Chaco,1,2069.5,False
+Chaco,2,1210.0,False
+Chaco,3,0.0,True
+Chaco,4,0.0,False
+Chaco,5,13.0,False
+Chaco,6,0.0,False
+Chaco,7,0.0,True
+Chaco,8,0.0,True
+Chaco,9,421.5,True
+Chaco,10,885.5,True
+Chaco,11,1020.5,True
+Chaco,12,738.5,False
+Chubut,1,1298.0,True
+Chubut,2,0.0,True
+Chubut,3,0.0,False
+Chubut,4,0.0,False
+Chubut,5,0.0,False
+Chubut,6,4.5,False
+Chubut,7,1.0,False
+Chubut,8,0.0,False
+Chubut,9,0.0,False
+Chubut,10,0.0,True
+Chubut,11,0.0,True
+Chubut,12,0.0,False
+Ciudad Autónoma de Buenos Aires,1,0.0,False
+Ciudad Autónoma de Buenos Aires,2,0.0,True
+Ciudad Autónoma de Buenos Aires,3,2.0,False
+Ciudad Autónoma de Buenos Aires,4,0.0,False
+Ciudad Autónoma de Buenos Aires,5,0.0,False
+Ciudad Autónoma de Buenos Aires,6,0.0,False
+Ciudad Autónoma de Buenos Aires,7,0.0,False
+Ciudad Autónoma de Buenos Aires,8,0.0,False
+Ciudad Autónoma de Buenos Aires,9,0.0,False
+Ciudad Autónoma de Buenos Aires,10,0.0,True
+Ciudad Autónoma de Buenos Aires,11,1.0,False
+Ciudad Autónoma de Buenos Aires,12,0.0,False
+Corrientes,1,11985.0,False
+Corrientes,2,19946.0,True
+Corrientes,3,0.0,True
+Corrientes,4,0.0,True
+Corrientes,5,0.0,False
+Corrientes,6,0.0,False
+Corrientes,7,0.0,True
+Corrientes,8,0.0,True
+Corrientes,9,0.0,True
+Corrientes,10,0.0,True
+Corrientes,11,181.5,False
+Corrientes,12,1214.0,False
+Córdoba,1,94.5,False
+Córdoba,2,12.5,False
+Córdoba,3,0.0,False
+Córdoba,4,52.0,False
+Córdoba,5,29.5,False
+Córdoba,6,160.0,False
+Córdoba,7,0.0,True
+Córdoba,8,0.0,True
+Córdoba,9,516.5,True
+Córdoba,10,0.0,True
+Córdoba,11,495.5,True
+Córdoba,12,56.5,False
+Entre Ríos,1,1693.5,True
+Entre Ríos,2,211.5,True
+Entre Ríos,3,0.0,False
+Entre Ríos,4,0.0,False
+Entre Ríos,5,4.5,True
+Entre Ríos,6,770.0,False
+Entre Ríos,7,955.0,True
+Entre Ríos,8,6467.5,True
+Entre Ríos,9,2238.0,True
+Entre Ríos,10,1212.0,True
+Entre Ríos,11,738.0,False
+Entre Ríos,12,1400.0,False
+Formosa,1,16001.0,False
+Formosa,2,2011.0,True
+Formosa,3,0.0,True
+Formosa,4,0.0,False
+Formosa,5,0.0,False
+Formosa,6,0.0,False
+Formosa,7,0.0,False
+Formosa,8,0.0,True
+Formosa,9,0.0,True
+Formosa,10,0.0,True
+Formosa,11,0.0,True
+Formosa,12,953.0,False
+Jujuy,1,13.0,False
+Jujuy,2,14.5,False
+Jujuy,3,0.0,False
+Jujuy,4,0.0,False
+Jujuy,5,23.5,False
+Jujuy,6,41.0,False
+Jujuy,7,0.0,True
+Jujuy,8,25.0,True
+Jujuy,9,576.5,True
+Jujuy,10,0.0,True
+Jujuy,11,1777.0,True
+Jujuy,12,136.0,False
+La Pampa,1,60.0,True
+La Pampa,2,0.0,True
+La Pampa,3,10.5,True
+La Pampa,4,200.5,False
+La Pampa,5,41.0,False
+La Pampa,6,98.5,False
+La Pampa,7,37.0,False
+La Pampa,8,817.0,True
+La Pampa,9,753.5,True
+La Pampa,10,216.0,False
+La Pampa,11,23.5,False
+La Pampa,12,165.0,True
+La Rioja,1,105.5,False
+La Rioja,2,7.5,False
+La Rioja,3,16.0,False
+La Rioja,4,62.0,False
+La Rioja,5,0.0,False
+La Rioja,6,0.0,False
+La Rioja,7,0.0,True
+La Rioja,8,0.0,True
+La Rioja,9,413.5,True
+La Rioja,10,140.5,True
+La Rioja,11,594.0,True
+La Rioja,12,0.0,True
+Mendoza,1,0.0,False
+Mendoza,2,0.0,False
+Mendoza,3,0.0,False
+Mendoza,4,1.0,False
+Mendoza,5,47.0,False
+Mendoza,6,28.0,True
+Mendoza,7,0.0,True
+Mendoza,8,143.5,True
+Mendoza,9,179.0,True
+Mendoza,10,130.5,True
+Mendoza,11,50.5,True
+Mendoza,12,0.0,True
+Misiones,1,646.5,False
+Misiones,2,945.5,False
+Misiones,3,0.0,True
+Misiones,4,0.0,False
+Misiones,5,0.0,True
+Misiones,6,0.0,True
+Misiones,7,180.0,True
+Misiones,8,0.0,True
+Misiones,9,0.0,True
+Misiones,10,0.0,True
+Misiones,11,131.5,False
+Misiones,12,6.5,False
+Neuquén,1,0.0,True
+Neuquén,2,0.0,True
+Neuquén,3,85.5,True
+Neuquén,4,86.5,True
+Neuquén,5,72.5,False
+Neuquén,6,14.5,False
+Neuquén,7,0.0,False
+Neuquén,8,20.0,True
+Neuquén,9,10.5,True
+Neuquén,10,0.0,True
+Neuquén,11,31.5,True
+Neuquén,12,0.0,True
+Río Negro,1,74.0,True
+Río Negro,2,0.0,True
+Río Negro,3,0.0,True
+Río Negro,4,0.0,False
+Río Negro,5,27.5,False
+Río Negro,6,32.0,False
+Río Negro,7,0.0,False
+Río Negro,8,0.0,True
+Río Negro,9,63.5,True
+Río Negro,10,0.0,True
+Río Negro,11,25.0,False
+Río Negro,12,138.5,True
+Salta,1,549.0,False
+Salta,2,0.0,False
+Salta,3,0.0,False
+Salta,4,0.0,False
+Salta,5,55.5,False
+Salta,6,115.5,False
+Salta,7,12.5,False
+Salta,8,269.0,True
+Salta,9,4117.5,True
+Salta,10,3178.5,True
+Salta,11,19788.0,True
+Salta,12,1672.0,False
+San Juan,1,0.0,False
+San Juan,2,0.0,False
+San Juan,3,0.0,False
+San Juan,4,25.5,False
+San Juan,5,3.0,False
+San Juan,6,11.5,True
+San Juan,7,56.0,True
+San Juan,8,0.0,True
+San Juan,9,358.0,True
+San Juan,10,101.5,True
+San Juan,11,0.0,True
+San Juan,12,0.0,True
+San Luis,1,774.0,False
+San Luis,2,0.0,False
+San Luis,3,0.0,True
+San Luis,4,47.0,False
+San Luis,5,37.0,False
+San Luis,6,15.5,False
+San Luis,7,95.5,False
+San Luis,8,0.0,True
+San Luis,9,1080.0,True
+San Luis,10,147.5,True
+San Luis,11,0.0,True
+San Luis,12,731.0,True
+Santa Cruz,1,0.0,True
+Santa Cruz,2,0.0,True
+Santa Cruz,3,78.0,True
+Santa Cruz,4,11.5,True
+Santa Cruz,5,0.0,True
+Santa Cruz,6,15.5,False
+Santa Cruz,7,0.0,False
+Santa Cruz,8,0.0,False
+Santa Cruz,9,0.0,True
+Santa Cruz,10,14.0,True
+Santa Cruz,11,2.5,False
+Santa Cruz,12,91.5,True
+Santa Fe,1,4857.5,True
+Santa Fe,2,2513.0,True
+Santa Fe,3,0.0,False
+Santa Fe,4,0.0,False
+Santa Fe,5,0.0,False
+Santa Fe,6,863.5,False
+Santa Fe,7,0.0,True
+Santa Fe,8,0.0,True
+Santa Fe,9,2444.0,True
+Santa Fe,10,963.0,True
+Santa Fe,11,1842.0,False
+Santa Fe,12,598.0,True
+Santiago del Estero,1,426.0,False
+Santiago del Estero,2,77.0,False
+Santiago del Estero,3,0.0,False
+Santiago del Estero,4,83.0,False
+Santiago del Estero,5,202.5,False
+Santiago del Estero,6,242.5,False
+Santiago del Estero,7,344.5,True
+Santiago del Estero,8,0.0,True
+Santiago del Estero,9,945.5,True
+Santiago del Estero,10,1012.0,True
+Santiago del Estero,11,1603.5,False
+Santiago del Estero,12,89.0,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",1,0.0,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2,6.0,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",3,0.5,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",4,4.5,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",5,1.5,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",6,0.0,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",7,3.5,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",8,0.0,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",9,0.0,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",10,0.0,False
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",11,0.0,True
+"Tierra del Fuego, Antártida e Islas del Atlántico Sur",12,1471.0,True
+Tucumán,1,6.5,False
+Tucumán,2,0.0,False
+Tucumán,3,0.0,False
+Tucumán,4,10.0,False
+Tucumán,5,51.0,False
+Tucumán,6,120.5,False
+Tucumán,7,203.0,True
+Tucumán,8,635.0,True
+Tucumán,9,461.5,True
+Tucumán,10,0.0,True
+Tucumán,11,393.0,False
+Tucumán,12,47.5,False

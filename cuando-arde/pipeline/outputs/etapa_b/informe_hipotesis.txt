@@ -1,0 +1,92 @@
+## H1. Mes pico por región: ¿distinto y estable?
+Cuyo: pico habitual mes 9; años con pico a <=1 mes del habitual: 6/7; picos por año [8, 9, 10, 9, 1, 9, 8]
+NEA: pico habitual mes 8; años con pico a <=1 mes del habitual: 6/7; picos por año [8, 8, 8, 1, 8, 8, 8]
+NOA: pico habitual mes 9; años con pico a <=1 mes del habitual: 6/7; picos por año [9, 8, 10, 11, 8, 8, 10]
+Pampeana: pico habitual mes 8; años con pico a <=1 mes del habitual: 7/7; picos por año [9, 8, 8, 8, 8, 9, 8]
+Patagonia: pico habitual mes 2; años con pico a <=1 mes del habitual: 5/7; picos por año [2, 1, 12, 12, 2, 1, 2]
+
+## H2/H3. Cada año vs la mediana de los otros seis (NOAA-20)
+ anio  detecciones  referencia_otros_anios  razon_vs_referencia  exceso_positivo  pct_exceso_top3_prov                                top3_prov  pct_exceso_top3_meses top3_meses  pct_exceso_en_temporada
+ 2019       139835                  151812                 0.92            33469                  46.2 Corrientes, Formosa, Santiago del Estero                   67.1   9, 8, 12                     86.5
+ 2020       388942                  133160                 2.92           262460                  54.7                 Formosa, Santa Fe, Chaco                   55.0   8, 9, 10                     76.7
+ 2021       169987                  147210                 1.15            56366                  51.9            Formosa, Entre Ríos, Santa Fe                   72.3   12, 8, 7                     68.2
+ 2022       267210                  141502                 1.89           148117                  55.4               Corrientes, Salta, Formosa                   66.7   1, 11, 2                     65.7
+ 2023       139019                  153074                 0.91            40229                  69.3          Corrientes, Formosa, Entre Ríos                   63.8    2, 1, 3                     68.4
+ 2024       137896                  153361                 0.90            30438                  47.3                 Formosa, Santa Fe, Chaco                   71.1    9, 3, 7                     82.9
+ 2025       147237                  151622                 0.97            43003                  56.3              Santa Fe, Corrientes, Chaco                   64.4    2, 1, 3                     66.5
+
+Top 10 provincia-mes por exceso en 2020:
+ provincia  mes  exceso  en_temporada
+   Formosa    8 14911.5          True
+  Santa Fe    8 14811.5          True
+Entre Ríos    8 13381.5          True
+   Formosa   10 11727.5          True
+Corrientes    8  9681.0          True
+  Santa Fe    7  8980.0          True
+  Santa Fe    9  8073.0          True
+     Chaco    8  7856.0          True
+   Formosa    3  7607.5          True
+   Formosa    9  6712.0          True
+
+Top 10 provincia-mes por exceso en 2022:
+ provincia  mes  exceso  en_temporada
+Corrientes    2 19946.0          True
+     Salta   11 19788.0          True
+   Formosa    1 16001.0         False
+Corrientes    1 11985.0         False
+Entre Ríos    8  6467.5          True
+  Santa Fe    1  4857.5          True
+     Salta    9  4117.5          True
+     Salta   10  3178.5          True
+  Santa Fe    2  2513.0          True
+  Santa Fe    9  2444.0          True
+
+## H4. Ranking de provincias: detecciones vs eventos aproximados (grilla 0,05°, 1 día)
+Spearman (detecciones vs eventos): 0.951
+                                                       detecciones  eventos  det_por_evento  rank_det  rank_ev
+provincia                                                                                                     
+Santa Fe                                                    229750    39254            5.85         1        1
+Formosa                                                     219419    24586            8.92         2        4
+Corrientes                                                  175951    27927            6.30         3        2
+Chaco                                                       141940    27300            5.20         4        3
+Santiago del Estero                                         118915    23500            5.06         5        5
+Salta                                                        95025    10664            8.91         6        9
+Entre Ríos                                                   90661    13308            6.81         7        7
+Buenos Aires                                                 43771    15514            2.82         8        6
+Córdoba                                                      37652     6013            6.26         9       10
+Misiones                                                     37572    11435            3.29        10        8
+Tucumán                                                      30673     5219            5.88        11       14
+San Luis                                                     29019     2409           12.05        12       17
+Neuquén                                                      23009     5547            4.15        13       12
+La Pampa                                                     22714     3388            6.70        14       15
+Río Negro                                                    21543     5278            4.08        15       13
+Mendoza                                                      18112     5842            3.10        16       11
+Jujuy                                                        13363     2337            5.72        17       19
+La Rioja                                                     11475     2293            5.00        18       20
+San Juan                                                      9009     3237            2.78        19       16
+Catamarca                                                     8903     2370            3.76        20       18
+Chubut                                                        7709      717           10.75        21       22
+Santa Cruz                                                    2039      789            2.58        22       21
+Tierra del Fuego, Antártida e Islas del Atlántico Sur         1871      222            8.43        23       23
+Ciudad Autónoma de Buenos Aires                                 31       22            1.41        24       24
+
+Detecciones por evento, por región (mediana / media / P99):
+           median  mean  <lambda_0>
+region                             
+Cuyo          1.0   4.9        56.0
+NEA           2.0   6.3        67.0
+NOA           2.0   6.0        63.0
+Pampeana      2.0   5.4        53.0
+Patagonia     1.0   4.5        46.9
+
+## H5. Robustez: exceso por provincia con Suomi NPP vs NOAA-20
+2020: Spearman exceso por provincia N20 vs SNPP = 0.994; exceso nacional N20 255,781 vs SNPP 267,871
+2022: Spearman exceso por provincia N20 vs SNPP = 0.983; exceso nacional N20 125,707 vs SNPP 129,739
+
+## Extra. Proporción de detecciones nocturnas por región (NOAA-20)
+region
+Cuyo         37.2
+NEA          24.8
+NOA          32.9
+Pampeana     21.5
+Patagonia    52.3
