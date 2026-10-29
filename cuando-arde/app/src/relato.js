@@ -6,10 +6,14 @@ import { barrasPreviosSecos, calendarioProvincia, calendarioRegion } from "./gra
 import { $, guardarPreferencia, leerPreferencia, movimientoReducido } from "./util.js";
 
 const PIES = {
-  regiones: "<span class='f'>▲ fuego</span>: % de las detecciones del año (año típico) · <span class='l'>▼ lluvia</span>: mm por mes (mediana 2019–2025). Cada calendario tiene su escala.",
+  regiones: "<span class='f'>▲ fuego</span>: % de las detecciones del año (promedio 2019–2025) · <span class='l'>▼ lluvia</span>: mm por mes (mediana 2019–2025). Cada calendario tiene su escala.",
   prov: "<span class='f'>▲ detecciones</span> y <span class='l'>▼ lluvia</span> de cada mes · rayita: lo habitual · franja celeste: los 3 meses previos al mes elegido",
   previosSecos: "Barra: % del exceso de detecciones (por provincia y mes) que llegó después de 3 meses con menos lluvia que lo habitual. Raya: el % de todos los provincia-meses de esos años en esa situación, lo esperable si no hubiera relación.",
 };
+
+// Las animaciones que un capítulo programa al entrar (con retraso) no deben disparar si mientras
+// tanto empezó el modo video: competirían con él por el mes, el satélite y el caso del punto.
+const enVideo = () => document.body.classList.contains("modo-video");
 
 export function crearRelato({ estado, fijar, modelo, mapa, reproduccion }) {
   const tarjeta = $("relato"), pastilla = $("btn-mostrar-relato"), btnOcultar = $("btn-ocultar-relato");
@@ -44,7 +48,7 @@ export function crearRelato({ estado, fijar, modelo, mapa, reproduccion }) {
     if (c.tipo === "punto") {
       fijar({ capitulo: k, vista: "punto", sensor: SENSOR_PRINCIPAL, prov: "" });
       mapa.volar(mapa.encuadre(modelo.caso.caja, 0.15, { pitch: 40, bearing: -10 }), 2400);
-      setTimeout(() => { if (estado.capitulo === k) reproduccion.animarCaso(); }, movimientoReducido ? 0 : 2300);
+      setTimeout(() => { if (estado.capitulo === k && !enVideo()) reproduccion.animarCaso(); }, movimientoReducido ? 0 : 2300);
       return;
     }
     // En "Explorá" se conservan la provincia y el satélite que eligió el lector
@@ -55,8 +59,8 @@ export function crearRelato({ estado, fijar, modelo, mapa, reproduccion }) {
     });
     if (explorar && prov) mapa.volarAProvincia(prov); else mapa.volar(c.vista);
     if (movimientoReducido) return;
-    if (c.play) setTimeout(() => { if (estado.capitulo === k && !reproduccion.reproduciendoMeses()) reproduccion.alternarReproduccion(); }, 2600);
-    if (c.alternar) setTimeout(() => { if (estado.capitulo === k) reproduccion.alternarSatelites(); }, 2200);
+    if (c.play) setTimeout(() => { if (estado.capitulo === k && !enVideo() && !reproduccion.reproduciendoMeses()) reproduccion.alternarReproduccion(); }, 2600);
+    if (c.alternar) setTimeout(() => { if (estado.capitulo === k && !enVideo()) reproduccion.alternarSatelites(); }, 2200);
   }
 
   $("btn-ant").addEventListener("click", () => irA(Math.max(0, estado.capitulo - 1)));

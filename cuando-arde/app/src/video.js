@@ -94,7 +94,7 @@ export function crearVideo({ estado, fijar, modelo, mapa, reproduccion, irAlInic
     await escena({
       cambios: { calendario: "fuego", mes: 8 },
       texto: "Primero se seca. Después, arde.",
-      chico: "el pico del fuego cae entre los 3 meses más secos, en las 5 regiones",
+      chico: "en las 5 regiones, el pico del fuego cae entre los meses más secos del año",
     });
     if (!(await sigue(4000))) return;
 
@@ -131,12 +131,12 @@ export function crearVideo({ estado, fijar, modelo, mapa, reproduccion, irAlInic
     await escena({
       cambios: { modo: "tipico", mes: 8, comparar: false }, vista: VISTA_CIERRE, ms: 3500,
       texto: "No es una ley, pero se repite",
-      chico: "84% del fuego de más de 2020 y 71% del de 2022 llegó tras 3 meses más secos que lo habitual (53% en años normales)",
+      chico: "84% del fuego de más de 2020 y 71% del de 2022 llegó tras 3 meses más secos que lo habitual; lo esperable era 62% y 56%",
     });
     if (!(await sigue(5000))) return;
 
     await escena({
-      texto: "Para saber cuándo arde, hay que mirar cuándo deja de llover",
+      texto: "Cuando el fuego se sale del calendario, antes suele haber llovido menos de lo habitual",
       chico: "El calendario del fuego y del agua · NASA FIRMS · GPM IMERG · IGN",
     });
     if (!(await sigue(5500))) return;

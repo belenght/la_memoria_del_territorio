@@ -45,7 +45,7 @@ export function crearIndicador(modelo) {
     const L = modelo.lluvia;
     if (estado.modo === "tipico") {
       const t = prov ? L.provincias[prov].tipico[m] : L.mapa.nacional.tipico[m];
-      cifra.textContent = `${fmt.format(Math.round(t))} mm de lluvia ${donde} (mediana 2019–2025)`;
+      cifra.textContent = `${fmt.format(Math.round(t))} mm de lluvia ${donde} (mediana de los años 2019–2025)`;
       razon.textContent = "";
       return;
     }

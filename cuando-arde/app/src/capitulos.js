@@ -42,14 +42,14 @@ export const CAPITULOS = [
     },
   },
   {
-    paso: "Un país, varios calendarios", titulo: "En el NOA, la temporada se estira hacia la primavera",
-    texto: "Agosto, septiembre y octubre suman alrededor del 20% cada uno, y noviembre todavía el 16%. En Salta y Jujuy el mes con más detecciones llega recién en noviembre. Es la región con el invierno más seco: de junio a septiembre llueven menos de 10 mm por mes.",
-    nota: "Año típico: promedio de 2019 a 2025.",
+    paso: "Un país, varios calendarios", titulo: "En el NOA, la temporada va de agosto a octubre",
+    texto: "Agosto, septiembre y octubre suman alrededor del 20% cada uno. Noviembre aparece con el 16%, pero casi el 60% de lo que se acumula ese mes en siete años es de 2022: Salta tuvo 20.881 detecciones, cuando lo habitual ronda las 1.100. Sin 2022, noviembre baja al 9%. Es la región con el invierno más seco: de junio a septiembre llueven menos de 10 mm por mes.",
+    nota: "Año típico: promedio de 2019 a 2025, con 2020 y 2022 incluidos.",
     modo: "tipico", mes: 10, vista: { longitude: -64.6, latitude: -25.2, zoom: 5.3, pitch: 60, bearing: 18 },
     grafico: { regiones: ["NOA"] },
     agua: {
       titulo: "En el NOA, el invierno casi no tiene lluvia",
-      texto: "De junio a septiembre llueven menos de 10 mm por mes; en agosto, apenas 2. En enero, en cambio, caen unos 117. La temporada de fuego, de agosto a noviembre, arranca en esos meses secos, y las lluvias vuelven recién en noviembre.",
+      texto: "De junio a septiembre llueven menos de 10 mm por mes; en agosto, apenas 2. En enero, en cambio, caen unos 117. La temporada de fuego, de agosto a octubre, cae en esos meses secos, y las lluvias vuelven recién en noviembre.",
       nota: "Año típico: mediana de 2019 a 2025.",
     },
   },

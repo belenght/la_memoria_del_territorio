@@ -1,23 +1,16 @@
-# Descripción metodológica para el formulario (borrador, máx. 200 palabras)
+# Descripción metodológica para el formulario 
 
-> Borrador para que el equipo lo revise y ajuste. Las cifras están verificadas en
-> `docs/metodologia.md`. Contar las palabras después de editar.
+Datos: detecciones satelitales de calor VIIRS 375 m de NASA FIRMS (NOAA-20, 2019–2025; Suomi NPP
+como control, con correlación de rangos 0,997 por provincia y año) y lluvia mensual GPM IMERG de
+NASA (hasta agosto de 2025), en la misma grilla de 0,1°, con límites provinciales del IGN. Una
+detección es un píxel con calor anómalo, no un incendio: no contamos incendios ni superficie
+quemada. Filtramos fuegos de vegetación con confianza nominal o alta y excluimos 90
+celdas de actividad casi permanente. "Lo habitual" es la mediana de los otros años, para no
+comparar un año consigo mismo. La relación entre lluvia y fuego se presenta como coincidencia
+temporal, no como causa.
 
----
+Diseño: un mapa 3D donde cada columna es una celda de 11 km en un mes, para que el calendario se
+vea como movimiento. Un selector alterna los calendarios del fuego y del agua sobre la misma
+grilla; un relato de diez capítulos guía la lectura y luego libera la exploración.
 
-Usamos detecciones satelitales de calor VIIRS 375 m de NASA FIRMS (procesamiento estándar), con
-NOAA-20 como serie principal (2019–2025) y Suomi NPP como control: por provincia y año, ambos
-coinciden (correlación de rangos 0,997). Una detección es un píxel con calor anómalo, no un
-incendio: no contamos incendios ni superficie quemada. Filtramos presuntos fuegos de vegetación
-con confianza nominal o alta y excluimos 90 celdas con actividad casi permanente (probables
-fuentes industriales). Cada detección se asigna a su provincia con los límites del IGN.
-
-"Lo habitual" de cada celda, provincia y mes es la mediana de los otros años, para no comparar un
-año consigo mismo. Así medimos cuándo arde cada región y cuánto se apartaron 2020 y 2022.
-
-Sumamos la lluvia mensual de GPM IMERG Final (NASA), en la misma grilla de 0,1°, hasta agosto de
-2025. Probamos si el fuego de más llegó tras meses secos, comparando con años normales como
-control. Lo presentamos como coincidencia temporal, no como causa. Siete años no alcanzan para
-hablar de tendencias.
-
-Todo el procesamiento es reproducible con scripts en Python publicados en el repositorio.
+Uso de IA: Claude (Anthropic) asistió en los aspectos técnicos relacionados a la codificación y la estructura del proyecto, bajo total supervisión del equipo.

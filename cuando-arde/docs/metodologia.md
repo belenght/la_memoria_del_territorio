@@ -32,15 +32,18 @@ incendio (un incendio puede dejar cientos de detecciones) ni mide superficie que
 
 ## Hallazgos verificados (NOAA-20, filtro base, sin celdas persistentes)
 - 1.390.126 detecciones 2019–2025. Por provincia y año, NOAA-20 vs. Suomi NPP: Spearman 0,997.
-- Picos: NEA y Pampeana en agosto (22% y 24% del año); NOA agosto–octubre (~20% cada uno,
-  noviembre 16%); Patagonia diciembre–febrero (52%), y aporta el 4% del total nacional.
+- Picos: NEA y Pampeana en agosto (22% y 24% del año); NOA agosto–octubre (~20% cada uno;
+  noviembre 16%, pero 9% sin 2022, que pesa el 59% de ese mes en el NOA); Patagonia diciembre–febrero (52%), y aporta el 4% del total nacional.
 - 2020: 388.942 detecciones, 2,9× lo habitual; el 77% del exceso cayó dentro de la temporada
   habitual de cada provincia.
 - 2022: 267.210 (1,9×); exceso en enero, febrero y noviembre. Corrientes enero + febrero:
   33.527. Salta noviembre: 20.881 (habitual ~1.093).
 
 ## Fuego y lluvia (hipótesis probadas, no afirmadas: `pipeline/scripts/09`)
-- **Calendarios opuestos**: en las 5 regiones el pico del fuego cae entre los 3 meses más secos.
+- **Calendarios opuestos**: en las 5 regiones el pico del fuego cae entre los 3 meses más secos
+  (fuego por mediana de los años, como en el script 09). Con el promedio que muestra la app, el
+  pico del NOA pasa a septiembre (21% contra 20% en agosto), el cuarto mes más seco (7 mm): por
+  eso el video dice "entre los meses más secos del año".
   La relación es más fuerte con la lluvia del mes anterior (Spearman ponderado −0,65) que con la
   del mismo mes (−0,40). 21 de 24 provincias dan correlación negativa. Son 12 meses por región:
   descriptivo, sin significancia estadística.
@@ -51,6 +54,17 @@ incendio (un incendio puede dejar cientos de detecciones) ni mide superficie que
 - Contraejemplos: Salta noviembre 2022 (los 3 meses previos llovió 1,4× lo habitual); Entre Ríos
   agosto 2022 (llovió 1,8× en el mes, aunque los 3 meses previos estuvieron en 0,4×).
 - Es **coincidencia temporal, no causa**.
+
+## Promedio y mediana: dónde se usa cada uno
+- **Año típico del fuego = promedio 2019–2025** por celda y mes. Las detecciones son escasas y
+  con muchos ceros: una celda que arde 3 de 7 años tiene mediana 0 y desaparecería del mapa. El
+  promedio incluye 2020 y 2022 y los infla: el total anual promedio es ~199 mil detecciones contra
+  ~147 mil de la mediana. La forma del calendario no cambia (mismos meses pico en NEA, Pampeana y
+  Cuyo; Patagonia en verano con ambos), salvo noviembre en el NOA, que se aclara en el relato.
+- **Año típico de la lluvia = mediana** de los años con dato: la lluvia es continua y la mediana
+  resiste a meses extremos.
+- **Lo habitual (fuego y lluvia) = mediana de los otros años**, siempre: es la vara con la que se
+  mide si un año se apartó, y no debe dejarse arrastrar por los años extremos.
 
 ## Lo que no se afirma
 Tendencias (7 años es poco), causas, cantidad de incendios, superficie quemada (FRP no es
