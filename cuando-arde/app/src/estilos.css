@@ -119,12 +119,14 @@ button:focus-visible, select:focus-visible { outline: 2px solid var(--brasa); ou
 .deck-tooltip { font-family: var(--f-dato) !important; font-size: .76rem !important; background: var(--panel) !important; color: var(--texto) !important; border: 1px solid var(--borde); border-radius: 3px; padding: 8px 10px !important; }
 dialog { max-width: min(40rem, calc(100vw - 32px)); max-height: 85vh; overflow: auto; background: #0c121d; color: var(--texto); border: 1px solid var(--borde); border-radius: 4px; padding: 22px 24px; }
 dialog::backdrop { background: rgba(3, 5, 9, .7); }
-dialog h2 { margin: 0 0 .6rem; font-family: var(--f-titulo); font-stretch: 80%; font-size: 1.4rem; }
+dialog h2 { outline: none; margin: 0 0 .6rem; font-family: var(--f-titulo); font-stretch: 80%; font-size: 1.4rem; }
 dialog h3 { margin: 1.2rem 0 .3rem; font-family: var(--f-dato); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--brasa); }
 dialog p, dialog li { font-size: .95rem; }
 dialog dl { display: grid; grid-template-columns: minmax(0, 9rem) minmax(0, 1fr); gap: 6px 14px; margin: 0; }
 dialog dt { font-family: var(--f-dato); font-size: .78rem; color: var(--tenue); }
 dialog dd { margin: 0; font-size: .92rem; }
+.info-agua, body.agua .info-fuego { display: none; }
+body.agua .info-agua { display: block; }
 .acciones-dlg { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 1rem; }
 
 /* ---- Modo video ---- */

@@ -113,28 +113,54 @@
   <button class="boton salir-video" id="btn-salir-video" type="button" hidden>Saltar video ›</button>
 
   <dialog id="dlg-info" aria-labelledby="dlg-titulo">
-    <h2 id="dlg-titulo">Cómo leer este mapa</h2>
-    <p>Cada columna resume las detecciones de calor que un satélite registró en una celda de 0,1° (unos 11 km de lado) durante un mes. Cuanto más alta y más clara, más detecciones.</p>
-    <h3>Qué es y qué no es</h3>
-    <dl>
-      <dt>Detección</dt><dd>Un píxel de 375 m donde el sensor VIIRS midió calor anómalo en una pasada. Es la unidad de este mapa.</dd>
-      <dt>Incendio</dt><dd>Un fuego en el terreno. Un solo incendio puede dejar cientos de detecciones, en varios días y píxeles. Este mapa no cuenta incendios.</dd>
-      <dt>Superficie quemada</dt><dd>El área efectivamente quemada. Las detecciones no la miden.</dd>
-      <dt>Lo habitual</dt><dd>Para cada celda y mes, la mediana de los otros seis años de la serie, para no comparar un año consigo mismo.</dd>
-    </dl>
-    <h3>Límites</h3>
-    <ul>
-      <li>Cada satélite pasa una vez de día y una de noche: los fuegos breves, chicos o tapados por nubes, humo o árboles pueden no aparecer.</li>
-      <li>No distingue quemas agrícolas de incendios forestales.</li>
-      <li>Siete años no alcanzan para hablar de tendencias.</li>
-    </ul>
-    <h3>Datos y método</h3>
-    <ul>
-      <li>NASA FIRMS, VIIRS 375 m, procesamiento estándar, 2019–2025. Serie principal: NOAA-20. Filtro: presunto fuego de vegetación (tipo 0), confianza nominal o alta; se excluyen 90 celdas de 1 km con actividad casi permanente (probables fuentes industriales).</li>
-      <li>Control: Suomi NPP, con un sensor gemelo, da los mismos patrones (correlación de rangos por provincia y año: 0,997). Tiene algunos días sin datos, por ejemplo del 27 de julio al 10 de agosto de 2022.</li>
-      <li>Lluvia: GPM IMERG Final V07 (NASA GES DISC), mensual, celdas de 0,1°: una estimación satelital calibrada con pluviómetros. Hay datos de enero de 2019 a agosto de 2025. Lo habitual se calcula igual que para el fuego: la mediana de los otros años con dato. Que el fuego de más llegue después de lluvia de menos es una coincidencia en el tiempo, no la prueba de una causa.</li>
-      <li>Límites provinciales: Instituto Geográfico Nacional. El sector antártico no se muestra en este mapa.</li>
-    </ul>
+    <h2 id="dlg-titulo" tabindex="-1" autofocus>Cómo leer este mapa</h2>
+    <!-- Cada calendario tiene su guía de lectura; se muestra la del calendario activo (body.agua) -->
+    <div class="info-fuego">
+      <p>Cada columna resume las detecciones de calor que un satélite registró en una celda de 0,1° (unos 11 km de lado) durante un mes. Cuanto más alta y más clara, más detecciones.</p>
+      <h3>Qué es y qué no es</h3>
+      <dl>
+        <dt>Detección</dt><dd>Un píxel de 375 m donde el sensor VIIRS midió calor anómalo en una pasada. Es la unidad de este mapa.</dd>
+        <dt>Incendio</dt><dd>Un fuego en el terreno. Un solo incendio puede dejar cientos de detecciones, en varios días y píxeles. Este mapa no cuenta incendios.</dd>
+        <dt>Superficie quemada</dt><dd>El área efectivamente quemada. Las detecciones no la miden.</dd>
+        <dt>Lo habitual</dt><dd>Para cada celda y mes, la mediana de los otros seis años de la serie, para no comparar un año consigo mismo. Con un año elegido y «comparar con lo habitual», en gris lo que quedó por debajo.</dd>
+      </dl>
+      <h3>Límites</h3>
+      <ul>
+        <li>Cada satélite pasa una vez de día y una de noche: los fuegos breves, chicos o tapados por nubes, humo o árboles pueden no aparecer.</li>
+        <li>No distingue quemas agrícolas de incendios forestales.</li>
+        <li>Siete años no alcanzan para hablar de tendencias.</li>
+      </ul>
+      <h3>Datos y método</h3>
+      <ul>
+        <li>NASA FIRMS, VIIRS 375 m, procesamiento estándar, 2019–2025. Serie principal: NOAA-20. Filtro: presunto fuego de vegetación (tipo 0), confianza nominal o alta; se excluyen 90 celdas de 1 km con actividad casi permanente (probables fuentes industriales).</li>
+        <li>Control: Suomi NPP, con un sensor gemelo, da los mismos patrones (correlación de rangos por provincia y año: 0,997). Tiene algunos días sin datos, por ejemplo del 27 de julio al 10 de agosto de 2022.</li>
+        <li>Límites provinciales: Instituto Geográfico Nacional. El sector antártico no se muestra en este mapa.</li>
+      </ul>
+    </div>
+    <div class="info-agua">
+      <p>Cada columna muestra la lluvia que estimaron los satélites en una celda de 0,1° (unos 11 km de lado) durante un mes. Cuanto más alta y más clara, más lluvia.</p>
+      <h3>Qué es y qué no es</h3>
+      <dl>
+        <dt>Milímetros</dt><dd>La lluvia acumulada en el mes. Un milímetro equivale a un litro de agua por metro cuadrado.</dd>
+        <dt>Estimación satelital</dt><dd>No es la medición de un pluviómetro: es un cálculo a partir de varios satélites, ajustado cada mes con datos de pluviómetros en tierra.</dd>
+        <dt>Promedio de la celda</dt><dd>Cada valor resume toda la celda de 11 km. Una tormenta muy local puede quedar diluida.</dd>
+        <dt>Lo habitual</dt><dd>Para cada celda y mes, la mediana de los otros años con dato, para no comparar un año consigo mismo. Con un año elegido y «comparar con lo habitual», en gris lo más seco y en celeste lo más húmedo.</dd>
+      </dl>
+      <h3>Límites</h3>
+      <ul>
+        <li>Donde hay pocos pluviómetros, la estimación puede ser menos precisa.</li>
+        <li>Hay datos de enero de 2019 a agosto de 2025: de septiembre a diciembre de 2025 el mapa muestra «sin datos».</li>
+        <li>Que el fuego de más llegue después de lluvia de menos es una coincidencia en el tiempo, no la prueba de una causa.</li>
+        <li>Siete años no alcanzan para hablar de tendencias.</li>
+      </ul>
+      <h3>Datos y método</h3>
+      <ul>
+        <li>GPM IMERG Final V07 (NASA GES DISC), lluvia mensual en celdas de 0,1°, la misma grilla que el fuego. El archivo trae una tasa media en mm por hora, que se multiplica por las horas de cada mes para obtener mm por mes.</li>
+        <li>Provincia y región: promedio de sus celdas ponderado por el área de cada una.</li>
+        <li>El selector de satélite es solo para el fuego: la lluvia ya combina varios satélites.</li>
+        <li>Límites provinciales: Instituto Geográfico Nacional. El sector antártico no se muestra en este mapa.</li>
+      </ul>
+    </div>
     <h3>Opciones</h3>
     <div class="acciones-dlg">
       <label class="interruptor"><input type="checkbox" id="chk-liviano"> modo liviano (para equipos lentos o celulares)</label>
