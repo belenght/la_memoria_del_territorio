@@ -1,94 +1,145 @@
-// Modo video: recorrido automático de ~55 segundos para grabar el video de la entrega.
-// Tecla V para empezar, Esc para salir.
+// Modo video: recorrido automático de ~57 segundos para grabar el video de la entrega.
+// Cuenta una sola historia en cuatro actos: el fuego tiene calendario, la lluvia también
+// (al revés), hay años que lo rompen y lo que se repite. Cada escena cambia la frase y el
+// mapa juntos, después de un fundido, y queda en pantalla al menos 4 segundos.
+// Arranca solo al entrar; "Saltar video" o Esc lo cortan y llevan al relato.
 
-import { MESES, SENSOR_CONTROL, SENSOR_PRINCIPAL, VISTA_PAIS } from "./config.js";
+import { SENSOR_PRINCIPAL, VISTA_PAIS } from "./config.js";
 import { $, espera } from "./util.js";
 
-// Subtítulos del recorrido del año típico, por mes
-const SUBTITULOS_ANIO = {
-  7: "Cada columna: lo que el satélite detectó en un mes",
-  8: "El norte y el centro arden a fines del invierno",
-  10: "En el NOA, la temporada se estira",
-  12: "En verano, el fuego se va al sur",
-  2: "Patagonia arde cuando el resto del país descansa",
-};
+const FUNDIDO = 450; // ms que tarda en irse una frase antes de que entre la siguiente
 
-export function crearVideo({ fijar, modelo, mapa, reproduccion, irAlInicio }) {
+const VISTA_NORTE = { longitude: -61.5, latitude: -29.5, zoom: 4.3, pitch: 50, bearing: -12 };
+const VISTA_SUR = { longitude: -68.5, latitude: -42.5, zoom: 4.0, pitch: 50, bearing: 10 };
+const VISTA_2020 = { longitude: -60.2, latitude: -29.4, zoom: 5.0, pitch: 58, bearing: -18 };
+const VISTA_2022 = { longitude: -58.6, latitude: -28.6, zoom: 5.3, pitch: 58, bearing: 10 };
+const VISTA_CIERRE = { ...VISTA_PAIS, zoom: 3.4, bearing: 6 };
+
+export function crearVideo({ estado, fijar, modelo, mapa, reproduccion, irAlInicio }) {
   const sub = $("subtitulo-video"), salirBtn = $("btn-salir-video");
-  let corrida = 0; // cada recorrido tiene su número; salir lo invalida
+  let corrida = 0;          // cada recorrido tiene su número; salir lo invalida
+  let calendarioPrevio = "fuego";
 
-  function subtitulo(texto, chico) {
-    sub.innerHTML = texto + (chico ? `<small>${chico}</small>` : "");
+  // Una escena: se va la frase anterior, y recién entonces cambian juntos el mapa y la frase
+  async function escena({ cambios, vista, ms = 3000, texto, chico = "" }) {
+    sub.classList.add("cambiando");
+    if (!sub.hidden) await espera(FUNDIDO);
+    if (cambios) fijar(cambios);
+    if (vista) mapa.volar(vista, ms);
+    sub.innerHTML = `<span class="frase">${texto}${chico ? `<small>${chico}</small>` : ""}</span>`;
     sub.hidden = false;
+    sub.getBoundingClientRect(); // aplica el estado "cambiando" antes de quitarlo, para que el fundido de entrada se vea
+    sub.classList.remove("cambiando");
   }
 
   function salir() {
     corrida++;
     reproduccion.detenerTodo();
-    document.body.classList.remove("modo-video");
+    document.body.classList.remove("modo-video", "grabando");
     sub.hidden = true;
     salirBtn.hidden = true;
+    estado.calendario = calendarioPrevio; // el relato vuelve en el calendario que tenía el lector
     irAlInicio();
   }
   salirBtn.addEventListener("click", salir);
 
-  async function iniciar() {
+  // Se reproduce al entrar a la web y con "Ver el video". Con { grabacion: true } (tecla V)
+  // el botón "Saltar" queda invisible salvo al pasar el mouse, para grabar la pantalla limpia.
+  async function iniciar({ grabacion = false } = {}) {
     const id = ++corrida;
     const sigue = async (ms) => { await espera(ms); return corrida === id; };
+    // Avanza meses del año típico sin tocar la frase (el mes se lee arriba, en el indicador)
+    const meses = async (lista, ms) => {
+      for (const mes of lista) {
+        fijar({ mes });
+        if (!(await sigue(ms))) return false;
+      }
+      return true;
+    };
+    if (!document.body.classList.contains("modo-video")) calendarioPrevio = estado.calendario;
     reproduccion.detenerTodo();
     document.body.classList.add("modo-video");
+    document.body.classList.toggle("grabando", grabacion);
     salirBtn.hidden = false;
+    if (!grabacion) salirBtn.focus({ preventScroll: true }); // con teclado, Enter saltea
+    sub.hidden = true;
 
-    // 1. Llegada al país (5 s)
-    fijar({ vista: "grilla", calendario: "fuego", modo: "tipico", mes: 6, comparar: false, prov: "", sensor: SENSOR_PRINCIPAL });
-    mapa.saltarA({ ...VISTA_PAIS, zoom: 2.0, pitch: 0, bearing: 0 });
-    await espera(300);
-    mapa.volar(VISTA_PAIS, 4200);
-    subtitulo("Siete años de calor visto desde el espacio", "Argentina · 2019–2025 · satélite NOAA-20");
+    // ---- Acto 1: el fuego tiene calendario (15 s) ----
+    mapa.saltarA({ ...VISTA_PAIS, zoom: 2.2, pitch: 0, bearing: 0 });
+    await escena({
+      cambios: { vista: "grilla", calendario: "fuego", modo: "tipico", mes: 8, comparar: false, prov: "", sensor: SENSOR_PRINCIPAL },
+      vista: VISTA_PAIS, ms: 4000,
+      texto: "Cada región de Argentina arde, año tras año, en las mismas fechas",
+      chico: "detecciones de calor · satélite NOAA-20 · 2019–2025",
+    });
     if (!(await sigue(5000))) return;
 
-    // 2. Año típico mes a mes (13 s)
-    for (const mes of [7, 8, 9, 10, 11, 12, 1, 2, 3, 4]) {
-      fijar({ mes });
-      if (SUBTITULOS_ANIO[mes]) subtitulo(SUBTITULOS_ANIO[mes], "año típico · " + MESES[mes - 1]);
-      if (!(await sigue(1300))) return;
-    }
+    await escena({ cambios: { mes: 8 }, vista: VISTA_NORTE, texto: "En el norte y el centro, a fines del invierno", chico: "año típico · agosto a octubre" });
+    if (!(await sigue(1500)) || !(await meses([9, 10], 1500))) return;
 
-    // 3. Cómo leer un punto (9 s)
-    subtitulo("Un punto no es un incendio", "Corrientes · febrero de 2022 · 7.864 detecciones en 25 días");
-    fijar({ vista: "punto", prov: "" });
-    mapa.volar(mapa.encuadre(modelo.caso.caja, 0.15, { pitch: 40, bearing: -10 }), 2000);
-    if (!(await sigue(1800))) return;
-    reproduccion.animarCaso(260);
-    if (!(await sigue(7200))) return;
+    await escena({ cambios: { mes: 12 }, vista: VISTA_SUR, texto: "En la Patagonia, en pleno verano", chico: "año típico · diciembre a febrero" });
+    if (!(await sigue(1500)) || !(await meses([1, 2], 1500))) return;
 
-    // 4. 2020 (7 s)
-    fijar({ vista: "grilla", modo: "2020", mes: 8, comparar: true });
-    mapa.volar({ longitude: -59.8, latitude: -29.4, zoom: 5.2, pitch: 60, bearing: -22 }, 2200);
-    subtitulo("2020: la temporada de siempre, 2,9 veces más intensa", "columna llena: 2020 · contorno: lo habitual");
-    if (!(await sigue(7000))) return;
+    // ---- Acto 2: la lluvia marca la fecha (13 s) ----
+    await escena({
+      cambios: { calendario: "agua", mes: 6 }, vista: VISTA_NORTE,
+      texto: "¿Por qué en esas fechas? Miremos la lluvia",
+      chico: "la misma grilla · lluvia estimada por satélite (GPM IMERG)",
+    });
+    if (!(await sigue(3800))) return;
 
-    // 5. 2022 (7 s)
-    fijar({ modo: "2022", mes: 2, comparar: true });
-    mapa.volar({ longitude: -57.9, latitude: -28.3, zoom: 5.8, pitch: 60, bearing: 12 }, 2200);
-    subtitulo("2022: el fuego se adelantó al verano", "Corrientes registró en dos meses más que en un año típico");
-    if (!(await sigue(7000))) return;
+    await escena({ texto: "En el norte, el invierno es la estación seca", chico: "año típico · junio a agosto" });
+    if (!(await sigue(1000)) || !(await meses([7, 8], 1500))) return;
 
-    // 6. Otro satélite (6 s)
-    fijar({ modo: "tipico", mes: 8, comparar: false });
-    mapa.volar({ longitude: -61.5, latitude: -31.5, zoom: 4.4, pitch: 55, bearing: -18 }, 2000);
-    subtitulo("Otro satélite, el mismo calendario", "NOAA-20 ↔ Suomi NPP · correlación 0,997");
-    if (!(await sigue(1600))) return;
-    for (let k = 0; k < 3; k++) {
-      fijar({ sensor: k % 2 === 0 ? SENSOR_CONTROL : SENSOR_PRINCIPAL });
-      if (!(await sigue(1500))) return;
-    }
+    await escena({
+      cambios: { calendario: "fuego", mes: 8 },
+      texto: "Primero se seca. Después, arde.",
+      chico: "el pico del fuego cae entre los 3 meses más secos, en las 5 regiones",
+    });
+    if (!(await sigue(4000))) return;
 
-    // 7. Cierre (6 s)
-    fijar({ sensor: SENSOR_PRINCIPAL, mes: 9 });
-    mapa.volar({ ...VISTA_PAIS, zoom: 3.3, bearing: 8 }, 3000);
-    subtitulo("El calendario del fuego", "Datos: NASA FIRMS (VIIRS 375 m) · límites: IGN");
-    if (!(await sigue(6000))) return;
+    // ---- Acto 3: cuando el calendario se rompe (18 s) ----
+    await escena({
+      cambios: { calendario: "agua", modo: "2020", mes: 8, comparar: true }, vista: VISTA_2020,
+      texto: "Pero hay años que rompen el calendario",
+      chico: "agosto de 2020 · en gris, menos lluvia que lo habitual",
+    });
+    if (!(await sigue(4000))) return;
+
+    await escena({
+      cambios: { calendario: "fuego" },
+      texto: "En 2020, tras un invierno más seco, el fuego se multiplicó",
+      chico: "el año cerró con 2,9 veces las detecciones habituales",
+    });
+    if (!(await sigue(4000))) return;
+
+    await escena({
+      cambios: { calendario: "agua", modo: "2022", mes: 1 }, vista: VISTA_2022,
+      texto: "En 2022, el verano de Corrientes se quedó sin lluvia",
+      chico: "diciembre y enero · menos del 20% de lo habitual",
+    });
+    if (!(await sigue(4000))) return;
+
+    await escena({
+      cambios: { calendario: "fuego", mes: 2 },
+      texto: "Y el fuego llegó antes de tiempo",
+      chico: "Corrientes: en dos meses, más detecciones que en un año típico",
+    });
+    if (!(await sigue(4000))) return;
+
+    // ---- Acto 4: lo que se repite (11 s) ----
+    await escena({
+      cambios: { modo: "tipico", mes: 8, comparar: false }, vista: VISTA_CIERRE, ms: 3500,
+      texto: "No es una ley, pero se repite",
+      chico: "84% del fuego de más de 2020 y 71% del de 2022 llegó tras 3 meses más secos que lo habitual (53% en años normales)",
+    });
+    if (!(await sigue(5000))) return;
+
+    await escena({
+      texto: "Para saber cuándo arde, hay que mirar cuándo deja de llover",
+      chico: "El calendario del fuego y del agua · NASA FIRMS · GPM IMERG · IGN",
+    });
+    if (!(await sigue(5500))) return;
     salir();
   }
 

@@ -12,7 +12,7 @@ import { crearIndicador, renderApariencia, renderLeyenda } from "./indicadores.j
 import { crearMapa } from "./mapa.js";
 import { crearRelato } from "./relato.js";
 import { crearReproduccion } from "./reproduccion.js";
-import { $, movimientoReducido } from "./util.js";
+import { $ } from "./util.js";
 import { crearVideo } from "./video.js";
 
 function fallar(mensaje) {
@@ -47,7 +47,7 @@ async function arrancar() {
   const mapa = crearMapa(modelo, estado);
   const reproduccion = crearReproduccion({ estado, fijar, modelo });
   const relato = crearRelato({ estado, fijar, modelo, mapa, reproduccion });
-  const video = crearVideo({ fijar, modelo, mapa, reproduccion, irAlInicio: () => relato.irA(0) });
+  const video = crearVideo({ estado, fijar, modelo, mapa, reproduccion, irAlInicio: () => relato.irA(0) });
   const renderControles = crearControles({ estado, fijar, modelo, mapa, reproduccion, relato, video });
   const renderIndicador = crearIndicador(modelo);
 
@@ -61,7 +61,7 @@ async function arrancar() {
 
   $("aviso").hidden = true;
   fijar();
-  setTimeout(() => relato.irA(0), movimientoReducido ? 0 : 400);
+  video.iniciar(); // cada visita empieza con el video; "Saltar" lleva al relato
 }
 
 arrancar();

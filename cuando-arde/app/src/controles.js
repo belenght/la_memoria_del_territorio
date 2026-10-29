@@ -59,13 +59,13 @@ export function crearControles({ estado, fijar, modelo, mapa, reproduccion, rela
   liviano.addEventListener("change", () => { mapa.liviano = liviano.checked; });
   $("btn-info").addEventListener("click", () => dialogo.showModal());
   $("btn-cerrar").addEventListener("click", () => dialogo.close());
-  $("btn-video").addEventListener("click", () => { dialogo.close(); video.iniciar(); });
+  $("btn-video").addEventListener("click", () => video.iniciar());
 
-  // ---- Teclado: flechas para los meses, V para el modo video ----
+  // ---- Teclado: flechas para los meses, V para grabar el video (sin el botón Saltar) ----
   document.addEventListener("keydown", (ev) => {
     if (ev.key === "Escape" && video.activo()) return video.salir();
     if (dialogo.open || (ev.target instanceof Element && ev.target.closest("input, select"))) return;
-    if (ev.key === "v" || ev.key === "V") return video.iniciar();
+    if (ev.key === "v" || ev.key === "V") return video.iniciar({ grabacion: true });
     if (enPunto(estado)) return;
     if (ev.key === "ArrowRight") { reproduccion.detenerMeses(); fijar({ mes: (estado.mes % 12) + 1 }); }
     if (ev.key === "ArrowLeft") { reproduccion.detenerMeses(); fijar({ mes: ((estado.mes + 10) % 12) + 1 }); }

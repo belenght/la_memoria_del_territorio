@@ -31,7 +31,7 @@ interfaz de otro.
 | `capitulos.js` | **Contenido** del relato (textos, cifras, cámara). Se edita sin tocar lógica. |
 | `graficos.js` | Gráficos SVG del relato (calendario doble y barras). |
 | `reproduccion.js` | Animaciones con reloj: meses, caso del punto, alternar satélites. |
-| `video.js` | Modo video de ~55 s para grabar la entrega (tecla V; Esc para salir). |
+| `video.js` | Video de ~57 s que se reproduce al entrar: una historia en cuatro actos que alterna fuego y agua. Se saltea con «Saltar video» o Esc y se vuelve a ver con «▶ Ver el video». Para grabar la entrega, tecla V: igual, pero sin el botón «Saltar» a la vista. |
 | `util.js` | Ayudas: formato de números, preferencias guardadas, mediana. |
 
 ## Datos (`public/datos/`)

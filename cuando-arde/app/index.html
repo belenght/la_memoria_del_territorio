@@ -30,6 +30,7 @@
       <div class="razon" id="hud-razon"></div>
       <span class="sat" id="hud-sat" hidden>Suomi NPP</span>
       <div class="botones-sup">
+        <button class="boton primario" id="btn-video" type="button" aria-label="Ver el video">▶ <span class="solo-ancho">Ver el </span>video</button>
         <button class="boton" id="btn-cenital" type="button">Vista cenital</button>
         <button class="boton" id="btn-info" type="button">Cómo leer esto</button>
       </div>
@@ -109,7 +110,7 @@
   </div>
 
   <div class="subtitulo-video" id="subtitulo-video" hidden></div>
-  <button class="boton salir-video" id="btn-salir-video" type="button" hidden>Salir del modo video (Esc)</button>
+  <button class="boton salir-video" id="btn-salir-video" type="button" hidden>Saltar video ›</button>
 
   <dialog id="dlg-info" aria-labelledby="dlg-titulo">
     <h2 id="dlg-titulo">Cómo leer este mapa</h2>
@@ -139,7 +140,6 @@
       <label class="interruptor"><input type="checkbox" id="chk-liviano"> modo liviano (para equipos lentos o celulares)</label>
     </div>
     <div class="acciones-dlg">
-      <button class="boton primario" id="btn-video" type="button">Ver modo video (1 minuto)</button>
       <button class="boton" id="btn-cerrar" type="button">Cerrar</button>
     </div>
   </dialog>
